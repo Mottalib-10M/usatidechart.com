@@ -50,6 +50,9 @@ export function stationDescription(s: Station): string {
     `${p} tides: today's tide chart, 7-day high and low tide times, coefficient, sunrise and solunar times. Average range ${r} ft in 2026.`,
     `${p} tides today: tide chart, 7-day high and low times, coefficient, sun, moon and fishing times. Average range ${r} ft, 2026 data.`,
     `${p} tides: chart, 7-day highs and lows, coefficient, sun and solunar times. Average range ${r} ft, 2026 NOAA data.`,
+    `${p} tide chart for today and the next 7 days: high and low tide times, tide coefficient, sunrise, moon phase and solunar fishing times. Average range ${r} ft, 2026.`,
+    `${p} tide chart for today and the next 7 days: high and low tide times, tide coefficient, sunrise and sunset, moon and solunar fishing times. Range ${r} ft, 2026.`,
+    `${p} tide chart for today and the next 7 days: high and low tide times, tide coefficient, sunrise, moon phase and solunar periods. Average range ${r} ft, 2026.`,
   ], 150, 160);
   if (!t) throw new Error(`No description fits for ${s.key}: set "description" in its content file`);
   return t;
