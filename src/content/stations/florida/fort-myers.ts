@@ -8,7 +8,7 @@ export default defineStation({
     return `
 <h2>A river gauge, not a beach gauge</h2>
 <p>Only ${h.ft(s.stats.meanRange)} of tide reaches downtown Fort Myers on an average day, less than half of what the open Gulf shore to the south gets at ${h.a('st:florida/naples', 'Naples')}. The reason is the trip the water makes. A tide entering from the Gulf has to cross the shallow waters around Pine Island and Sanibel, then climb the Caloosahatchee estuary, losing height at each bend. By the time it touches the seawalls along the city's riverfront, it is a modest rise and fall, with the two daily highs unequal by ${h.ft(s.stats.highInequality)} on average.</p>
-<p>Fort Myers Beach, on Estero Island, faces the Gulf directly and has a larger, earlier tide than this station. If your plans are on that sand, the river figures here will understate the swing and run late.</p>
+<p>Fort Myers Beach, on Estero Island, faces the Gulf directly, where the tide normally arrives before it works up the estuary to this gauge. If your plans are on that sand, treat the river figures here as a late, damped version of the beach tide.</p>
 <h2>Downstream toward Cape Coral and Iona</h2>
 <p>Between this gauge and the mouth, NOAA keeps a station at the Cape Coral Bridge, seven miles southwest. Farther down, near Iona Shores, the prediction is built from St. Petersburg, with high water 68 minutes after that reference and heights at 43 percent of its values. That small multiplier says a lot about how sheltered the lower river is.</p>
 <h2>When the river, not the moon, sets the level</h2>
