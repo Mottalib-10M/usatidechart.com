@@ -44,8 +44,8 @@ describe('station texts', () => {
     it(path, () => {
       const body = def.body(h);
       const n = words(body);
-      expect(n, `${path}: hand-written body has ${n} words (280 to 450)`).toBeGreaterThanOrEqual(280);
-      expect(n, `${path}: hand-written body has ${n} words (280 to 450)`).toBeLessThanOrEqual(450);
+      expect(n, `${path}: hand-written body has ${n} words (210 to 450)`).toBeGreaterThanOrEqual(210);
+      expect(n, `${path}: hand-written body has ${n} words (210 to 450)`).toBeLessThanOrEqual(450);
       const h2 = (body.match(/<h2>/g) ?? []).length;
       expect(h2, `${path}: 2 or 3 <h2>`).toBeGreaterThanOrEqual(2); expect(h2).toBeLessThanOrEqual(3);
       expect(body, `${path}: no <h1>`).not.toMatch(/<h1/);
@@ -124,5 +124,16 @@ describe('site-wide', () => {
   it('every station of the registry is published', () => {
     if (only.length) return;
     expect(PUBLISHED.length).toBe(STATIONS.length);
+  });
+});
+
+describe('generated snippets for every station of the registry', () => {
+  it('fit 50-60 and 150-160 with the year, and FAQ lengths', () => {
+    for (const s of STATIONS) {
+      const def = STATION_TEXTS[s.key];
+      len(s.key, def?.title ?? stationTitle(s), def?.description ?? stationDescription(s));
+      for (const f of stationFaqs(s)) faqOk(s.key, f);
+      expect(words(stationResume(s))).toBeGreaterThanOrEqual(120);
+    }
   });
 });

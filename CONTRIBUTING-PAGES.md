@@ -64,7 +64,7 @@ Le fichier écrit à la main apporte ce qui rend la page unique :
 |---|---|
 | `key` | `"<état>/<lieu>"`, égal au chemin du fichier |
 | `intro` | une phrase sur le lieu et la station (≤ 40 mots) |
-| `body(h)` | **280 à 450 mots**, 2 ou 3 `<h2>` **propres au lieu** (jamais le même titre d'une page à l'autre), `<p>`, éventuellement `<ul>` ; chiffres via `h.st(key).stats…`, `h.ft()`, `h.date()` |
+| `body(h)` | **210 à 450 mots (viser 280)**, 2 ou 3 `<h2>` **propres au lieu** (jamais le même titre d'une page à l'autre), `<p>`, éventuellement `<ul>` ; chiffres via `h.st(key).stats…`, `h.ft()`, `h.date()` |
 | `faqs` | 1 ou 2 questions sur le lieu (le nom du lieu dedans), réponses de 45 à 85 mots, uniques sur le site |
 | `extraSources` | facultatif : pages officielles lues (parc d'État, NPS, comté), `{ name, url }` |
 
