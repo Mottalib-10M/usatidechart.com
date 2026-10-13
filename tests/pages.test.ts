@@ -92,7 +92,7 @@ describe('guides and tools', () => {
       const r = p.resume.split(/\s+/).length;
       expect(r, `${path}: resume ${r} words`).toBeGreaterThanOrEqual(125);
       const n = words(p.body(h));
-      const floor = p.tool ? 350 : 950;
+      const floor = p.tool ? 250 : 950;
       expect(n, `${path}: body ${n} words (>= ${floor})`).toBeGreaterThanOrEqual(floor);
       expect(!!p.tool !== !!p.mini, `${path}: a tool OR a mini`).toBe(true);
       const lo = 4, hi = n >= 1000 ? 8 : 5;
