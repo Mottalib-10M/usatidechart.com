@@ -12,7 +12,7 @@
  "volumesNote": "597 670 recherches/mois estimées (18 requêtes mesurées au Keyword Planner le 2026-10-12, bornes basses 189 000) : GO volume, validé par l'éditeur le 2026-10-12.",
  "folder": "us-tides",
  "outDir": "a-publier/Mottalib-10M",
- "url": "https://us-tides.example",
+ "url": "https://usatidechart.com",
  "locales": [
   "en"
  ],
@@ -36,7 +36,7 @@
  "authorDesc": {
   "en": "(voir src/data/site-config.ts)"
  },
- "email": "contact@us-tides.example",
+ "email": "contact@usatidechart.com",
  "indexnow": "225af30aaae66e349aa6972ec570914b",
  "shortName": "Tide Day",
  "description": "Tide charts for 92 US beaches, inlets and harbors: today's high and low tides, the next 7 days, solunar fishing times, sunrise and a beach and boat-ramp planner.",

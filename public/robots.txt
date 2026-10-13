@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-tides.example/sitemap-index.xml
+Sitemap: https://usatidechart.com/sitemap-index.xml
