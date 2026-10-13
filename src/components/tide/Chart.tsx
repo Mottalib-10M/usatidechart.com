@@ -15,10 +15,10 @@ interface Props {
   yMin?: number; yMax?: number; compact?: boolean; title: string; level?: number | null;
 }
 
-const W = 720, PADL = 40, PADR = 10;
+const W = 720, PADL = 46, PADR = 10;
 
 export default function Chart({ M, tz, start, end, sr, ss, now, periods = [], yMin, yMax, compact = false, title, level = null }: Props) {
-  const H = compact ? 120 : 230, PADT = compact ? 14 : 26, PADB = compact ? 18 : 44;
+  const H = compact ? 120 : 250, PADT = compact ? 14 : 30, PADB = compact ? 18 : 48;
   const pts = curve(M, start, end, 10);
   if (pts.length < 2) return <p className="text-sm text-navy-600">No prediction for this day.</p>;
   const hs = pts.map((p) => p[1]);
@@ -46,13 +46,13 @@ export default function Chart({ M, tz, start, end, sr, ss, now, periods = [], yM
       {ticks.map((v) => (
         <g key={v}>
           <line x1={PADL} x2={W - PADR} y1={y(v)} y2={y(v)} stroke={v === 0 ? '#64748b' : '#e2e8f0'} strokeWidth={v === 0 ? 1 : 0.8} />
-          {!compact && <text x={PADL - 6} y={y(v) + 4} textAnchor="end" fontSize="11" fill="#475569">{`${v} ft`}</text>}
+          {!compact && <text x={PADL - 6} y={y(v) + 4} textAnchor="end" fontSize="13" fill="#475569">{`${v} ft`}</text>}
         </g>
       ))}
       {level !== null && <line x1={PADL} x2={W - PADR} y1={y(level)} y2={y(level)} stroke="#b45309" strokeDasharray="5 4" strokeWidth="1.4" />}
       <path d={area} fill="#0A3161" opacity="0.10" />
       <path d={d} fill="none" stroke="#0A3161" strokeWidth={compact ? 2 : 2.5} />
-      {!compact && hours.map((h) => <text key={h} x={hourX(h)} y={H - PADB + 16} textAnchor={h === 0 ? 'start' : h === 24 ? 'end' : 'middle'} fontSize="11" fill="#475569">{h === 0 || h === 24 ? '12 AM' : h === 12 ? '12 PM' : h < 12 ? `${h} AM` : `${h - 12} PM`}</text>)}
+      {!compact && hours.map((h) => <text key={h} x={hourX(h)} y={H - PADB + 16} textAnchor={h === 0 ? 'start' : h === 24 ? 'end' : 'middle'} fontSize="13" fill="#475569">{h === 0 || h === 24 ? '12 AM' : h === 12 ? '12 PM' : h < 12 ? `${h} AM` : `${h - 12} PM`}</text>)}
       {!compact && periods.map((p, i) => {
         const a = Math.max(start, p.start), b = Math.min(end, p.end);
         if (b <= a) return null;
@@ -65,7 +65,7 @@ export default function Chart({ M, tz, start, end, sr, ss, now, periods = [], yM
         return (
           <g key={e[0]}>
             <circle cx={ex} cy={ey} r={compact ? 2.5 : 3.5} fill={above ? '#0A3161' : '#ffffff'} stroke="#0A3161" strokeWidth="1.5" />
-            {!compact && <text x={ex} y={above ? ey - 9 : ey + 17} textAnchor={anchor} fontSize="11.5" fontWeight="600" fill="#0f172a">{`${clock(e[0], tz)} · ${ft(e[1])}`}</text>}
+            {!compact && <text x={ex} y={above ? ey - 10 : ey + 20} textAnchor={anchor} fontSize="15" fontWeight="600" fill="#0f172a">{`${clock(e[0], tz)} · ${ft(e[1])}`}</text>}
           </g>
         );
       })}

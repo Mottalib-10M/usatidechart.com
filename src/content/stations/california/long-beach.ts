@@ -14,6 +14,6 @@ export default defineStation({
 <p>Long Beach's own city beach faces south, behind the same breakwater, so it gets little surf and a waterline that moves mostly with the tide. Low tides below 0 ft come on ${s.stats.negativeLowDays} days of the prediction period. The ${h.a('boat-ramp-tide-planner', 'boat ramp planner')} works from this gauge for launches in the harbor basins.</p>`;
   },
   faqs: [
-    { q: "Why does the Long Beach beach have so little surf at high tide?", a: "The long federal breakwater offshore blocks most of the ocean swell before it reaches the city shore, while letting the tide pass through its gaps. So the water still rises and falls by several feet each day, but the waves stay small. That makes the tide, not the surf, the main reason the sand gets wider or narrower here, unlike the open beaches farther south." },
+    { q: "Why is the tide, not the surf, what moves the waterline in Long Beach?", a: "The long federal breakwater offshore blocks most of the ocean swell before it reaches the city shore, while letting the tide pass through its gaps. So the water still rises and falls by several feet each day, but the waves stay small. That makes the tide, not the surf, the main reason the sand gets wider or narrower here, unlike the open beaches farther south." },
   ],
 });

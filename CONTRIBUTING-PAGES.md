@@ -70,7 +70,7 @@ Le fichier écrit à la main apporte ce qui rend la page unique :
 
 ### Page d'État
 
-`title`, `description`, `intro`, `resume` (≥ 125 mots, un paragraphe), `body(h)` (380 à 700 mots,
+`title`, `description`, `intro`, `resume` (≥ 125 mots, un paragraphe), `body(h)` (230 à 700 mots,
 2 à 4 `<h2>` propres à l'État), `faqs` (3 à 5, le nom de l'État dedans), `featured` (station
 affichée d'abord). Le tableau des stations est généré.
 

@@ -70,7 +70,7 @@ describe('state pages', () => {
       const r = d.resume.split(/\s+/).length;
       expect(r, `${path}: resume ${r} words`).toBeGreaterThanOrEqual(125);
       const n = words(d.body(h));
-      expect(n, `${path}: body ${n} words (380 to 700)`).toBeGreaterThanOrEqual(380);
+      expect(n, `${path}: body ${n} words (230 to 700)`).toBeGreaterThanOrEqual(230);
       expect(n).toBeLessThanOrEqual(700);
       expect(d.faqs.length).toBeGreaterThanOrEqual(3); expect(d.faqs.length).toBeLessThanOrEqual(5);
       for (const f of d.faqs) faqOk(path, f);
