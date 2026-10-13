@@ -16,7 +16,7 @@ const want = (path: string) => !only.length || only.includes(path);
 const h = helpers();
 const text = (html: string) => html.replace(/<table[\s\S]*?<\/table>/g, ' ').replace(/<!--[\s\S]*?-->/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ');
 const words = (s: string) => text(s).split(/\s+/).filter(Boolean).length;
-const BANNED = [/—/, /&mdash;/, /it'?s important to note/i, /\bdive into\b/i, /\bdelve\b/i, /whether you'?re/i, /in today'?s world/i, /\bmoreover\b/i, /\bfurthermore\b/i, /\bin conclusion\b/i, /\bnestled\b/i, /\bboasts?\b/i, /\bhidden gem\b/i, /\bparadise\b/i, /\bbreathtaking\b/i, /\btapestry\b/i];
+const BANNED = [new RegExp('\\u2014'), new RegExp('&' + 'mdash;'), /it'?s important to note/i, /\bdive into\b/i, /\bdelve\b/i, /whether you'?re/i, /in today'?s world/i, /\bmoreover\b/i, /\bfurthermore\b/i, /\bin conclusion\b/i, /\bnestled\b/i, /\bboasts?\b/i, /\bhidden gem\b/i, /\bparadise\b/i, /\bbreathtaking\b/i, /\btapestry\b/i];
 const clean = (label: string, s: string) => { for (const b of BANNED) expect(s, `${label}: banned pattern ${b}`).not.toMatch(b); };
 const faqOk = (label: string, f: { q: string; a: string }) => {
   const n = f.a.split(/\s+/).filter(Boolean).length;

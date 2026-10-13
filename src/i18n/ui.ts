@@ -1,6 +1,6 @@
 import type { Locale } from './routes';
 const en = {
-  updatedOn: 'Predictions read on', editorialPolicy: 'Editorial policy', contactLabel: 'Contact', reviewedBy: 'Published by',
+  updatedOn: 'Predictions updated', editorialPolicy: 'Editorial policy', contactLabel: 'Contact', reviewedBy: 'Published by',
   skipToContent: 'Skip to content', mainNav: 'Main navigation', breadcrumbLabel: 'Breadcrumb', breadcrumbHome: 'Home', menuOpen: 'Open menu',
   faqTitle: 'Questions about these tides', relatedCalculators: 'Read next', sourcesTitle: 'Where the figures come from', writtenBy: 'Published by',
   asOf: 'Tide predictions', lastUpdated: 'downloaded from the National Ocean Service on', footerValidated: 'Highs and lows: NOAA CO-OPS predictions · sun and moon: Astronomy Engine',
