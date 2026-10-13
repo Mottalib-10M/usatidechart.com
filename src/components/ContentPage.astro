@@ -51,7 +51,7 @@ void full;
     <header class="mb-4">
       <p class="text-xs font-semibold uppercase tracking-wide text-accent-700 sm:text-sm">{group.label}</p>
       <h1 class="mt-1 font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{page.h1}</h1>
-      <p class="mt-2 text-base text-navy-700 sm:text-lg">{page.intro}</p>
+      <p class={`mt-2 text-base text-navy-700 ${page.tool ? 'sm:text-lg' : ''}`}>{page.intro}</p>
     </header>
     {page.tool && (
       <div data-outil data-chrome class="mb-4">
@@ -63,11 +63,12 @@ void full;
         {page.tool === 'compare' && <CompareTool client:load stations={cmp} wins={cmpWins} buildMin={BUILD_MIN} />}
       </div>
     )}
-    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>
-    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class="mb-8" />
-    {!page.tool && page.mini && <Mini client:load {...miniProps(page.mini.kind, page.mini.arg as { station?: string })} href={route('home', lang)} />}
+    {page.tool && <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>}
+    <Clamp text={page.resume} lang={lang} id={`clamp-${page.id}`} class={page.tool ? 'mb-8' : 'mb-3'} />
+    {!page.tool && page.mini && <Mini client:load primary {...miniProps(page.mini.kind, page.mini.arg as { station?: string })} href={route('home', lang)} />}
+    {!page.tool && <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>}
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
-      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <Mini client:visible {...miniProps(p, decode(parts[i + 1]))} /> : null)}
+      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <Mini client:load {...miniProps(p, decode(parts[i + 1]))} /> : null)}
     </div>
   </article>
 </PageLayout>
