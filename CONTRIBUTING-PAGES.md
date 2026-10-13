@@ -21,12 +21,12 @@ site du portefeuille (`_trame/domaines-ovh.txt`). Avertissement partout : **not 
 | Métadonnées, datums, corrections des stations secondaires | API Metadata CO-OPS | `scripts/data/noaa-stations.json` |
 | Soleil, lune, transits (solunaire) | Astronomy Engine (MIT), calculé au build | même fichier (`sky`) |
 | Statistiques par station (marnage moyen, vives-eaux, mortes-eaux, type de marée, extrêmes, basses mers négatives) | calculées au build (`engine/stats.ts`) | `src/data/stations.json` |
-| Stations NOAA voisines (≤ 12 milles) et leurs corrections | API Metadata CO-OPS | `research/facts/<état>/<lieu>.json` (matière pour les rédacteurs, non publiée telle quelle) |
+| Stations NOAA voisines (≤ 12 milles) et leurs corrections | API Metadata CO-OPS | `scripts/data/facts/<état>/<lieu>.json` (matière pour les rédacteurs, non publiée telle quelle) |
 | Validation de la courbe contre les prédictions NOAA à 6 minutes | `tests/tide.test.ts` | `src/data/validation.json` |
 
 Reconstruire : `python3 scripts/build-tides.py && node scripts/build-sky.mjs && python3 scripts/build-facts.py`
 (fenêtre par défaut 2026-10-01 → 2027-12-31 ; `--from`/`--to` pour la suivante ; `--refresh` pour ignorer
-le cache `.cache-raw/`). À refaire avant fin 2027, puis relancer `npx vitest run` (les valeurs de
+le cache `scripts/.cache-raw/`). À refaire avant fin 2027, puis relancer `npx vitest run` (les valeurs de
 `validation.json` se remesurent avec les fixtures `tests/fixtures/`).
 
 **Conditions de réutilisation (lues le 2026-10-12, https://tidesandcurrents.noaa.gov/disclaimers.html)** :
@@ -95,7 +95,7 @@ corps : `${h.mini('kind')}`.
 
 - **Aucun chiffre tapé à la main** quand il vient des données : marnage, dates d'extrêmes, hauteurs,
   nombre de jours à basse mer négative → `h.st(key).stats`.
-- Les **corrections NOAA** d'une station voisine (`research/facts`) sont relatives à **sa** station de
+- Les **corrections NOAA** d'une station voisine (`scripts/data/facts`) sont relatives à **sa** station de
   référence (`refStationId`), pas à la station de la page : « NOAA predicts X from Y with high water
   N minutes later ».
 - **Rien d'invérifiable** : pas de nom de commerce, de loyer de cale, de règlement de pêche, de

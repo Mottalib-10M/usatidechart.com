@@ -16,7 +16,7 @@
   "king_tides": { "url": "https://oceanservice.noaa.gov/facts/kingtide.html", "label": "NOAA National Ocean Service: what is a king tide?" },
   "spring_neap": { "url": "https://oceanservice.noaa.gov/facts/springtide.html", "label": "NOAA National Ocean Service: what is a spring tide?" },
   "high_tide_flooding": { "url": "https://oceanservice.noaa.gov/facts/high-tide-flooding.html", "label": "NOAA National Ocean Service: what is high tide flooding?" },
-  "tide_vs_current": { "url": "https://oceanservice.noaa.gov/facts/tidesandcurrents.html", "label": "NOAA National Ocean Service: tides and currents, the difference" },
+  "tide_vs_current": { "url": "https://oceanservice.noaa.gov/facts/tidescurrents.html", "label": "NOAA National Ocean Service: tides and currents, the difference" },
   "rip_currents": { "url": "https://www.weather.gov/safety/ripcurrent", "label": "National Weather Service: rip current safety" },
   "astronomy_engine": { "url": "https://github.com/cosinekitty/astronomy", "label": "Astronomy Engine (Don Cross), sun and moon positions, MIT licence" },
   "noaa_solar": { "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF", "label": "NOAA Global Monitoring Laboratory: general solar position calculations" },

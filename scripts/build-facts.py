@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fact pack for the writers of the station pages (research/facts/<state>/<slug>.json).
+"""Fact pack for the writers of the station pages (scripts/data/facts/<state>/<slug>.json).
 
 For each station of the site: its statistics (src/data/stations.json) and the other NOAA tide
 prediction stations within 12 miles, with distance, bearing and, for subordinate stations,
@@ -8,7 +8,7 @@ verified material the hand-written texts may draw on.
 """
 import json, math, os, sys, time, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(ROOT, '.cache-raw')
+CACHE = os.path.join(ROOT, 'scripts/.cache-raw')
 LIST = {x['id']: x for x in json.load(open(os.path.join(CACHE, 'stations-tidepredictions.json')))['stations']}
 REG = json.load(open(os.path.join(ROOT, 'src/data/stations.json')))['stations']
 
@@ -48,7 +48,7 @@ for s in REG:
     near.sort(key=lambda i: i['miles'])
     out = {k: s[k] for k in ('key', 'place', 'id', 'noaaName', 'type', 'referenceId', 'referenceName', 'lat', 'lng', 'tz', 'offsets', 'datums', 'stats')}
     out['nearbyNoaaStations'] = near[:25]
-    os.makedirs(os.path.join(ROOT, 'research/facts', s['state']), exist_ok=True)
-    json.dump(out, open(os.path.join(ROOT, 'research/facts', f"{s['key']}.json"), 'w'), indent=1)
+    os.makedirs(os.path.join(ROOT, 'scripts/data/facts', s['state']), exist_ok=True)
+    json.dump(out, open(os.path.join(ROOT, 'scripts/data/facts', f"{s['key']}.json"), 'w'), indent=1)
     sys.stdout.write('.'); sys.stdout.flush()
 print()

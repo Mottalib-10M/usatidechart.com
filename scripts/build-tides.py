@@ -4,7 +4,7 @@
 Usage: python3 scripts/build-tides.py [--from 2026-10-01] [--to 2027-12-31]
 
 Reads scripts/data/stations.tsv (one curated station per line) and writes:
-  - .cache-raw/<id>-*.json            raw API answers (not committed)
+  - scripts/.cache-raw/<id>-*.json    raw API answers (not committed)
   - scripts/data/noaa-stations.json   station metadata, offsets and datums as published
   - public/data/<state>/<slug>.json   high and low tide predictions, GMT, feet above MLLW, and for
                                       reference (harmonic) stations the hourly heights, in hundredths of a foot
@@ -19,7 +19,7 @@ The `application` parameter names this site, as CO-OPS asks of every client.
 import json, os, sys, time, urllib.request, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(ROOT, '.cache-raw'); os.makedirs(CACHE, exist_ok=True)
+CACHE = os.path.join(ROOT, 'scripts/.cache-raw'); os.makedirs(CACHE, exist_ok=True)
 APP = 'tide_day_static_site'
 args = sys.argv[1:]
 BEGIN = args[args.index('--from') + 1] if '--from' in args else '2026-10-01'

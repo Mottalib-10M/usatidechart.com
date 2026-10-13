@@ -54,7 +54,7 @@ for (const [key, m] of Object.entries(META.stations)) {
   const sky = days.map((d) => skyDay(m.lat, m.lng, dayStartUtc(d, tz)));
   let hourly = data.hourly ?? null, shaped = false;
   if (!hourly && m.referenceId) {
-    const ref = JSON.parse(fs.readFileSync(path.join(ROOT, '.cache-raw/ref', `${m.referenceId}.json`), 'utf8'));
+    const ref = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/.cache-raw/ref', `${m.referenceId}.json`), 'utf8'));
     hourly = shapedHourly(data.events, ref.events, ref.hourly); shaped = true;
   }
   const out = { id: m.id, tz, from: data.from, to: data.to, events: data.events, hourly, shaped, sky };
