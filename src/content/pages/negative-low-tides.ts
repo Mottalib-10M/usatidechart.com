@@ -1,0 +1,42 @@
+import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+const lj = K.st('california/la-jolla');
+
+export default definePage({
+  id: 'negative-low-tides', slug: 'negative-low-tides', group: 'planning', order: 30,
+  nav: 'Negative low tides', card: 'Minus tides: when they come, where they go lowest, and how to read them for tide pooling.',
+  title: 'Negative Low Tides 2026: Minus Tide Dates and Tide Pooling',
+  description: 'Negative low tides 2026: why the water drops below zero, when minus tides come on each coast, the lowest predicted lows by station and how to plan tide pooling.',
+  h1: 'Negative low tides and tide pooling',
+  intro: 'A minus tide is a low below the chart zero: it uncovers the lowest zone of the shore, and it comes on a schedule you can read ahead.',
+  resume: `A negative low tide, or minus tide, is a low water below 0 ft on the tide table. Zero is Mean Lower Low Water, the average of each day's lower low over NOAA's nineteen-year datum epoch, so roughly half of all lower lows fall below it: a minus tide is lower than average, not rare. The deepest ones come with spring tides, around the new and full moon, and deepest of all when the moon is also near perigee. At ${lj.place}, the lowest predicted low of the period is ${K.ft(lj.stats.minLow.h)}, on ${K.date(lj.stats.minLow.date)}, and ${lj.stats.negativeLowDays} of the ${lj.stats.days} days have at least one low below zero. The calculator above lists the six lowest lows of any station. For tide pools, sand bars and wrecks, those days open the shore's lowest band, home to the animals that are underwater almost all the time.`,
+  mini: { kind: 'lows', arg: { station: 'california/la-jolla' } },
+  body: (h) => {
+    const se = h.st('washington/seattle'), sd = h.st('california/san-diego'), mb = h.st('south-carolina/myrtle-beach'), gv = h.st('texas/galveston'), hk = h.st('alaska/homer');
+    return `
+<h2>Why the water drops below zero</h2>
+<p>Tide tables measure height from a datum, and US tables use Mean Lower Low Water. On an ordinary day the lower low lands near zero. On a spring tide, when the sun and moon pull in line, the whole range widens: highs go higher and lows go lower, and the low falls below the average. Add the moon's perigee, its closest point to Earth each month, and the low drops further. That is all a minus tide is: an ordinary low on a day of big range. The ${h.a('spring-and-neap-tides', 'spring and neap tides guide')} shows how the range follows the moon.</p>
+<h2>How low it goes depends on the coast</h2>
+<p>The bigger the station's range, the deeper its minus tides. ${h.a('st:alaska/homer', 'Homer')} reaches ${h.ft(hk.stats.minLow.h)} on its lowest day, ${h.a('st:washington/seattle', 'Seattle')} ${h.ft(se.stats.minLow.h)}, ${h.a('st:california/san-diego', 'San Diego')} ${h.ft(sd.stats.minLow.h)}, ${h.a('st:south-carolina/myrtle-beach', 'Myrtle Beach')} ${h.ft(mb.stats.minLow.h)} and ${h.a('st:texas/galveston', 'Galveston')} ${h.ft(gv.stats.minLow.h)}. On the Gulf coast, a strong north wind behind a cold front often pushes the water lower than any prediction, while an onshore wind can cancel a predicted minus tide altogether.</p>
+<h2>When the minus tides come in daylight</h2>
+<p>The time of day matters for tide pooling, and it is not the same on every coast. In Washington and Oregon, the deepest lows of the month fall around midday from late spring through summer and late in the evening in winter, which makes May to July the season for daytime beach walks around Puget Sound. In Southern California it is the reverse: the winter lows come in the afternoon, in daylight, and the summer ones before dawn. On the Atlantic, where the two daily lows are of similar size, deep lows come in daylight in every season on some days of each spring tide. Each station page lists its six lowest lows with date and time; the ${h.a('beach-walk-planner', 'low tide planner')} lists daylight windows below any level.</p>
+<h2>Planning a tide pool visit</h2>
+<p>Arrive an hour or more before the low and follow the water out, so you are moving back toward shore as it turns. The lowest band of the shore is uncovered only for an hour or so around the low. Watch the sea, not only the pools: on rocky coasts, waves come in sets, and a quiet ten minutes can end with a surge over the bench. Wear shoes with grip; rock covered with weed is slick at any tide. Leave animals where they are and turn rocks back the way you found them. Many tide pool areas are protected reserves with their own rules, posted at the access points.</p>
+<h2>What lives in the lowest band</h2>
+<p>Rocky shores are zoned by how long each level stays dry. Near the high-water line, barnacles and periwinkles tolerate hours of sun. Lower down, mussels, rockweed and limpets dominate. The band that only a minus tide uncovers belongs to animals that cannot take much air: on the Pacific coast, sea stars, anemones, sea urchins, chitons and nudibranchs; in New England, the kelps and the creatures sheltering under them. That is why a low of minus one or two feet shows a different shore from an ordinary low, even though the difference in height is small. The animals there are stressed by every minute of exposure, especially on a hot midday low, which is one more reason to look and not lift.</p>
+<h2>Sand bars, wrecks and the long walk out</h2>
+<p>On flat sandy coasts the lowest lows reveal bars, shoals and sometimes the ribs of old wrecks. On big-range coasts the walk out can be long: at Homer or on the Maine coast, a minus tide can put the water's edge hundreds of yards from the high-tide line. The return is the risky part. Channels between bars refill first, often from behind, and the rate of rise is fastest in the middle of the flood, two to three hours after the low. Mark the time of the low, set a turnaround time well before the water is due back, and stay off mudflats entirely where the silt is soft.</p>
+<h2>Minus tides for boats and ramps</h2>
+<p>The same days that delight tide poolers can strand boats. A minus tide drops channels, harbors and the end of ramps below their usual low-water depth. A boat that floats at a normal low can touch bottom on a minus tide, and a ramp that works most days may leave the trailer short of the water. The ${h.a('boat-ramp-tide-planner', 'boat ramp planner')} shows the hours when the water stays above the depth you need.</p>`;
+  },
+  faqs: [
+    { q: 'What does a minus tide mean on a tide chart?', a: 'A low tide below zero, the Mean Lower Low Water datum used by US charts. A low of minus one foot is one foot below that average. Minus tides are a normal part of the cycle, coming with the big ranges of spring tides around the new and full moon, and they uncover the lowest part of the shore.' },
+    { q: 'When are the best minus tides for tide pooling?', a: 'It depends on the coast. In Washington and Oregon, from late spring through summer around midday; in Southern California, in winter afternoons, since summer lows there come before dawn. On the Atlantic and Gulf, some days of every spring tide give a daylight low. Check the lowest lows listed on your station’s page.' },
+    { q: 'How long does a negative low tide last?', a: 'The water usually stays below zero for an hour or two around the low, longer on a coast with a small range and a deep minus tide, shorter where the tide moves fast. The lowest band of the shore is open only briefly, so plan to be there before the low and to leave as the water turns.' },
+    { q: 'Can wind make a low tide lower than predicted?', a: 'Yes. An offshore wind, or a strong north wind after a cold front on the Gulf coast, can push water away from shore and drop the level below the prediction, sometimes by a foot or more in shallow bays. An onshore wind does the opposite. Predictions include no weather.' },
+    { q: 'Is it safe to walk out on the flats during a minus tide?', a: 'Only with care and a clear way back. Flats and sand bars flood from the channels first, so the path behind you can close before the water reaches your feet. On mud, as in Cook Inlet, do not walk out at all: the silt can trap a leg. Start back as soon as the tide turns.' },
+  ],
+  related: ['beach-walk-planner', 'spring-and-neap-tides', 'st:california/la-jolla', 'st:washington/seattle', 'tide-table'],
+  sources: ['datums', 'spring_neap', 'tides_tutorial', 'rip_currents'],
+});

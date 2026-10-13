@@ -8,7 +8,7 @@ export default definePage({
   nav: 'Spring and neap tides',
   card: 'The two-week pulse of the tide with the moon phases, and the daily coefficient this site uses to put a number on it.',
   title: 'Spring and Neap Tides 2026: Moon Phases and Coefficient',
-  description: 'Spring and neap tides 2026: how new, full and quarter moons set the size of the tide, why Gulf tides follow the moon’s declination, and this site’s tide coefficient.',
+  description: 'Spring and neap tides 2026: how new, full and quarter moons set the size of the tide, why Gulf tides follow the moon\u2019s declination, and the tide coefficient.',
   h1: 'Spring tides, neap tides and the tide coefficient',
   intro: 'Spring tides have nothing to do with the season: the word describes water that springs up, twice a month, when the sun and moon pull in line.',
   resume: `Spring tides are the larger tides that come twice a month, around the new and full moon, when the sun and moon pull along the same line and their tidal bulges add up; neap tides are the smaller ones around the first and last quarter, when the two pull at right angles and partly cancel. At Boston the range on spring days runs about half again as large as on neap days, and the biggest of the cycle usually arrive a day or two after the moon phase itself. Along the northern Gulf of Mexico the rhythm is different: the once-daily tide there swells and fades with the moon's distance north or south of the equator, not mainly with its phase. To compare days at a glance, this site gives each day a tide coefficient of its own design, the day's range as a percentage of the station's average range; it is not an official NOAA figure.`,
