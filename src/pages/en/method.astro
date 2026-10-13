@@ -11,7 +11,7 @@ import { articleSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('method', lang);
 const title = 'Tide Chart Method 2026: how the curves and times are made';
-const description = 'How Tide Day builds each tide chart from NOAA predictions: the curve between highs and lows, the tide coefficient, solunar periods and the planner, tested against NOAA data.';
+const description = 'How Tide Day builds each tide chart from NOAA predictions in 2026: the curve, the tide coefficient, solunar periods and the planner, tested against NOAA.';
 const R = STATIONS.filter((s) => s.curve === 'hourly').length, S = STATIONS.filter((s) => s.curve === 'shaped').length;
 const v = VAL.stations as Record<string, { max: number; rms: number; cosineMax: number; cosineRms: number }>;
 const names: Record<string, string> = { '9410170': 'San Diego (mixed tide)', '8661070': 'Myrtle Beach (semidiurnal)', '8729807': 'Pensacola Beach (diurnal)', '8443970': 'Boston (large range)', '9455920': 'Anchorage (very large range)' };

@@ -1,0 +1,32 @@
+import { defineState } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
+
+const keys = K.inState('california').map((s) => s.key);
+const e = K.extremesOf(keys);
+const all = keys.map(K.st);
+const lo = [...all].sort((a, b) => a.stats.minLow.h - b.stats.minLow.h)[0];
+const sd = K.st('california/san-diego'), sf = K.st('california/san-francisco'), cr = K.st('california/crescent-city');
+
+export default defineState({
+  state: 'california',
+  title: 'California Tides 2026: San Diego to Crescent City Charts',
+  description: 'California tides today: tide charts for San Diego, Long Beach, Santa Barbara, San Francisco and Crescent City, with 7-day high and low tide times. 2026.',
+  intro: 'Eleven gauges spread over some 800 miles of Pacific shore, from San Diego Bay to the Oregon line.',
+  resume: `${K.ft(e.min.stats.meanRange)} at ${e.min.place} and ${K.ft(e.max.stats.meanRange)} at ${e.max.place} bracket the average daily tide across the ${all.length} California stations on this site. Most of the coast sits in a narrow band: ${K.ft(sd.stats.meanRange)} at San Diego, ${K.ft(sf.stats.meanRange)} at the Golden Gate, with the range climbing only on the far north coast. The tide is mixed everywhere, ${K.typeWords('california/san-diego')}: a higher high and a lower low come once a day, and the other pair is weaker. That inequality is what produces California's minus tides, lows below the chart datum that bare reefs and rock benches, in winter afternoons and again in late spring and early summer mornings. Inside the bays the picture shifts. San Diego Bay and the Los Angeles harbors follow the open coast closely, while San Francisco Bay delays the tide and changes its size from one shore to the next. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
+  featured: 'california/san-diego',
+  body: (h) => `
+<h2>Higher high, lower low</h2>
+<p>A California tide chart rarely shows two matching cycles. One high stands well above the other, and one low drops much deeper, so the day has a big swing and a small one. Near the solstices the gap widens and the lower low sinks below zero. The deepest predicted low on this site's California gauges is ${h.ft(lo.stats.minLow.h)} at ${h.a(`st:${lo.key}`, lo.place)}, on ${h.date(lo.stats.minLow.date)}. Over the year the timing of those lows moves. In December and January they come in the afternoon or evening, often near sunset. From about April to July they slide into the early morning, when daylight arrives early enough for a long walk on bare reef before breakfast. That spring and summer window is the classic tide pool season from ${h.a('st:california/la-jolla', 'La Jolla')} to the Mendocino coast. The ${h.a('negative-low-tides', 'negative low tide guide')} lists the deepest days.</p>
+<h2>A coast of open bays and one great estuary</h2>
+<p>Most California bays are open to the sea, and their tide differs little from the beach outside. Santa Monica Bay, the long curve of Monterey Bay and San Pedro Bay at ${h.a('st:california/long-beach', 'Long Beach')} all follow the coast within minutes. The enclosed harbors, San Diego Bay, Mission Bay and Newport Bay, fill through narrow entrances but stay close to their reference. San Francisco Bay is different. The tide pours through the Golden Gate, then splits. Toward the south bay it grows taller as the basin narrows and shallows, while to the north, through San Pablo Bay and Carquinez Strait into the delta, it arrives later and smaller. A single bay can span several hours of timing and feet of range.</p>
+<h2>The north coast and its bigger swing</h2>
+<p>North of Cape Mendocino the Pacific tide keeps growing on its way toward Oregon and Washington. ${h.a('st:california/crescent-city', 'Crescent City')} averages ${h.ft(cr.stats.meanRange)} on a typical day and reaches ${h.ft(cr.stats.springRange)} on spring tides, the largest swing in the state. That coast is also the one where heavy winter swell matters most. Large surges can run far up a beach that looked dry minutes before, so the tide table is only half of the picture. The National Weather Service's ${h.src('rip_currents', 'rip current advice')} applies on every open beach.</p>
+<h2>King tides along the shore</h2>
+<p>The year's highest predicted water in California falls in December and January, close to the winter solstice and the Earth's nearest approach to the sun, which add to the pull of the spring tides. Low seawalls, beach parking lots and the edges of bay wetlands can flood on calm days at those times. The ${h.a('king-tides', 'king tides guide')} shows the dates for each station, and the ${h.a('beach-walk-planner', 'low tide beach planner')} finds the daylight hours with the water below your chosen level.</p>`,
+  faqs: [
+    { q: 'When are the best minus tides in California for tide pooling?', a: 'From late spring into early summer, roughly April to July, the deepest lows of the month fall in the early morning, after sunrise. Winter also brings strong minus tides, but they come in the afternoon or evening, often close to dark. Check a station near the reef you plan to visit, because the depth and time change a little along the coast.' },
+    { q: 'Why does California have two different high tides each day?', a: 'California has a mixed tide. The daily and twice-daily parts of the tide are both strong on the Pacific coast, so one high climbs much higher than the other and one low drops much lower. The gap is largest around the solstices, when the lower low can fall below the chart datum and the higher high reaches its peak.' },
+    { q: 'Is the tide the same everywhere in San Francisco Bay, California?', a: 'No. The tide enters at the Golden Gate and then changes as it spreads. In the south bay the range grows larger than at the Gate, and high water comes later. Toward San Pablo Bay and the delta it arrives later still and shrinks. Use a station near your shore, because a few miles can shift the time by an hour or more.' },
+    { q: 'Where is the biggest tide in California?', a: 'On the far north coast. Crescent City, near the Oregon line, has the largest average range among the California stations on this site, close to seven feet on a typical day and around nine on spring tides. From Monterey to San Diego the average day runs a little over five feet, and the south San Francisco Bay also exceeds the open coast.' },
+  ],
+});

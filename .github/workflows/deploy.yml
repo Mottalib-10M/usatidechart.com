@@ -1,0 +1,53 @@
+name: Deploy to GitHub Pages
+
+# Rebuilt every day so that the first render of each tide chart is "today" (the browser
+# recomputes the current time anyway). The predictions themselves live in public/data and are
+# refreshed by hand with scripts/build-tides.py before the end of their window (CONTRIBUTING-PAGES.md).
+on:
+  push:
+    branches: ['main']
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Tests du moteur et du contenu
+        run: npx vitest run
+      - name: Build (avec contrôle des snippets)
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

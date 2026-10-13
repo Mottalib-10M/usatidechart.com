@@ -6,7 +6,7 @@ const gi = K.st('louisiana/grand-isle'), bi = K.st('mississippi/biloxi'), ga = K
 export default defineState({
   state: 'louisiana',
   title: 'Louisiana Tides 2026: Grand Isle and Barataria Tide Chart',
-  description: 'Louisiana tides today: the Grand Isle tide chart for Barataria Pass and the bay, with 7-day high and low tide times, coefficient, sunrise and solunar periods. 2026.',
+  description: 'Louisiana tides today: the Grand Isle tide chart for Barataria Pass, with 7-day high and low tide times, coefficient, sunrise and solunar periods. 2026.',
   intro: 'A single gauge at the tip of Grand Isle stands for a coast of marsh, bayous and sinking ground that runs the width of the state.',
   resume: `${K.ft(gi.stats.meanRange)} on an average day: that is the tide at East Point, Grand Isle, the Louisiana station on this site, smaller than ${K.ft(bi.stats.meanRange)} at Biloxi to the east or ${K.ft(ga.stats.meanRange)} at Galveston to the west. On ${Math.round(gi.stats.oneHighShare * 100)}% of days it is a diurnal tide, ${K.typeWords('louisiana/grand-isle')}, and its spring days, near ${K.ft(gi.stats.springRange)}, follow the moon's swing north and south of the equator rather than the new and full moon. Grand Isle is a barrier island in front of Barataria Bay, and the tide enters that bay through Barataria and Caminada passes, then spreads into marsh and bayous where it arrives hours late and often smaller. Across the state, wind, river flow and sinking land shape the real water level as much as the moon does. Pick the station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'louisiana/grand-isle',

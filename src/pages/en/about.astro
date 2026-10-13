@@ -9,7 +9,7 @@ import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('about', lang);
 const title = 'Tide Day 2026: who publishes these tide charts and why';
-const description = 'Tide Day is published by Radif Partners: free 2026 tide charts for 92 US stations from NOAA predictions, with solunar times and a beach planner. No account and no ads.';
+const description = 'Tide Day is published by Radif Partners: free 2026 tide charts for 92 US stations from NOAA predictions, with solunar times and a beach planner, no account.';
 const R = STATIONS.filter((s) => s.type === 'R').length;
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
