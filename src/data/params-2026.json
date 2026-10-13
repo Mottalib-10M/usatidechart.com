@@ -1,7 +1,7 @@
 {
  "_lisezmoi": "Sources et constantes du site. Les prédictions elles-mêmes viennent de scripts/build-tides.py (API NOAA CO-OPS) et vivent dans public/data ; ce fichier porte les sources citées par les pages et les constantes du calcul solunaire. retrieved_at = date de lecture des sources.",
  "year": 2026,
- "retrieved_at": "2026-10-12",
+ "retrieved_at": "2026-10-13",
  "valid_from": "2026-10-01",
  "valid_to": "2027-12-31",
  "solunar": { "majorHalfMinutes": 60, "minorHalfMinutes": 30 },

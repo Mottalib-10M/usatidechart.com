@@ -136,3 +136,25 @@ Serveur local : port **4444** (`npm run preview`). Pour l'arrêter : `lsof -ti t
 
 Pas de dépôt GitHub, pas de push, pas de DNS. Ne toucher ni à `_trame` ni à la RECETTE.
 `CLARITY_ID` reste vide jusqu'à l'achat du domaine.
+
+## Limites connues des contrôles (2026-10-13)
+
+- **`check-sources.mjs`** parcourt tout le dossier du site sauf `scripts/`, `dist/`, `node_modules/` :
+  les fiches de faits et le cache NOAA vivent donc sous `scripts/` (`scripts/data/facts/`,
+  `scripts/.cache-raw/`), sinon le contrôle interroge des centaines d'URL de l'API NOAA et se fait
+  bloquer (403 constatés le 2026-10-13). L'URL de documentation `api.tidesandcurrents.noaa.gov/mdapi/prod/`
+  répond 403 quand l'API limite le débit : la relire à la main (200 le 2026-10-12).
+- **`typo-sources.mjs`** sans `--check` réécrit les sources : il avait remplacé le tiret cadratin
+  littéral de la liste des mots interdits de `tests/pages.test.ts` ; la liste l'écrit désormais
+  `new RegExp('\\u2014')`.
+- **`check-saisie.mjs`** ne voit pas les minis hydratés en `client:visible` : tous les minis sont en
+  `client:load`.
+- **Port 4444** occupé par un autre site pendant le chantier du 2026-10-12 : prévisualiser sur un autre port.
+
+## Pages (133 indexables)
+
+Accueil ; 23 pages d'État ; 92 pages de station ; 6 outils (tides-near-me, beach-walk-planner,
+boat-ramp-tide-planner, solunar-tables, cape-cod, outer-banks) ; 9 guides (how-to-read-a-tide-chart,
+high-tide-and-low-tide, tide-table, fishing-tides, best-fishing-times, king-tides,
+spring-and-neap-tides, negative-low-tides, tide-range) ; method ; about. En noindex : widget, contact,
+editorial-policy, privacy, legal-notice, cookies, embed/tide-chart.
