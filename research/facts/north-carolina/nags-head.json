@@ -1,0 +1,213 @@
+{
+ "key": "north-carolina/nags-head",
+ "place": "Nags Head",
+ "id": "8652226",
+ "noaaName": "Jennettes Pier, Nags Head (ocean)",
+ "type": "S",
+ "referenceId": "8651370",
+ "referenceName": "DUCK PIER",
+ "lat": 35.91,
+ "lng": -75.5917,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8651370",
+  "heightOffsetHighTide": 1.04,
+  "heightOffsetLowTide": 1.43,
+  "timeOffsetHighTide": -5,
+  "timeOffsetLowTide": 1,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 3.59,
+  "springRange": 4.76,
+  "neapRange": 2.42,
+  "oneHighShare": 0.07,
+  "highInequality": 0.72,
+  "lowInequality": 0.26,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373246,
+   "h": 4.92,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30011420,
+   "h": -1.36,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373246,
+    "h": 4.92,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 29885071,
+    "h": 4.91,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29886560,
+    "h": 4.9,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30371760,
+    "h": 4.86,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30374732,
+    "h": 4.83,
+    "date": "2027-10-02"
+   },
+   {
+    "t": 30413500,
+    "h": 4.81,
+    "date": "2027-10-29"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011420,
+    "h": -1.36,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012913,
+    "h": -1.27,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009926,
+    "h": -1.26,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053172,
+    "h": -1.24,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054662,
+    "h": -1.18,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30051679,
+    "h": -1.13,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 258,
+  "negativeLowDays": 164,
+  "meanHigh": 3.47,
+  "meanLow": 0.34
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8652437",
+   "name": "Oyster Creek, Croatan Sound",
+   "type": "R",
+   "miles": 5.7,
+   "direction": "SW"
+  },
+  {
+   "id": "8652591",
+   "name": "Roanoke Sound Channel",
+   "type": "S",
+   "miles": 7.7,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8652587",
+    "timeOffsetHighTide": 97,
+    "timeOffsetLowTide": 77,
+    "heightOffsetHighTide": 0.47,
+    "heightOffsetLowTide": 0.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8652587",
+   "name": "OREGON INLET MARINA",
+   "type": "R",
+   "miles": 8.3,
+   "direction": "S"
+  },
+  {
+   "id": "8652547",
+   "name": "Roanoke Marshes Light, Croatan Sound",
+   "type": "R",
+   "miles": 9.1,
+   "direction": "SW"
+  },
+  {
+   "id": "8652648",
+   "name": "Old House Channel",
+   "type": "R",
+   "miles": 9.2,
+   "direction": "S"
+  },
+  {
+   "id": "8652657",
+   "name": "Oregon Inlet Channel",
+   "type": "S",
+   "miles": 9.6,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8652587",
+    "timeOffsetHighTide": -9,
+    "timeOffsetLowTide": -34,
+    "heightOffsetHighTide": 1.23,
+    "heightOffsetLowTide": 0.43,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8652659",
+   "name": "Oregon Inlet Bridge",
+   "type": "S",
+   "miles": 9.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8652587",
+    "timeOffsetHighTide": -17,
+    "timeOffsetLowTide": -55,
+    "heightOffsetHighTide": 1.89,
+    "heightOffsetLowTide": 0.64,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8652247",
+   "name": "Manns Harbor, Croatan Sound",
+   "type": "R",
+   "miles": 10.0,
+   "direction": "W"
+  },
+  {
+   "id": "8652678",
+   "name": "Oregon Inlet (USCG Station)",
+   "type": "R",
+   "miles": 10.4,
+   "direction": "S"
+  },
+  {
+   "id": "8652737",
+   "name": "Davis Slough",
+   "type": "S",
+   "miles": 11.4,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8652587",
+    "timeOffsetHighTide": 9,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 0.85,
+    "heightOffsetLowTide": 0.29,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "key": "maine/old-orchard-beach",
+ "place": "Old Orchard Beach",
+ "id": "8418557",
+ "noaaName": "Old Orchard Beach",
+ "type": "S",
+ "referenceId": "8418150",
+ "referenceName": "PORTLAND",
+ "lat": 43.5167,
+ "lng": -70.3667,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8418150",
+  "heightOffsetHighTide": 0.97,
+  "heightOffsetLowTide": 0.97,
+  "timeOffsetHighTide": 0,
+  "timeOffsetLowTide": -6,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 9.47,
+  "springRange": 11.6,
+  "neapRange": 7.6,
+  "oneHighShare": 0.07,
+  "highInequality": 0.91,
+  "lowInequality": 0.74,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29970264,
+   "h": 11.24,
+   "date": "2026-12-25"
+  },
+  "minLow": {
+   "t": 30012392,
+   "h": -1.77,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 29970264,
+    "h": 11.24,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30247494,
+    "h": 11.24,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30289240,
+    "h": 11.23,
+    "date": "2027-08-04"
+   },
+   {
+    "t": 30287745,
+    "h": 11.21,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30012014,
+    "h": 11.19,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30245999,
+    "h": 11.18,
+    "date": "2027-07-04"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012392,
+    "h": -1.77,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013881,
+    "h": -1.7,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 29970647,
+    "h": -1.65,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30010901,
+    "h": -1.61,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29969154,
+    "h": -1.58,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29972140,
+    "h": -1.54,
+    "date": "2026-12-26"
+   }
+  ],
+  "negativeLows": 246,
+  "negativeLowDays": 188,
+  "meanHigh": 9.11,
+  "meanLow": 0.41
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8418445",
+   "name": "Pine Point, Scarborough River",
+   "type": "R",
+   "miles": 2.6,
+   "direction": "NE"
+  },
+  {
+   "id": "8418606",
+   "name": "Camp Ellis, Saco River Entrance",
+   "type": "R",
+   "miles": 3.9,
+   "direction": "S"
+  },
+  {
+   "id": "8418828",
+   "name": "Biddeford, Saco River",
+   "type": "R",
+   "miles": 4.4,
+   "direction": "SW"
+  },
+  {
+   "id": "8418268",
+   "name": "Fore River",
+   "type": "S",
+   "miles": 9.6,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8418150",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.03,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8418031",
+   "name": "Portland Head Light",
+   "type": "S",
+   "miles": 10.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8418150",
+    "timeOffsetHighTide": -2,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8418772",
+   "name": "Cape Porpoise",
+   "type": "S",
+   "miles": 10.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8418150",
+    "timeOffsetHighTide": 12,
+    "timeOffsetLowTide": 14,
+    "heightOffsetHighTide": 0.95,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8418150",
+   "name": "PORTLAND",
+   "type": "R",
+   "miles": 11.5,
+   "direction": "NE"
+  }
+ ]
+}

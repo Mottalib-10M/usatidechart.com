@@ -1,0 +1,159 @@
+{
+ "key": "massachusetts/nantucket",
+ "place": "Nantucket",
+ "id": "8449130",
+ "noaaName": "NANTUCKET",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 41.285,
+ "lng": -70.0967,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 3.57,
+  "MHW": 3.24,
+  "MSL": 1.77,
+  "MTL": 1.72,
+  "MLW": 0.2,
+  "MLLW": 0,
+  "GT": 3.57,
+  "MN": 3.03,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 3.5,
+  "springRange": 4.32,
+  "neapRange": 2.71,
+  "oneHighShare": 0.07,
+  "highInequality": 0.73,
+  "lowInequality": 0.38,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29928596,
+   "h": 4.36,
+   "date": "2026-11-26"
+  },
+  "minLow": {
+   "t": 29970713,
+   "h": -0.63,
+   "date": "2026-12-25"
+  },
+  "topHighs": [
+   {
+    "t": 29928596,
+    "h": 4.36,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 30246076,
+    "h": 4.35,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 29968846,
+    "h": 4.34,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29970343,
+    "h": 4.34,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30286322,
+    "h": 4.33,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30247572,
+    "h": 4.32,
+    "date": "2027-07-06"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 29970713,
+    "h": -0.63,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30012452,
+    "h": -0.63,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 29969221,
+    "h": -0.62,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30010961,
+    "h": -0.62,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29972206,
+    "h": -0.57,
+    "date": "2026-12-26"
+   },
+   {
+    "t": 30013942,
+    "h": -0.57,
+    "date": "2027-01-24"
+   }
+  ],
+  "negativeLows": 213,
+  "negativeLowDays": 182,
+  "meanHigh": 3.22,
+  "meanLow": 0.24
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8449062",
+   "name": "Eel Point",
+   "type": "S",
+   "miles": 5.8,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 39,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 0.24,
+    "heightOffsetLowTide": 0.24,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8448566",
+   "name": "Great Point",
+   "type": "S",
+   "miles": 7.5,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 43,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 0.32,
+    "heightOffsetLowTide": 0.32,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8448817",
+   "name": "Muskeget Island, north side",
+   "type": "S",
+   "miles": 11.4,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 25,
+    "timeOffsetLowTide": 15,
+    "heightOffsetHighTide": 0.21,
+    "heightOffsetLowTide": 0.21,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

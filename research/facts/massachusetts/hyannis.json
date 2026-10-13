@@ -1,0 +1,196 @@
+{
+ "key": "massachusetts/hyannis",
+ "place": "Hyannis",
+ "id": "8447605",
+ "noaaName": "Hyannis Port",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 41.6317,
+ "lng": -70.3,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 3.8,
+  "MHW": 3.45,
+  "MSL": 1.92,
+  "MTL": 1.85,
+  "MLW": 0.25,
+  "MLLW": 0,
+  "GT": 3.8,
+  "MN": 3.19,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 3.61,
+  "springRange": 4.51,
+  "neapRange": 2.73,
+  "oneHighShare": 0.07,
+  "highInequality": 0.74,
+  "lowInequality": 0.41,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30246066,
+   "h": 4.67,
+   "date": "2027-07-05"
+  },
+  "minLow": {
+   "t": 29970709,
+   "h": -0.66,
+   "date": "2026-12-25"
+  },
+  "topHighs": [
+   {
+    "t": 30246066,
+    "h": 4.67,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30287811,
+    "h": 4.64,
+    "date": "2027-08-03"
+   },
+   {
+    "t": 30247562,
+    "h": 4.63,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30286314,
+    "h": 4.63,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30244571,
+    "h": 4.61,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 29970334,
+    "h": 4.55,
+    "date": "2026-12-25"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 29970709,
+    "h": -0.66,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 29969215,
+    "h": -0.65,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30012446,
+    "h": -0.62,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 29972202,
+    "h": -0.61,
+    "date": "2026-12-26"
+   },
+   {
+    "t": 30010953,
+    "h": -0.61,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29928968,
+    "h": -0.6,
+    "date": "2026-11-26"
+   }
+  ],
+  "negativeLows": 174,
+  "negativeLowDays": 157,
+  "meanHigh": 3.41,
+  "meanLow": 0.34
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8447335",
+   "name": "Barnstable Harbor, Beach Point",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 11,
+    "timeOffsetLowTide": 30,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447504",
+   "name": "South Yarmouth, Bass River",
+   "type": "S",
+   "miles": 6.4,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 108,
+    "timeOffsetLowTide": 106,
+    "heightOffsetHighTide": 0.29,
+    "heightOffsetLowTide": 0.29,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447675",
+   "name": "Cotuit Highlands",
+   "type": "S",
+   "miles": 7.2,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 77,
+    "timeOffsetLowTide": 47,
+    "heightOffsetHighTide": 0.26,
+    "heightOffsetLowTide": 0.26,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447742",
+   "name": "Poponesset Island, Poponesset Bay",
+   "type": "S",
+   "miles": 9.0,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 123,
+    "timeOffsetLowTide": 112,
+    "heightOffsetHighTide": 0.24,
+    "heightOffsetLowTide": 0.24,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447525",
+   "name": "Dennisport",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 63,
+    "timeOffsetLowTide": 38,
+    "heightOffsetHighTide": 0.36,
+    "heightOffsetLowTide": 0.36,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447241",
+   "name": "Sesuit Harbor, East Dennis",
+   "type": "R",
+   "miles": 11.2,
+   "direction": "NE"
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "key": "virginia/norfolk",
+ "place": "Norfolk",
+ "id": "8638610",
+ "noaaName": "HAMPTON ROADS (Sewells Point)",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 36.9428,
+ "lng": -76.3286,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 2.76,
+  "MHW": 2.56,
+  "MSL": 1.36,
+  "MTL": 1.34,
+  "MLW": 0.13,
+  "MLLW": 0,
+  "GT": 2.76,
+  "MN": 2.43,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 2.55,
+  "springRange": 3.19,
+  "neapRange": 1.93,
+  "oneHighShare": 0.07,
+  "highInequality": 0.41,
+  "lowInequality": 0.12,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373356,
+   "h": 3.56,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30011531,
+   "h": -0.83,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373356,
+    "h": 3.56,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30371870,
+    "h": 3.53,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30374841,
+    "h": 3.49,
+    "date": "2027-10-02"
+   },
+   {
+    "t": 29885180,
+    "h": 3.46,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29886667,
+    "h": 3.44,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30413610,
+    "h": 3.42,
+    "date": "2027-10-29"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011531,
+    "h": -0.83,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013024,
+    "h": -0.8,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30010035,
+    "h": -0.76,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053281,
+    "h": -0.7,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30014517,
+    "h": -0.69,
+    "date": "2027-01-25"
+   },
+   {
+    "t": 30054771,
+    "h": -0.67,
+    "date": "2027-02-22"
+   }
+  ],
+  "negativeLows": 245,
+  "negativeLowDays": 149,
+  "meanHigh": 2.5,
+  "meanLow": 0.2
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8638596",
+   "name": "Craney Island Light",
+   "type": "S",
+   "miles": 3.6,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 18,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 1.06,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638288",
+   "name": "Old Point Comfort",
+   "type": "S",
+   "miles": 4.2,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": 9,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638671",
+   "name": "Lafayette River",
+   "type": "R",
+   "miles": 5.0,
+   "direction": "SE"
+  },
+  {
+   "id": "8638514",
+   "name": "Pig Point",
+   "type": "S",
+   "miles": 6.1,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 42,
+    "timeOffsetLowTide": 40,
+    "heightOffsetHighTide": 1.05,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638379",
+   "name": "Newport News",
+   "type": "S",
+   "miles": 6.2,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 29,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 1.08,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638654",
+   "name": "Norfolk",
+   "type": "S",
+   "miles": 6.5,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 23,
+    "timeOffsetLowTide": 20,
+    "heightOffsetHighTide": 1.14,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638660",
+   "name": "Portsmouth, Naval Shipyard",
+   "type": "R",
+   "miles": 8.6,
+   "direction": "S"
+  },
+  {
+   "id": "8638401",
+   "name": "Huntington Park",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 38,
+    "timeOffsetLowTide": 39,
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 0.92,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638776",
+   "name": "Little Creek, NAB",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8638863",
+    "timeOffsetHighTide": 8,
+    "timeOffsetLowTide": 9,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.17,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638339",
+   "name": "Western Branch",
+   "type": "R",
+   "miles": 9.1,
+   "direction": "SW"
+  },
+  {
+   "id": "8638406",
+   "name": "Town Point",
+   "type": "S",
+   "miles": 10.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": 37,
+    "timeOffsetLowTide": 44,
+    "heightOffsetHighTide": 1.22,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8638051",
+   "name": "Messick Point, Back River",
+   "type": "S",
+   "miles": 11.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8638610",
+    "timeOffsetHighTide": -7,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.97,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8639348",
+   "name": "Money Point",
+   "type": "R",
+   "miles": 11.5,
+   "direction": "S"
+  }
+ ]
+}

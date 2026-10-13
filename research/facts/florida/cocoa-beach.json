@@ -1,0 +1,151 @@
+{
+ "key": "florida/cocoa-beach",
+ "place": "Cocoa Beach",
+ "id": "8721604",
+ "noaaName": "Port Canaveral (Trident Pier)",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 28.4158,
+ "lng": -80.5931,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 3.93,
+  "MHW": 3.58,
+  "MSL": 1.88,
+  "MTL": 1.88,
+  "MLW": 0.17,
+  "MLLW": 0,
+  "GT": 3.92,
+  "MN": 3.4,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 3.82,
+  "springRange": 4.8,
+  "neapRange": 2.83,
+  "oneHighShare": 0.07,
+  "highInequality": 0.78,
+  "lowInequality": 0.35,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29886593,
+   "h": 5.21,
+   "date": "2026-10-28"
+  },
+  "minLow": {
+   "t": 30011436,
+   "h": -1.07,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 29886593,
+    "h": 5.21,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29885104,
+    "h": 5.19,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29926846,
+    "h": 5.15,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 29928338,
+    "h": 5.13,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 29888085,
+    "h": 5.12,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 30413525,
+    "h": 5.1,
+    "date": "2027-10-29"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011436,
+    "h": -1.07,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30009940,
+    "h": -1.03,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30012929,
+    "h": -0.98,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30245417,
+    "h": -0.97,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30246913,
+    "h": -0.94,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30053186,
+    "h": -0.93,
+    "date": "2027-02-21"
+   }
+  ],
+  "negativeLows": 253,
+  "negativeLowDays": 194,
+  "meanHigh": 3.59,
+  "meanLow": 0.3
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "TEC3693",
+   "name": "Cape Canaveral",
+   "type": "S",
+   "miles": 2.0,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -66,
+    "timeOffsetLowTide": -44,
+    "heightOffsetHighTide": 1.5,
+    "heightOffsetLowTide": 1.42,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8721649",
+   "name": "Cocoa Beach",
+   "type": "R",
+   "miles": 3.3,
+   "direction": "S"
+  },
+  {
+   "id": "8721727",
+   "name": "Patrick Air Force Base",
+   "type": "S",
+   "miles": 11.8,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -64,
+    "timeOffsetLowTide": -38,
+    "heightOffsetHighTide": 1.5,
+    "heightOffsetLowTide": 1.43,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

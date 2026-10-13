@@ -1,0 +1,351 @@
+{
+ "key": "new-york/jones-beach",
+ "place": "Jones Beach",
+ "id": "8516402",
+ "noaaName": "Point Lookout (marina), Jones Inlet",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 40.5939,
+ "lng": -73.584,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 4.66,
+  "MHW": 4.33,
+  "MSL": 2.24,
+  "MTL": 2.26,
+  "MLW": 0.19,
+  "MLLW": 0,
+  "GT": 4.66,
+  "MN": 4.14,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 4.45,
+  "springRange": 5.51,
+  "neapRange": 3.43,
+  "oneHighShare": 0.07,
+  "highInequality": 0.73,
+  "lowInequality": 0.29,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30245810,
+   "h": 5.59,
+   "date": "2027-07-04"
+  },
+  "minLow": {
+   "t": 30012201,
+   "h": -1,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30245810,
+    "h": 5.59,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30244318,
+    "h": 5.54,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 30287552,
+    "h": 5.54,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30204067,
+    "h": 5.53,
+    "date": "2027-06-05"
+   },
+   {
+    "t": 30247302,
+    "h": 5.52,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30286061,
+    "h": 5.5,
+    "date": "2027-08-01"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012201,
+    "h": -1,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013690,
+    "h": -1,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30010712,
+    "h": -0.9,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30015177,
+    "h": -0.9,
+    "date": "2027-01-25"
+   },
+   {
+    "t": 30053936,
+    "h": -0.85,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 29970463,
+    "h": -0.84,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 257,
+  "negativeLowDays": 174,
+  "meanHigh": 4.22,
+  "meanLow": 0.24
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8516385",
+   "name": "Jones Inlet (Point Lookout)",
+   "type": "S",
+   "miles": 0.6,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": -20,
+    "timeOffsetLowTide": -25,
+    "heightOffsetHighTide": 0.77,
+    "heightOffsetLowTide": 0.75,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516315",
+   "name": "Neds Creek",
+   "type": "S",
+   "miles": 2.5,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 49,
+    "timeOffsetLowTide": 54,
+    "heightOffsetHighTide": 0.58,
+    "heightOffsetLowTide": 0.6,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516411",
+   "name": "Freeport, Baldwin Bay",
+   "type": "S",
+   "miles": 2.7,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 37,
+    "timeOffsetLowTide": 55,
+    "heightOffsetHighTide": 0.64,
+    "heightOffsetLowTide": 0.65,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516225",
+   "name": "Deep Creek Meadow",
+   "type": "S",
+   "miles": 3.2,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 61,
+    "timeOffsetLowTide": 71,
+    "heightOffsetHighTide": 0.51,
+    "heightOffsetLowTide": 0.5,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516501",
+   "name": "Baldwin, Parsonage Cove, Hempstead Bay",
+   "type": "R",
+   "miles": 3.2,
+   "direction": "NW"
+  },
+  {
+   "id": "8516601",
+   "name": "Long Beach (Inside)",
+   "type": "S",
+   "miles": 3.5,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 18,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 0.84,
+    "heightOffsetLowTide": 0.85,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516221",
+   "name": "Cuba Island",
+   "type": "S",
+   "miles": 3.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 67,
+    "timeOffsetLowTide": 82,
+    "heightOffsetHighTide": 0.49,
+    "heightOffsetLowTide": 0.5,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516663",
+   "name": "Long Beach, Bridgewater Yacht Club, New York",
+   "type": "R",
+   "miles": 3.7,
+   "direction": "W"
+  },
+  {
+   "id": "8516155",
+   "name": "Green Island",
+   "type": "R",
+   "miles": 4.8,
+   "direction": "NE"
+  },
+  {
+   "id": "8516661",
+   "name": "Bay Park, Hewlett Bay",
+   "type": "R",
+   "miles": 5.2,
+   "direction": "NW"
+  },
+  {
+   "id": "8516211",
+   "name": "Bellmore, Bellmore Creek",
+   "type": "S",
+   "miles": 5.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 88,
+    "timeOffsetLowTide": 118,
+    "heightOffsetHighTide": 0.43,
+    "heightOffsetLowTide": 0.45,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516745",
+   "name": "Woodmere, Brosewere Bay",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 34,
+    "timeOffsetLowTide": 50,
+    "heightOffsetHighTide": 0.84,
+    "heightOffsetLowTide": 0.85,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516055",
+   "name": "Biltmore Shores, South Oyster Bay",
+   "type": "S",
+   "miles": 7.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 124,
+    "timeOffsetLowTide": 152,
+    "heightOffsetHighTide": 0.3,
+    "heightOffsetLowTide": 0.3,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516881",
+   "name": "East Rockaway Inlet, Atlantic Beach",
+   "type": "R",
+   "miles": 8.4,
+   "direction": "W"
+  },
+  {
+   "id": "8516891",
+   "name": "Norton Point, Head of Bay",
+   "type": "R",
+   "miles": 9.0,
+   "direction": "W"
+  },
+  {
+   "id": "8516925",
+   "name": "Motts Basin",
+   "type": "S",
+   "miles": 9.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 39,
+    "timeOffsetLowTide": 48,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.15,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8515864",
+   "name": "Amityville",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 140,
+    "timeOffsetLowTide": 185,
+    "heightOffsetHighTide": 0.26,
+    "heightOffsetLowTide": 0.25,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8515764",
+   "name": "Gilgo Heading",
+   "type": "S",
+   "miles": 10.1,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 142,
+    "timeOffsetLowTide": 178,
+    "heightOffsetHighTide": 0.24,
+    "heightOffsetLowTide": 0.25,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8516999",
+   "name": "J.F.K. International Airport",
+   "type": "S",
+   "miles": 10.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 25,
+    "timeOffsetLowTide": 45,
+    "heightOffsetHighTide": 1.14,
+    "heightOffsetLowTide": 1.15,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

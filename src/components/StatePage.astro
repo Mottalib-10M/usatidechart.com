@@ -1,0 +1,49 @@
+---
+/**
+ * A state page: the state's tide board first (pick one of its stations, today's curve and
+ * times), the folded answer, the table of every station of the state with its character, the
+ * hand-written text about the state's coast, then the questions.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import TideTool from './tide/TideTool';
+import { route } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { PUBLISHED, stationId, stateId } from '../lib/pages';
+import { stationsIn, windowOf, ALL_LITE, BUILD_MIN, STATE_INFO, DATA_META } from '../lib/stations';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { ft } from './tide/fmt';
+import { fullDate } from '../lib/engine/time';
+import { faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema, articleSchema } from '../lib/seo';
+import { AUTHOR_NAME } from '../data/site-config';
+import type { StateDef } from '../lib/page-types';
+interface Props { def: StateDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const st = STATE_INFO[def.state];
+const path = route(stateId(def.state), lang);
+const h1 = `${st.name} tides today`;
+const list = stationsIn(def.state).filter((s) => PUBLISHED.some((p) => p.key === s.key));
+const jsonLd = [webApplicationSchema({ name: `${st.name} tide charts`, description: def.description, path, lang }), articleSchema({ title: h1, description: def.description, path, lang }), webPageSchema({ name: h1, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: `${st.name} tides`, path }]), faqSchema(def.faqs, lang)];
+const kind = { semidiurnal: 'semidiurnal', mixed: 'mixed', diurnal: 'diurnal' } as const;
+const rows = list.map((s) => [`<a href="${route(stationId(s.key), lang)}">${s.place}</a>`, s.noaaName, kind[s.stats.tideType], ft(s.stats.meanRange), `${ft(s.stats.maxHigh.h)} · ${fullDate(s.stats.maxHigh.date)}`, `${ft(s.stats.minLow.h)}`]);
+const h = helpers();
+const sources = ['predictions_page', 'coops_api', 'tide_types', 'datums'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const related = [{ href: route('tides-near-me', lang), name: 'Tides near me', description: 'The closest stations to where you stand' }, { href: route('beach-walk-planner', lang), name: 'Low tide beach planner', description: 'Hours with the water under your level, in daylight' }, { href: route('king-tides', lang), name: 'King tides', description: 'The highest tides of the year, station by station' }];
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: `${st.name} tides` }]}>
+  <header class="mb-4">
+    <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
+  </header>
+  <div data-outil data-chrome class="mb-4"><TideTool client:load stations={ALL_LITE()} only={list.map((s) => s.key)} picker initialKey={def.featured} initialWin={windowOf(def.featured)} buildMin={BUILD_MIN} methodHref={route('method', lang)} idPrefix={def.state.slice(0, 6)} planner={false} /></div>
+  <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>
+  <Clamp text={def.resume} lang={lang} id={`clamp-${def.state}`} class="mb-8" />
+  <section data-chrome data-sommaire class="mb-10">
+    <h2 class="font-serif text-2xl font-bold text-navy-900">{st.name} tide stations on this site</h2>
+    <Fragment set:html={table(['Station page', 'NOAA station', 'Tide type', 'Average range', 'Highest predicted', 'Lowest'], rows, `Predictions ${fullDate(DATA_META.begin)} to ${fullDate(DATA_META.end)}`, ['l', 'l', 'l', 'r', 'l', 'r'])} />
+  </section>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif"><Fragment set:html={def.body(h)} /></div>
+</PageLayout>

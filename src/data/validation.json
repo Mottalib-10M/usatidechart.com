@@ -1,0 +1,48 @@
+{
+ "measured": "2026-10-12",
+ "window": "2026-10-12 to 2026-10-18, 6-minute NOAA predictions (GMT)",
+ "stations": {
+  "8443970": {
+   "max": 0.051,
+   "rms": 0.014,
+   "n": 1680,
+   "cosineMax": 0.515,
+   "cosineRms": 0.154
+  },
+  "8661070": {
+   "max": 0.032,
+   "rms": 0.007,
+   "n": 1680,
+   "cosineMax": 0.141,
+   "cosineRms": 0.051
+  },
+  "8729807": {
+   "max": 0.01,
+   "rms": 0.003,
+   "n": 1680,
+   "cosineMax": 0.335,
+   "cosineRms": 0.111
+  },
+  "9410170": {
+   "max": 0.027,
+   "rms": 0.005,
+   "n": 1680,
+   "cosineMax": 1.027,
+   "cosineRms": 0.237
+  },
+  "9455920": {
+   "max": 0.513,
+   "rms": 0.084,
+   "n": 1680,
+   "cosineMax": 5.646,
+   "cosineRms": 1.801
+  }
+ },
+ "subordinate": {
+  "station": "9410230 La Jolla rebuilt from 9410170 San Diego",
+  "max": 0.093,
+  "rms": 0.025,
+  "cosineMax": 0.947,
+  "cosineRms": 0.226
+ }
+}

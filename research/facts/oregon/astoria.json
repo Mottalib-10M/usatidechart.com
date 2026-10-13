@@ -1,0 +1,263 @@
+{
+ "key": "oregon/astoria",
+ "place": "Astoria",
+ "id": "9439040",
+ "noaaName": "ASTORIA (Tongue Point), Oreg.",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 46.2073,
+ "lng": -123.7683,
+ "tz": "America/Los_Angeles",
+ "offsets": null,
+ "datums": {
+  "MHHW": 8.61,
+  "MHW": 7.94,
+  "MSL": 4.51,
+  "MTL": 4.55,
+  "MLW": 1.17,
+  "MLLW": 0,
+  "GT": 8.61,
+  "MN": 6.77,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 8.48,
+  "springRange": 10.7,
+  "neapRange": 6.26,
+  "oneHighShare": 0.07,
+  "highInequality": 1.45,
+  "lowInequality": 2.59,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 29969080,
+   "h": 10.61,
+   "date": "2026-12-24"
+  },
+  "minLow": {
+   "t": 30246747,
+   "h": -2.05,
+   "date": "2027-07-05"
+  },
+  "topHighs": [
+   {
+    "t": 29969080,
+    "h": 10.61,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29967587,
+    "h": 10.53,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29970572,
+    "h": 10.46,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 29927331,
+    "h": 10.4,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 30010837,
+    "h": 10.4,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30009342,
+    "h": 10.33,
+    "date": "2027-01-21"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30246747,
+    "h": -2.05,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30287000,
+    "h": -1.98,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30245260,
+    "h": -1.96,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30288483,
+    "h": -1.96,
+    "date": "2027-08-03"
+   },
+   {
+    "t": 30248230,
+    "h": -1.9,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30205002,
+    "h": -1.78,
+    "date": "2027-06-06"
+   }
+  ],
+  "negativeLows": 231,
+  "negativeLowDays": 226,
+  "meanHigh": 7.9,
+  "meanLow": 1.29
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "9439026",
+   "name": "Astoria (Youngs Bay), Oreg.",
+   "type": "S",
+   "miles": 4.3,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": -13,
+    "timeOffsetLowTide": -14,
+    "heightOffsetHighTide": 0.1,
+    "heightOffsetLowTide": 0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9439023",
+   "name": "Astoria (Port Docks), Oreg.",
+   "type": "S",
+   "miles": 4.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": -8,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": -0.5,
+    "heightOffsetLowTide": 0.0,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9439054",
+   "name": "Settlers Point, Oreg.",
+   "type": "S",
+   "miles": 4.9,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": 22,
+    "timeOffsetLowTide": 53,
+    "heightOffsetHighTide": -0.5,
+    "heightOffsetLowTide": -0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9440563",
+   "name": "Hungry Harbor, Wash.",
+   "type": "S",
+   "miles": 5.2,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": -9,
+    "heightOffsetHighTide": -0.2,
+    "heightOffsetLowTide": 0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9438772",
+   "name": "Cathcart Landing, Youngs River",
+   "type": "R",
+   "miles": 6.0,
+   "direction": "S"
+  },
+  {
+   "id": "TWC0895",
+   "name": "Harrington Point, Wash.",
+   "type": "S",
+   "miles": 7.0,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": 21,
+    "timeOffsetLowTide": 52,
+    "heightOffsetHighTide": -0.8,
+    "heightOffsetLowTide": -0.2,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "TWC0883",
+   "name": "Warrenton, Skipanon River, Oreg.",
+   "type": "S",
+   "miles": 7.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": -13,
+    "timeOffsetLowTide": -19,
+    "heightOffsetHighTide": -0.1,
+    "heightOffsetLowTide": 0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9439011",
+   "name": "Hammond, Oregon",
+   "type": "R",
+   "miles": 8.5,
+   "direction": "W"
+  },
+  {
+   "id": "9439069",
+   "name": "Knappa, Knappa Slough",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": 29,
+    "timeOffsetLowTide": 58,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.86,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TWC0881",
+   "name": "Point Adams, Oreg.",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": -25,
+    "timeOffsetLowTide": -38,
+    "heightOffsetHighTide": -0.2,
+    "heightOffsetLowTide": 0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9440573",
+   "name": "Chinook, Baker Bay, Wash.",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9439040",
+    "timeOffsetHighTide": -30,
+    "timeOffsetLowTide": -52,
+    "heightOffsetHighTide": 0.95,
+    "heightOffsetLowTide": 1.12,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

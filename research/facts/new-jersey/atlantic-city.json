@@ -1,0 +1,247 @@
+{
+ "key": "new-jersey/atlantic-city",
+ "place": "Atlantic City",
+ "id": "8534720",
+ "noaaName": "Atlantic City (Ocean)",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 39.3567,
+ "lng": -74.4181,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 4.6,
+  "MHW": 4.18,
+  "MSL": 2.21,
+  "MTL": 2.18,
+  "MLW": 0.17,
+  "MLLW": 0,
+  "GT": 4.6,
+  "MN": 4.02,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 4.33,
+  "springRange": 5.56,
+  "neapRange": 3.17,
+  "oneHighShare": 0.07,
+  "highInequality": 0.87,
+  "lowInequality": 0.19,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30287538,
+   "h": 5.68,
+   "date": "2027-08-02"
+  },
+  "minLow": {
+   "t": 30012193,
+   "h": -1.14,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30287538,
+    "h": 5.68,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30245793,
+    "h": 5.67,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30247285,
+    "h": 5.62,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30286045,
+    "h": 5.61,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30289028,
+    "h": 5.59,
+    "date": "2027-08-03"
+   },
+   {
+    "t": 30244300,
+    "h": 5.57,
+    "date": "2027-07-03"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012193,
+    "h": -1.14,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013678,
+    "h": -1.09,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30053928,
+    "h": -1.08,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30010706,
+    "h": -1.05,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30054659,
+    "h": -1.05,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30052444,
+    "h": -1,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 259,
+  "negativeLowDays": 156,
+  "meanHigh": 4.11,
+  "meanLow": 0.27
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8534638",
+   "name": "Absecon Channel, State Route 87 bridge",
+   "type": "S",
+   "miles": 2.0,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 38,
+    "timeOffsetLowTide": 26,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 1.13,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534770",
+   "name": "Ventnor City, ocean pier",
+   "type": "R",
+   "miles": 3.5,
+   "direction": "SW"
+  },
+  {
+   "id": "8534657",
+   "name": "Pleasantville, Lakes Bay, Great Egg Harbor Inlet",
+   "type": "S",
+   "miles": 5.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 60,
+    "timeOffsetLowTide": 97,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.82,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534496",
+   "name": "Brigantine Channel @ Hoffman Thorofare",
+   "type": "S",
+   "miles": 6.2,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 59,
+    "timeOffsetLowTide": 58,
+    "heightOffsetHighTide": 0.9,
+    "heightOffsetLowTide": 0.88,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534540",
+   "name": "Absecon, Absecon Creek, U.S. Hwy. 30 bridge",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 88,
+    "timeOffsetLowTide": 97,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 0.94,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534739",
+   "name": "Dock Thorofare, Risley Channel",
+   "type": "S",
+   "miles": 6.5,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 55,
+    "timeOffsetLowTide": 60,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.94,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534836",
+   "name": "Longport (inside), Great Egg Harbor Inlet",
+   "type": "R",
+   "miles": 7.0,
+   "direction": "SW"
+  },
+  {
+   "id": "8534393",
+   "name": "Main Marsh Thorofare",
+   "type": "S",
+   "miles": 8.6,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 70,
+    "timeOffsetLowTide": 112,
+    "heightOffsetHighTide": 0.8,
+    "heightOffsetLowTide": 0.76,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534778",
+   "name": "Steelmanville, Patcong Ck., 2.5 nm above ent.",
+   "type": "R",
+   "miles": 9.7,
+   "direction": "W"
+  },
+  {
+   "id": "8534319",
+   "name": "Tuckerton, Shooting Thorofare, Little Egg Inlet",
+   "type": "R",
+   "miles": 11.6,
+   "direction": "NE"
+  },
+  {
+   "id": "8534296",
+   "name": "Seven Island, Newmans Thorofare",
+   "type": "S",
+   "miles": 11.9,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 32,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 0.73,
+    "heightOffsetLowTide": 0.73,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

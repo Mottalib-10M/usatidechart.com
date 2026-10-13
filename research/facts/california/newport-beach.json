@@ -1,0 +1,148 @@
+{
+ "key": "california/newport-beach",
+ "place": "Newport Beach",
+ "id": "9410583",
+ "noaaName": "Balboa Pier, Newport Beach",
+ "type": "S",
+ "referenceId": "9410660",
+ "referenceName": "LOS ANGELES (Outer Harbor)",
+ "lat": 33.6,
+ "lng": -117.9,
+ "tz": "America/Los_Angeles",
+ "offsets": {
+  "refStationId": "9410660",
+  "heightOffsetHighTide": 0.96,
+  "heightOffsetLowTide": 0.96,
+  "timeOffsetHighTide": -9,
+  "timeOffsetLowTide": 0,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 5.26,
+  "springRange": 7.2,
+  "neapRange": 3.36,
+  "oneHighShare": 0.1,
+  "highInequality": 1.59,
+  "lowInequality": 2.01,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 29968818,
+   "h": 7,
+   "date": "2026-12-24"
+  },
+  "minLow": {
+   "t": 30009533,
+   "h": -1.85,
+   "date": "2027-01-21"
+  },
+  "topHighs": [
+   {
+    "t": 29968818,
+    "h": 7,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30286312,
+    "h": 6.93,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 29967331,
+    "h": 6.92,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29927065,
+    "h": 6.89,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 30244559,
+    "h": 6.89,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 30246048,
+    "h": 6.87,
+    "date": "2027-07-04"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30009533,
+    "h": -1.85,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30011012,
+    "h": -1.82,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29969272,
+    "h": -1.8,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29967787,
+    "h": -1.73,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 30245011,
+    "h": -1.67,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 29970758,
+    "h": -1.64,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 227,
+  "negativeLowDays": 226,
+  "meanHigh": 4.57,
+  "meanLow": 0.94
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "9410580",
+   "name": "Newport Bay Entrance, Corona del Mar",
+   "type": "R",
+   "miles": 1.0,
+   "direction": "E"
+  },
+  {
+   "id": "9410599",
+   "name": "Santa Ana River entrance (inside)",
+   "type": "S",
+   "miles": 3.9,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9410660",
+    "timeOffsetHighTide": 23,
+    "timeOffsetLowTide": 107,
+    "heightOffsetHighTide": 0.54,
+    "heightOffsetLowTide": 0.2,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TWC0427",
+   "name": "Los Patos (highway bridge)",
+   "type": "S",
+   "miles": 11.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9410660",
+    "timeOffsetHighTide": 60,
+    "timeOffsetLowTide": 72,
+    "heightOffsetHighTide": 0.83,
+    "heightOffsetLowTide": 0.6,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

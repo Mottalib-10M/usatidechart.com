@@ -1,0 +1,64 @@
+{
+ "legalCountry": "France",
+ "registerLabel": "SIREN",
+ "vatLabel": "VAT",
+ "jurisdiction": "France",
+ "supervisoryAuthority": "Commission nationale de l'informatique et des libertés (CNIL)",
+ "supervisoryAuthorityUrl": "https://www.cnil.fr",
+ "consentMode": "none",
+ "year": 2026,
+ "founded": "2026",
+ "volumes": "/private/tmp/claude-501/-Users-mottalib/7bccc98c-ef3e-4a30-80e5-e0d5eaa9394d/scratchpad/volumes-us-tides.txt",
+ "volumesNote": "597 670 recherches/mois estimées (18 requêtes mesurées au Keyword Planner le 2026-10-12, bornes basses 189 000) : GO volume, validé par l'éditeur le 2026-10-12.",
+ "folder": "us-tides",
+ "outDir": "a-publier/Mottalib-10M",
+ "url": "https://us-tides.example",
+ "locales": [
+  "en"
+ ],
+ "names": {
+  "en": "Tide Day"
+ },
+ "langTags": {
+  "en": "en-US"
+ },
+ "ogLocales": {
+  "en": "en_US"
+ },
+ "localeTag": "en-US",
+ "currency": "USD",
+ "flag": "us",
+ "symbol": "≈",
+ "accent": "#0A3161",
+ "authorRole": {
+  "en": "Publisher of tide charts, solunar fishing times and beach and boat-ramp planners for US coastal stations"
+ },
+ "authorDesc": {
+  "en": "(voir src/data/site-config.ts)"
+ },
+ "email": "contact@us-tides.example",
+ "indexnow": "225af30aaae66e349aa6972ec570914b",
+ "shortName": "Tide Day",
+ "description": "Tide charts for 92 US beaches, inlets and harbors: today's high and low tides, the next 7 days, solunar fishing times, sunrise and a beach and boat-ramp planner.",
+ "port": 4444,
+ "og": [
+  {
+   "file": "og-en.png",
+   "title": "Today's tide chart\nfor US beaches and inlets",
+   "subtitle": "High and low tide · 7 days · solunar · sunrise",
+   "badge": "Government tide predictions",
+   "brand": "Tide Day"
+  }
+ ],
+ "lastUpdated": "2026-10-12",
+ "knowsAbout": {
+  "en": [
+   "Tide predictions for US coastal stations",
+   "High and low tide times",
+   "Solunar fishing periods",
+   "Sunrise, sunset and moon phases",
+   "Tidal datums such as MLLW and MHHW",
+   "Spring, neap and king tides"
+  ]
+ }
+}

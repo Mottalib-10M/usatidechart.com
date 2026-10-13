@@ -1,0 +1,166 @@
+{
+ "key": "alaska/homer",
+ "place": "Homer",
+ "id": "9455558",
+ "noaaName": "Homer, Coal Point, Kachemak Bay",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 59.6014,
+ "lng": -151.4106,
+ "tz": "America/Anchorage",
+ "offsets": null,
+ "datums": {
+  "MHHW": 18.43,
+  "MHW": 17.59,
+  "MSL": 9.73,
+  "MTL": 9.63,
+  "MLW": 1.66,
+  "MLLW": 0,
+  "GT": 18.43,
+  "MN": 15.94,
+  "epoch": "2012-2016"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 18.16,
+  "springRange": 24.69,
+  "neapRange": 11.77,
+  "oneHighShare": 0.07,
+  "highInequality": 1.78,
+  "lowInequality": 3.99,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30372439,
+   "h": 22.69,
+   "date": "2027-09-30"
+  },
+  "minLow": {
+   "t": 30246851,
+   "h": -5.31,
+   "date": "2027-07-05"
+  },
+  "topHighs": [
+   {
+    "t": 30372439,
+    "h": 22.69,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30373914,
+    "h": 22.67,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 29927478,
+    "h": 22.61,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 30012476,
+    "h": 22.57,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30332187,
+    "h": 22.47,
+    "date": "2027-09-02"
+   },
+   {
+    "t": 29969229,
+    "h": 22.46,
+    "date": "2026-12-24"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30246851,
+    "h": -5.31,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30245364,
+    "h": -5.06,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30205102,
+    "h": -5.04,
+    "date": "2027-06-06"
+   },
+   {
+    "t": 29969626,
+    "h": -5.03,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30203616,
+    "h": -4.97,
+    "date": "2027-06-05"
+   },
+   {
+    "t": 30288594,
+    "h": -4.96,
+    "date": "2027-08-03"
+   }
+  ],
+  "negativeLows": 249,
+  "negativeLowDays": 228,
+  "meanHigh": 17.54,
+  "meanLow": 1.99
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "9455556",
+   "name": "Halibut Cove, Kachemak Bay",
+   "type": "S",
+   "miles": 6.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "9455500",
+    "timeOffsetHighTide": -3,
+    "timeOffsetLowTide": -5,
+    "heightOffsetHighTide": 0.7,
+    "heightOffsetLowTide": 0.0,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9455514",
+   "name": "Sadie Cove, Kachemak Bay",
+   "type": "S",
+   "miles": 7.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "9455500",
+    "timeOffsetHighTide": -4,
+    "timeOffsetLowTide": -4,
+    "heightOffsetHighTide": 0.1,
+    "heightOffsetLowTide": -0.1,
+    "heightAdjustedType": "F"
+   }
+  },
+  {
+   "id": "9455517",
+   "name": "Kasitsna Bay, Kachemak Bay",
+   "type": "R",
+   "miles": 10.7,
+   "direction": "SW"
+  },
+  {
+   "id": "9455506",
+   "name": "Tutka Bay,Kachemak Bay",
+   "type": "S",
+   "miles": 11.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "9455500",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 0.2,
+    "heightOffsetLowTide": 0.0,
+    "heightAdjustedType": "F"
+   }
+  }
+ ]
+}

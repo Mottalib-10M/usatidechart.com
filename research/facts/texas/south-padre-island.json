@@ -1,0 +1,187 @@
+{
+ "key": "texas/south-padre-island",
+ "place": "South Padre Island",
+ "id": "8779748",
+ "noaaName": "South Padre Island C.G. Station",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 26.0731,
+ "lng": -97.1675,
+ "tz": "America/Chicago",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.37,
+  "MHW": 1.31,
+  "MSL": 0.81,
+  "MTL": 0.73,
+  "MLW": 0.14,
+  "MLLW": 0,
+  "GT": 1.37,
+  "MN": 1.17,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.37,
+  "springRange": 2.02,
+  "neapRange": 0.62,
+  "oneHighShare": 0.73,
+  "highInequality": 0.16,
+  "lowInequality": 0.51,
+  "tideType": "diurnal",
+  "maxHigh": {
+   "t": 29888904,
+   "h": 2.25,
+   "date": "2026-10-29"
+  },
+  "minLow": {
+   "t": 30008985,
+   "h": -0.99,
+   "date": "2027-01-21"
+  },
+  "topHighs": [
+   {
+    "t": 29888904,
+    "h": 2.25,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29887386,
+    "h": 2.22,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29890408,
+    "h": 2.22,
+    "date": "2026-10-31"
+   },
+   {
+    "t": 29850176,
+    "h": 2.19,
+    "date": "2026-10-03"
+   },
+   {
+    "t": 30401628,
+    "h": 2.18,
+    "date": "2027-10-21"
+   },
+   {
+    "t": 29851674,
+    "h": 2.16,
+    "date": "2026-10-04"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30008985,
+    "h": -0.99,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30007485,
+    "h": -0.97,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30244454,
+    "h": -0.96,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 30242959,
+    "h": -0.93,
+    "date": "2027-07-02"
+   },
+   {
+    "t": 30010483,
+    "h": -0.92,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29968722,
+    "h": -0.91,
+    "date": "2026-12-24"
+   }
+  ],
+  "negativeLows": 208,
+  "negativeLowDays": 208,
+  "meanHigh": 1.35,
+  "meanLow": 0.23
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8779724",
+   "name": "Queen Isabella Causeway (east end)",
+   "type": "S",
+   "miles": 0.4,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8779750",
+    "timeOffsetHighTide": 24,
+    "timeOffsetLowTide": 21,
+    "heightOffsetHighTide": 0.87,
+    "heightOffsetLowTide": 0.75,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8779750",
+   "name": "PADRE ISLAND (south end)",
+   "type": "R",
+   "miles": 0.7,
+   "direction": "SE"
+  },
+  {
+   "id": "8779749",
+   "name": "South Padre Island, Brazos Santiago Pass",
+   "type": "R",
+   "miles": 0.9,
+   "direction": "SE"
+  },
+  {
+   "id": "8779739",
+   "name": "Queen Isabella Causeway (west end)",
+   "type": "S",
+   "miles": 1.5,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8779750",
+    "timeOffsetHighTide": 52,
+    "timeOffsetLowTide": 30,
+    "heightOffsetHighTide": 0.81,
+    "heightOffsetLowTide": 0.63,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8779768",
+   "name": "South Bay entrance",
+   "type": "S",
+   "miles": 1.7,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8779750",
+    "timeOffsetHighTide": 14,
+    "timeOffsetLowTide": 21,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.94,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8779770",
+   "name": "Port Isabel",
+   "type": "R",
+   "miles": 3.1,
+   "direction": "W"
+  },
+  {
+   "id": "8779911",
+   "name": "San Martin Lake Channel",
+   "type": "R",
+   "miles": 9.5,
+   "direction": "SW"
+  }
+ ]
+}

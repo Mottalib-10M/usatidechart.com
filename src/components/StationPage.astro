@@ -1,0 +1,81 @@
+---
+/**
+ * A station page, in its own order: the tide tool first (today's curve and the next tide, the
+ * seven days, the planner), the folded answer written from the station's figures, the
+ * hand-written text about the place, the year's extreme tides, the datums, the neighbours.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import TideTool from './tide/TideTool';
+import { route } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { STATION_TEXTS, stationId, stateId, statePage, PUBLISHED } from '../lib/pages';
+import { station, windowOf, ALL_LITE, BUILD_MIN, STATE_INFO, DATA_META, type Station } from '../lib/stations';
+import { stationTitle, stationDescription, stationResume, stationFaqs, neighbours, pname, pnameComma } from '../lib/station-text';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { ft } from './tide/fmt';
+import { fullDate, clock } from '../lib/engine/time';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { AUTHOR_NAME, SITE_URL } from '../data/site-config';
+interface Props { s: Station }
+const { s } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const def = STATION_TEXTS[s.key];
+const path = route(stationId(s.key), lang);
+const title = def.title ?? stationTitle(s);
+const description = def.description ?? stationDescription(s);
+const st = STATE_INFO[s.state];
+const h1 = `${pnameComma(s)} tides today`;
+const gen = stationFaqs(s);
+const own = def.faqs ?? [];
+const jsonLd = [
+  webApplicationSchema({ name: `${pname(s)} tide chart`, description, path, lang }),
+  articleSchema({ title: h1, description, path, lang }),
+  webPageSchema({ name: h1, description, path, lang }),
+  breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: `${st.name} tides`, path: route(stateId(s.state), lang) }, { name: `${s.place} tides`, path }]),
+  JSON.stringify({ '@context': 'https://schema.org', '@type': 'Place', name: `${s.noaaName} tide station`, geo: { '@type': 'GeoCoordinates', latitude: s.lat, longitude: s.lng }, address: { '@type': 'PostalAddress', addressRegion: st.abbr, addressCountry: 'US' }, url: `${SITE_URL}${path}` }),
+  faqSchema([...gen, ...own], lang),
+];
+const h = helpers();
+const near = neighbours(s, 6).filter((n) => PUBLISHED.some((p) => p.key === n.key));
+const related = [
+  ...near.slice(0, 4).map((n) => ({ href: route(stationId(n.key), lang), name: `${n.place} tides`, description: `Average range ${ft(n.stats.meanRange)}, ${n.noaaName}` })),
+  ...(statePage(s.state) ? [{ href: route(stateId(s.state), lang), name: `${st.name} tides`, description: `Every ${st.name} station on one tide board` }] : []),
+  { href: route('solunar-tables', lang), name: 'Solunar tables', description: 'Two weeks of fishing periods for this or any station' },
+];
+const sources = [
+  { name: `NOAA Tides & Currents: station ${s.id}, ${s.noaaName}`, url: `https://tidesandcurrents.noaa.gov/stationhome.html?id=${s.id}` },
+  ...(def.extraSources ?? []),
+  ...['coops_api', 'datums', 'coops_disclaimer', 'astronomy_engine'].map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url })),
+];
+const x = s.stats;
+const highRows = x.topHighs.map((e) => [fullDate(e.date), clock(e.t, s.tz), ft(e.h)]);
+const lowRows = x.topLows.map((e) => [fullDate(e.date), clock(e.t, s.tz), ft(e.h)]);
+const d = s.datums;
+const datumRows = d ? ([['MHHW', 'Mean Higher High Water', d.MHHW], ['MHW', 'Mean High Water', d.MHW], ['MSL', 'Mean Sea Level', d.MSL], ['MLW', 'Mean Low Water', d.MLW], ['MLLW', 'Mean Lower Low Water (chart zero)', d.MLLW]] as Array<[string, string, number | undefined]>).filter((r) => r[2] !== undefined).map((r) => [r[0], r[1], ft(r[2]!)]) : [];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqsChrome={gen} faqs={own} related={related} sources={sources} breadcrumbs={[{ label: `${st.name} tides`, href: route(stateId(s.state), lang) }, { label: s.place }]}>
+  <article>
+    <header class="mb-4">
+      <h1 class="font-serif text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{h1}</h1>
+      <p class="mt-2 text-base text-navy-700 sm:text-lg">{def.intro}</p>
+    </header>
+    <div data-outil data-chrome class="mb-4"><TideTool client:load stations={ALL_LITE()} initialKey={s.key} initialWin={windowOf(s.key)} buildMin={BUILD_MIN} methodHref={route('method', lang)} idPrefix={s.slug.slice(0, 8)} /></div>
+    <p class="mb-6 text-sm text-navy-600">{ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a> · predictions downloaded {fullDate(DATA_META.retrieved)}</p>
+    <div data-chrome><Clamp text={stationResume(s)} lang={lang} id={`clamp-${s.slug}`} class="mb-8" /></div>
+    <div class="prose prose-slate max-w-none prose-headings:font-serif">
+      <Fragment set:html={def.body(h)} />
+    </div>
+    <section data-chrome class="prose prose-slate mt-10 max-w-none prose-headings:font-serif">
+      <h2>Highest and lowest tides at {pname(s)}, {DATA_META.begin.slice(0, 4)} to {DATA_META.end.slice(0, 4)}</h2>
+      <p>The six highest highs and six lowest lows predicted for {s.noaaName} between {fullDate(DATA_META.begin)} and {fullDate(DATA_META.end)}, one per day. The high-water dates are the king tides of this station; the low-water dates are the best days to see the flats, bars and tide pools.</p>
+      <Fragment set:html={table(['Highest highs', 'Time', 'Height'], highRows, `Predicted high water, ${s.noaaName}`, ['l', 'l', 'r'])} />
+      <Fragment set:html={table(['Lowest lows', 'Time', 'Height'], lowRows, `Predicted low water, ${s.noaaName}`, ['l', 'l', 'r'])} />
+      {datumRows.length > 0 && <><h3>Tidal datums at station {s.id}</h3><p>NOAA's averages over the {d?.epoch ?? 'national tidal datum'} epoch, measured from the chart zero (MLLW). Average range of the tide (MN): {ft(d!.MN ?? 0)}; great diurnal range (GT): {ft(d!.GT ?? 0)}.</p><Fragment set:html={table(['Datum', 'Meaning', 'Height above MLLW'], datumRows, undefined, ['l', 'l', 'r'])} /></>}
+      {s.type === 'S' && s.offsets && <><h3>A subordinate station</h3><p>NOAA predicts {s.noaaName} from the reference station {s.referenceName} ({s.offsets.refStationId}): high water {Math.abs(s.offsets.timeOffsetHighTide ?? 0)} minutes {(s.offsets.timeOffsetHighTide ?? 0) < 0 ? 'earlier' : 'later'}, low water {Math.abs(s.offsets.timeOffsetLowTide ?? 0)} minutes {(s.offsets.timeOffsetLowTide ?? 0) < 0 ? 'earlier' : 'later'}, heights {s.offsets.heightAdjustedType === 'R' ? 'multiplied by' : 'shifted by'} {s.offsets.heightOffsetHighTide} at high water and {s.offsets.heightOffsetLowTide} at low water. Between those highs and lows the curve on this page follows the shape of the reference station's hourly curve.</p></>}
+      {near.length > 0 && <><h3>Other stations nearby</h3><ul>{near.map((n) => <li><a href={route(stationId(n.key), lang)}>{n.place} tides</a>: {n.noaaName}, average range {ft(n.stats.meanRange)}, highest predicted tide {ft(n.stats.maxHigh.h)} on {fullDate(n.stats.maxHigh.date)}</li>)}</ul></>}
+    </section>
+  </article>
+</PageLayout>

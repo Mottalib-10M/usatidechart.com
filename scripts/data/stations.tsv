@@ -1,0 +1,93 @@
+# slug	state	place (display name)	NOAA station id
+san-diego	california	San Diego	9410170
+la-jolla	california	La Jolla	9410230
+newport-beach	california	Newport Beach	9410583
+long-beach	california	Long Beach	9410680
+santa-monica	california	Santa Monica	9410840
+santa-barbara	california	Santa Barbara	9411340
+monterey	california	Monterey	9413450
+santa-cruz	california	Santa Cruz	9413745
+half-moon-bay	california	Half Moon Bay	9414131
+san-francisco	california	San Francisco	9414290
+crescent-city	california	Crescent City	9419750
+newport	oregon	Newport	9435385
+tillamook-bay	oregon	Tillamook Bay	9437540
+astoria	oregon	Astoria	9439040
+seattle	washington	Seattle	9447130
+westport	washington	Westport	9441102
+port-townsend	washington	Port Townsend	9444900
+anchorage	alaska	Anchorage	9455920
+homer	alaska	Homer	9455558
+seward	alaska	Seward	9455090
+juneau	alaska	Juneau	9452210
+honolulu	hawaii	Honolulu	1612340
+kahului	hawaii	Kahului	1615680
+hilo	hawaii	Hilo	1617760
+kailua-kona	hawaii	Kailua-Kona	1617846
+galveston	texas	Galveston	8771510
+port-aransas	texas	Port Aransas	8775237
+corpus-christi	texas	Corpus Christi	8775870
+south-padre-island	texas	South Padre Island	8779748
+grand-isle	louisiana	Grand Isle	8761724
+biloxi	mississippi	Biloxi	8744117
+dauphin-island	alabama	Dauphin Island	8735180
+gulf-shores	alabama	Gulf Shores	8731439
+pensacola-beach	florida	Pensacola Beach	8729807
+destin	florida	Destin	8729511
+panama-city-beach	florida	Panama City Beach	8729210
+clearwater-beach	florida	Clearwater Beach	8726724
+st-petersburg	florida	St. Petersburg	8726520
+tampa	florida	Tampa	8726607
+siesta-key	florida	Siesta Key	8726034
+fort-myers	florida	Fort Myers	8725520
+naples	florida	Naples	8725110
+key-west	florida	Key West	8724580
+miami	florida	Miami	8723178
+fort-lauderdale	florida	Fort Lauderdale	8722956
+cocoa-beach	florida	Cocoa Beach	8721604
+daytona-beach	florida	Daytona Beach	8721120
+st-augustine	florida	St. Augustine	8720587
+jacksonville-beach	florida	Jacksonville Beach	8720291
+tybee-island	georgia	Tybee Island	8670892
+st-simons-island	georgia	St. Simons Island	8677344
+hilton-head	south-carolina	Hilton Head	8669167
+folly-beach	south-carolina	Folly Beach	8666652
+charleston	south-carolina	Charleston	8665530
+myrtle-beach	south-carolina	Myrtle Beach	8661070
+wrightsville-beach	north-carolina	Wrightsville Beach	8658163
+beaufort	north-carolina	Beaufort	8656483
+hatteras	north-carolina	Hatteras	8654400
+oregon-inlet	north-carolina	Oregon Inlet	8652587
+nags-head	north-carolina	Nags Head	8652226
+duck	north-carolina	Duck	8651370
+virginia-beach	virginia	Virginia Beach	8639168
+norfolk	virginia	Norfolk	8638610
+chincoteague	virginia	Chincoteague	8630308
+ocean-city	maryland	Ocean City	8570283
+annapolis	maryland	Annapolis	8575512
+baltimore	maryland	Baltimore	8574680
+rehoboth-beach	delaware	Rehoboth Beach	8557863
+lewes	delaware	Lewes	8557380
+cape-may	new-jersey	Cape May	8536110
+wildwood	new-jersey	Wildwood	8535835
+ocean-city	new-jersey	Ocean City	8534836
+atlantic-city	new-jersey	Atlantic City	8534720
+long-beach-island	new-jersey	Long Beach Island	8533615
+new-york-city	new-york	New York City	8518750
+jones-beach	new-york	Jones Beach	8516402
+montauk	new-york	Montauk	8510560
+mystic	connecticut	Mystic	8460751
+new-haven	connecticut	New Haven	8465705
+narragansett	rhode-island	Narragansett	8454658
+newport	rhode-island	Newport	8452660
+nantucket	massachusetts	Nantucket	8449130
+hyannis	massachusetts	Hyannis	8447605
+chatham	massachusetts	Chatham	8447505
+provincetown	massachusetts	Provincetown	8446121
+plymouth	massachusetts	Plymouth	8446493
+boston	massachusetts	Boston	8443970
+gloucester	massachusetts	Gloucester	8441841
+hampton-beach	new-hampshire	Hampton Beach	8429489
+old-orchard-beach	maine	Old Orchard Beach	8418557
+portland	maine	Portland	8418150
+bar-harbor	maine	Bar Harbor	8413320

@@ -1,0 +1,161 @@
+{
+ "key": "florida/destin",
+ "place": "Destin",
+ "id": "8729511",
+ "noaaName": "East Pass (Destin)",
+ "type": "S",
+ "referenceId": "8729840",
+ "referenceName": "PENSACOLA",
+ "lat": 30.395,
+ "lng": -86.5133,
+ "tz": "America/Chicago",
+ "offsets": {
+  "refStationId": "8729840",
+  "heightOffsetHighTide": 0.49,
+  "heightOffsetLowTide": 0.33,
+  "timeOffsetHighTide": -33,
+  "timeOffsetLowTide": -34,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 0.62,
+  "springRange": 0.88,
+  "neapRange": 0.29,
+  "oneHighShare": 0.93,
+  "highInequality": 0.08,
+  "lowInequality": 0.05,
+  "tideType": "diurnal",
+  "maxHigh": {
+   "t": 29848784,
+   "h": 0.96,
+   "date": "2026-10-02"
+  },
+  "minLow": {
+   "t": 30007518,
+   "h": -0.32,
+   "date": "2027-01-20"
+  },
+  "topHighs": [
+   {
+    "t": 29848784,
+    "h": 0.96,
+    "date": "2026-10-02"
+   },
+   {
+    "t": 29850296,
+    "h": 0.96,
+    "date": "2026-10-03"
+   },
+   {
+    "t": 29887534,
+    "h": 0.95,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29889036,
+    "h": 0.95,
+    "date": "2026-10-30"
+   },
+   {
+    "t": 30324312,
+    "h": 0.95,
+    "date": "2027-08-28"
+   },
+   {
+    "t": 29847280,
+    "h": 0.94,
+    "date": "2026-10-01"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30007518,
+    "h": -0.32,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30009013,
+    "h": -0.32,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30010499,
+    "h": -0.3,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29968761,
+    "h": -0.29,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29970251,
+    "h": -0.29,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30006018,
+    "h": -0.29,
+    "date": "2027-01-19"
+   }
+  ],
+  "negativeLows": 209,
+  "negativeLowDays": 209,
+  "meanHigh": 0.61,
+  "meanLow": 0.02
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8729547",
+   "name": "Okaloosa Island",
+   "type": "R",
+   "miles": 4.8,
+   "direction": "W"
+  },
+  {
+   "id": "8729538",
+   "name": "Shalimar, Garnier Bayou",
+   "type": "S",
+   "miles": 5.2,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8729840",
+    "timeOffsetHighTide": 213,
+    "timeOffsetLowTide": 183,
+    "heightOffsetHighTide": 0.32,
+    "heightOffsetLowTide": 0.32,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8729501",
+   "name": "Valparaiso",
+   "type": "R",
+   "miles": 7.6,
+   "direction": "N"
+  },
+  {
+   "id": "8729572",
+   "name": "Mary Esther, Santa Rosa Sound",
+   "type": "R",
+   "miles": 8.2,
+   "direction": "W"
+  },
+  {
+   "id": "8729479",
+   "name": "Rocky Bayou, Choctawhatchee Bay",
+   "type": "R",
+   "miles": 8.7,
+   "direction": "NE"
+  },
+  {
+   "id": "8729425",
+   "name": "Driftwood Point, Choctawhatchee Bay",
+   "type": "R",
+   "miles": 11.0,
+   "direction": "E"
+  }
+ ]
+}

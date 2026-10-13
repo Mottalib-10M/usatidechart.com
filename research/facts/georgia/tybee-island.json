@@ -1,0 +1,454 @@
+{
+ "key": "georgia/tybee-island",
+ "place": "Tybee Island",
+ "id": "8670892",
+ "noaaName": "Tybee Light",
+ "type": "S",
+ "referenceId": "8670870",
+ "referenceName": "Fort Pulaski, Savannah River Entrance",
+ "lat": 32.0283,
+ "lng": -80.855,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8670870",
+  "heightOffsetHighTide": 0.99,
+  "heightOffsetLowTide": 0.99,
+  "timeOffsetHighTide": -10,
+  "timeOffsetLowTide": -12,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 7.14,
+  "springRange": 8.83,
+  "neapRange": 5.56,
+  "oneHighShare": 0.07,
+  "highInequality": 0.81,
+  "lowInequality": 0.32,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29885105,
+   "h": 8.81,
+   "date": "2026-10-27"
+  },
+  "minLow": {
+   "t": 30011470,
+   "h": -1.79,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 29885105,
+    "h": 8.81,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 30373286,
+    "h": 8.8,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30371798,
+    "h": 8.78,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 29886595,
+    "h": 8.77,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30413537,
+    "h": 8.76,
+    "date": "2027-10-29"
+   },
+   {
+    "t": 29926850,
+    "h": 8.73,
+    "date": "2026-11-25"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011470,
+    "h": -1.79,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012962,
+    "h": -1.77,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30053215,
+    "h": -1.67,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054705,
+    "h": -1.62,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30009976,
+    "h": -1.61,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30014453,
+    "h": -1.52,
+    "date": "2027-01-25"
+   }
+  ],
+  "negativeLows": 260,
+  "negativeLowDays": 167,
+  "meanHigh": 7,
+  "meanLow": 0.38
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8670870",
+   "name": "Fort Pulaski, Savannah River Entrance",
+   "type": "R",
+   "miles": 2.8,
+   "direction": "W"
+  },
+  {
+   "id": "TEC3399",
+   "name": "Tybee Creek entrance",
+   "type": "S",
+   "miles": 3.1,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": -9,
+    "timeOffsetLowTide": 5,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669801",
+   "name": "Bloody Point, Daufuskie Island",
+   "type": "S",
+   "miles": 3.9,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": 19,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669722",
+   "name": "Hargray Pier, Daufuskie Island",
+   "type": "S",
+   "miles": 5.5,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 19,
+    "timeOffsetLowTide": 27,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669691",
+   "name": "Daufuskie Landing, Daufuskie Island",
+   "type": "S",
+   "miles": 5.7,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 30,
+    "timeOffsetLowTide": 33,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669625",
+   "name": "Braddock Point, Hilton Head Island",
+   "type": "S",
+   "miles": 6.1,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 5,
+    "timeOffsetLowTide": -2,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669815",
+   "name": "Fields Cut, Wright River",
+   "type": "S",
+   "miles": 6.1,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 16,
+    "timeOffsetLowTide": 29,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669601",
+   "name": "Pine Island, Ramshorn Creek, Cooper River",
+   "type": "S",
+   "miles": 6.9,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 34,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8671314",
+   "name": "Halfmoon Reef, Halfmoon River",
+   "type": "R",
+   "miles": 6.9,
+   "direction": "SW"
+  },
+  {
+   "id": "TEC3401",
+   "name": "Beach Hammock",
+   "type": "S",
+   "miles": 7.1,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": -7,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669493",
+   "name": "Haig Point, Daufuskie Island, Cooper River",
+   "type": "S",
+   "miles": 8.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 20,
+    "timeOffsetLowTide": 10,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3405",
+   "name": "Savannah Sheraton Resort Hotel",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 14,
+    "timeOffsetLowTide": 6,
+    "heightOffsetHighTide": 1.13,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669531",
+   "name": "Doughboy Island",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 64,
+    "timeOffsetLowTide": 66,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3409",
+   "name": "North entrance",
+   "type": "S",
+   "miles": 8.9,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 40,
+    "timeOffsetLowTide": 44,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.09,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669464",
+   "name": "Calibogue Cay, Broad Creek, Hilton Head Island",
+   "type": "S",
+   "miles": 9.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 20,
+    "timeOffsetLowTide": 9,
+    "heightOffsetHighTide": 1.04,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669414",
+   "name": "Bull Creek, Bull Island South, Cooper River",
+   "type": "S",
+   "miles": 9.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 28,
+    "timeOffsetLowTide": 12,
+    "heightOffsetHighTide": 1.05,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8671086",
+   "name": "Skidaway Institute, Skidaway River",
+   "type": "R",
+   "miles": 10.2,
+   "direction": "W"
+  },
+  {
+   "id": "8671315",
+   "name": "Priest Landing, Wilmington River",
+   "type": "R",
+   "miles": 10.2,
+   "direction": "SW"
+  },
+  {
+   "id": "8669369",
+   "name": "Moreland Cemetery",
+   "type": "S",
+   "miles": 10.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 49,
+    "timeOffsetLowTide": 23,
+    "heightOffsetHighTide": 1.11,
+    "heightOffsetLowTide": 0.77,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3403",
+   "name": "Romerly Marsh Creek",
+   "type": "S",
+   "miles": 10.7,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 8,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 1.03,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669323",
+   "name": "Savage I., Savage Creek, Bull Creek",
+   "type": "S",
+   "miles": 10.8,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 46,
+    "timeOffsetLowTide": 19,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8670678",
+   "name": "Fort Jackson",
+   "type": "S",
+   "miles": 11.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 29,
+    "timeOffsetLowTide": 42,
+    "heightOffsetHighTide": 1.09,
+    "heightOffsetLowTide": 1.09,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3407",
+   "name": "Thunderbolt",
+   "type": "S",
+   "miles": 11.4,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 32,
+    "timeOffsetLowTide": 12,
+    "heightOffsetHighTide": 1.15,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8669575",
+   "name": "Turnbridge Landing, Salt Water Creek",
+   "type": "S",
+   "miles": 11.5,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 101,
+    "timeOffsetLowTide": 59,
+    "heightOffsetHighTide": 1.06,
+    "heightOffsetLowTide": 1.09,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3411",
+   "name": "Isle of Hope, Skidaway River",
+   "type": "S",
+   "miles": 11.8,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8670870",
+    "timeOffsetHighTide": 50,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 1.13,
+    "heightOffsetLowTide": 1.13,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

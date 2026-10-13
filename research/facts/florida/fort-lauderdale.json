@@ -1,0 +1,323 @@
+{
+ "key": "florida/fort-lauderdale",
+ "place": "Fort Lauderdale",
+ "id": "8722956",
+ "noaaName": "South Port Everglades, ICWW",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 26.0817,
+ "lng": -80.1167,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 2.78,
+  "MHW": 2.65,
+  "MSL": 1.41,
+  "MTL": 1.4,
+  "MLW": 0.15,
+  "MLLW": 0,
+  "GT": 2.79,
+  "MN": 2.5,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 2.73,
+  "springRange": 3.51,
+  "neapRange": 2.04,
+  "oneHighShare": 0.07,
+  "highInequality": 0.24,
+  "lowInequality": 0.33,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30371821,
+   "h": 3.75,
+   "date": "2027-09-30"
+  },
+  "minLow": {
+   "t": 30011474,
+   "h": -0.79,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30371821,
+    "h": 3.75,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30373309,
+    "h": 3.74,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30413562,
+    "h": 3.74,
+    "date": "2027-10-29"
+   },
+   {
+    "t": 29885140,
+    "h": 3.73,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 30412075,
+    "h": 3.71,
+    "date": "2027-10-28"
+   },
+   {
+    "t": 29886630,
+    "h": 3.7,
+    "date": "2026-10-28"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011474,
+    "h": -0.79,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30245459,
+    "h": -0.78,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30009981,
+    "h": -0.76,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30246953,
+    "h": -0.76,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30243965,
+    "h": -0.72,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 30012966,
+    "h": -0.71,
+    "date": "2027-01-24"
+   }
+  ],
+  "negativeLows": 253,
+  "negativeLowDays": 190,
+  "meanHigh": 2.71,
+  "meanLow": 0.24
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8722957",
+   "name": "Whiskey Creek, north end",
+   "type": "S",
+   "miles": 0.3,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -23,
+    "timeOffsetLowTide": -6,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.28,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722951",
+   "name": "Port Everglades, Turning Basin",
+   "type": "S",
+   "miles": 0.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -29,
+    "timeOffsetLowTide": -9,
+    "heightOffsetHighTide": 1.09,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722946",
+   "name": "Mayan Lake",
+   "type": "S",
+   "miles": 1.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 20,
+    "timeOffsetLowTide": 62,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722968",
+   "name": "Port Laudania, Dania cut-off Canal",
+   "type": "S",
+   "miles": 1.7,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": 11,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.21,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722971",
+   "name": "Whiskey Creek, south entrance, ICWW",
+   "type": "S",
+   "miles": 1.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": 31,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722939",
+   "name": "Bahia Mar Yacht Club",
+   "type": "S",
+   "miles": 2.2,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 33,
+    "heightOffsetHighTide": 1.05,
+    "heightOffsetLowTide": 1.21,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722977",
+   "name": "Hollywood Beach, West Lake, north end",
+   "type": "S",
+   "miles": 2.7,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 68,
+    "timeOffsetLowTide": 102,
+    "heightOffsetHighTide": 0.85,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722979",
+   "name": "Hollywood Beach",
+   "type": "S",
+   "miles": 2.9,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 37,
+    "timeOffsetLowTide": 101,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722937",
+   "name": "Fort Lauderdale, Andrews Ave. Bridge",
+   "type": "R",
+   "miles": 3.1,
+   "direction": "NW"
+  },
+  {
+   "id": "8722982",
+   "name": "Hollywood Beach, West Lake, south end",
+   "type": "S",
+   "miles": 3.4,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 62,
+    "timeOffsetLowTide": 105,
+    "heightOffsetHighTide": 0.88,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8722899",
+   "name": "Lauderdale-by-the-Sea, Anglin Fishing Pier",
+   "type": "R",
+   "miles": 7.5,
+   "direction": "N"
+  },
+  {
+   "id": "8723026",
+   "name": "Golden Beach, ICWW",
+   "type": "S",
+   "miles": 8.0,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 73,
+    "timeOffsetLowTide": 117,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8723044",
+   "name": "Dumfoundling Bay",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 77,
+    "timeOffsetLowTide": 127,
+    "heightOffsetHighTide": 0.88,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8723050",
+   "name": "North Miami Beach, Newport Fishing Pier",
+   "type": "S",
+   "miles": 10.5,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": -22,
+    "timeOffsetLowTide": 0,
+    "heightOffsetHighTide": 1.08,
+    "heightOffsetLowTide": 1.21,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8723087",
+   "name": "Sunny Isles, Biscayne Creek",
+   "type": "S",
+   "miles": 10.6,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 120,
+    "timeOffsetLowTide": 144,
+    "heightOffsetHighTide": 0.77,
+    "heightOffsetLowTide": 0.71,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

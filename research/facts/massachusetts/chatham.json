@@ -1,0 +1,195 @@
+{
+ "key": "massachusetts/chatham",
+ "place": "Chatham",
+ "id": "8447505",
+ "noaaName": "Chatham, Stage Harbor",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 41.6667,
+ "lng": -69.9667,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 4.58,
+  "MHW": 4.21,
+  "MSL": 2.34,
+  "MTL": 2.24,
+  "MLW": 0.26,
+  "MLLW": 0,
+  "GT": 4.58,
+  "MN": 3.95,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 4.29,
+  "springRange": 5.27,
+  "neapRange": 3.33,
+  "oneHighShare": 0.07,
+  "highInequality": 0.79,
+  "lowInequality": 0.41,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29928580,
+   "h": 5.45,
+   "date": "2026-11-26"
+  },
+  "minLow": {
+   "t": 29970709,
+   "h": -0.55,
+   "date": "2026-12-25"
+  },
+  "topHighs": [
+   {
+    "t": 29928580,
+    "h": 5.45,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 29970328,
+    "h": 5.44,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 29930075,
+    "h": 5.42,
+    "date": "2026-11-27"
+   },
+   {
+    "t": 29968832,
+    "h": 5.41,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30246060,
+    "h": 5.41,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30247556,
+    "h": 5.39,
+    "date": "2027-07-06"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 29970709,
+    "h": -0.55,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 29928966,
+    "h": -0.54,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 29969216,
+    "h": -0.53,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29927473,
+    "h": -0.52,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 29972202,
+    "h": -0.51,
+    "date": "2026-12-26"
+   },
+   {
+    "t": 30012447,
+    "h": -0.5,
+    "date": "2027-01-23"
+   }
+  ],
+  "negativeLows": 145,
+  "negativeLowDays": 131,
+  "meanHigh": 4.15,
+  "meanLow": 0.43
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8447435",
+   "name": "Chatham Harbor, Aunt Lydias Cove",
+   "type": "R",
+   "miles": 1.7,
+   "direction": "NE"
+  },
+  {
+   "id": "8447495",
+   "name": "Saquatucket Harbor",
+   "type": "R",
+   "miles": 4.6,
+   "direction": "W"
+  },
+  {
+   "id": "8447291",
+   "name": "Pleasant Bay",
+   "type": "S",
+   "miles": 4.9,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 148,
+    "timeOffsetLowTide": 207,
+    "heightOffsetHighTide": 0.34,
+    "heightOffsetLowTide": 0.34,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447506",
+   "name": "Wychmere Harbor",
+   "type": "S",
+   "miles": 5.1,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 52,
+    "timeOffsetLowTide": 25,
+    "heightOffsetHighTide": 0.39,
+    "heightOffsetLowTide": 0.39,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447525",
+   "name": "Dennisport",
+   "type": "S",
+   "miles": 7.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 63,
+    "timeOffsetLowTide": 38,
+    "heightOffsetHighTide": 0.36,
+    "heightOffsetLowTide": 0.36,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447504",
+   "name": "South Yarmouth, Bass River",
+   "type": "S",
+   "miles": 11.2,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 108,
+    "timeOffsetLowTide": 106,
+    "heightOffsetHighTide": 0.29,
+    "heightOffsetLowTide": 0.29,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8447241",
+   "name": "Sesuit Harbor, East Dennis",
+   "type": "R",
+   "miles": 11.4,
+   "direction": "NW"
+  }
+ ]
+}

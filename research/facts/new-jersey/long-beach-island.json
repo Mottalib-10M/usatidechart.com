@@ -1,0 +1,421 @@
+{
+ "key": "new-jersey/long-beach-island",
+ "place": "Long Beach Island",
+ "id": "8533615",
+ "noaaName": "Barnegat Inlet, USCG Station",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 39.7617,
+ "lng": -74.1117,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 2.51,
+  "MHW": 2.27,
+  "MSL": 1.16,
+  "MTL": 1.2,
+  "MLW": 0.12,
+  "MLLW": 0,
+  "GT": 2.51,
+  "MN": 2.15,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 2.59,
+  "springRange": 3.2,
+  "neapRange": 1.98,
+  "oneHighShare": 0.07,
+  "highInequality": 0.51,
+  "lowInequality": 0.13,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373263,
+   "h": 3.21,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30012220,
+   "h": -0.76,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373263,
+    "h": 3.21,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30374749,
+    "h": 3.18,
+    "date": "2027-10-02"
+   },
+   {
+    "t": 29885089,
+    "h": 3.17,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 30287549,
+    "h": 3.16,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30371777,
+    "h": 3.16,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 29886575,
+    "h": 3.15,
+    "date": "2026-10-28"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012220,
+    "h": -0.76,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013706,
+    "h": -0.76,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30053955,
+    "h": -0.72,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30055437,
+    "h": -0.71,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30015192,
+    "h": -0.7,
+    "date": "2027-01-25"
+   },
+   {
+    "t": 30010734,
+    "h": -0.69,
+    "date": "2027-01-22"
+   }
+  ],
+  "negativeLows": 412,
+  "negativeLowDays": 251,
+  "meanHigh": 2.32,
+  "meanLow": 0.03
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8533631",
+   "name": "High Bar",
+   "type": "S",
+   "miles": 0.9,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 64,
+    "timeOffsetLowTide": 115,
+    "heightOffsetHighTide": 0.12,
+    "heightOffsetLowTide": 0.12,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533535",
+   "name": "Island Beach, Sedge Islands",
+   "type": "S",
+   "miles": 2.0,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 180,
+    "timeOffsetLowTide": 236,
+    "heightOffsetHighTide": 0.07,
+    "heightOffsetLowTide": 0.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533738",
+   "name": "Loveladies Harbor",
+   "type": "S",
+   "miles": 2.9,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 182,
+    "timeOffsetLowTide": 219,
+    "heightOffsetHighTide": 0.1,
+    "heightOffsetLowTide": 0.1,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533541",
+   "name": "Waretown",
+   "type": "S",
+   "miles": 4.3,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 163,
+    "timeOffsetLowTide": 180,
+    "heightOffsetHighTide": 0.07,
+    "heightOffsetLowTide": 0.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533665",
+   "name": "Double Creek",
+   "type": "S",
+   "miles": 4.9,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 183,
+    "timeOffsetLowTide": 213,
+    "heightOffsetHighTide": 0.07,
+    "heightOffsetLowTide": 0.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533465",
+   "name": "Oyster Creek",
+   "type": "S",
+   "miles": 5.2,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 210,
+    "timeOffsetLowTide": 216,
+    "heightOffsetHighTide": 0.06,
+    "heightOffsetLowTide": 0.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533391",
+   "name": "Forked River",
+   "type": "S",
+   "miles": 5.5,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 188,
+    "timeOffsetLowTide": 200,
+    "heightOffsetHighTide": 0.07,
+    "heightOffsetLowTide": 0.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533780",
+   "name": "Flat Creek",
+   "type": "S",
+   "miles": 5.7,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 213,
+    "timeOffsetLowTide": 275,
+    "heightOffsetHighTide": 0.18,
+    "heightOffsetLowTide": 0.18,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533365",
+   "name": "Stouts Creek",
+   "type": "R",
+   "miles": 6.1,
+   "direction": "N"
+  },
+  {
+   "id": "8533345",
+   "name": "Island Beach",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 184,
+    "timeOffsetLowTide": 208,
+    "heightOffsetHighTide": 0.08,
+    "heightOffsetLowTide": 0.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533862",
+   "name": "North Beach",
+   "type": "S",
+   "miles": 6.5,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 182,
+    "timeOffsetLowTide": 247,
+    "heightOffsetHighTide": 0.22,
+    "heightOffsetLowTide": 0.22,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533295",
+   "name": "Cedar Creek",
+   "type": "S",
+   "miles": 7.8,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 203,
+    "timeOffsetLowTide": 225,
+    "heightOffsetHighTide": 0.08,
+    "heightOffsetLowTide": 0.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533935",
+   "name": "Manahawkin Drawbridge",
+   "type": "S",
+   "miles": 8.4,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 167,
+    "timeOffsetLowTide": 219,
+    "heightOffsetHighTide": 0.27,
+    "heightOffsetLowTide": 0.27,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533909",
+   "name": "Manahawkin Creek",
+   "type": "S",
+   "miles": 8.6,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 170,
+    "timeOffsetLowTide": 231,
+    "heightOffsetHighTide": 0.27,
+    "heightOffsetLowTide": 0.27,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533905",
+   "name": "Mill Creek, 1 n.mi. above entrance",
+   "type": "S",
+   "miles": 9.2,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 152,
+    "timeOffsetLowTide": 213,
+    "heightOffsetHighTide": 0.35,
+    "heightOffsetLowTide": 0.35,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533185",
+   "name": "Sloop Creek",
+   "type": "S",
+   "miles": 10.0,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 218,
+    "timeOffsetLowTide": 241,
+    "heightOffsetHighTide": 0.08,
+    "heightOffsetLowTide": 0.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533941",
+   "name": "Cedar Run",
+   "type": "S",
+   "miles": 10.7,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 130,
+    "timeOffsetLowTide": 176,
+    "heightOffsetHighTide": 0.4,
+    "heightOffsetLowTide": 0.4,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533141",
+   "name": "Barnegat Pier",
+   "type": "S",
+   "miles": 10.8,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 215,
+    "timeOffsetLowTide": 235,
+    "heightOffsetHighTide": 0.08,
+    "heightOffsetLowTide": 0.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533982",
+   "name": "Dinner Point Creek, upper end",
+   "type": "S",
+   "miles": 11.1,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 161,
+    "timeOffsetLowTide": 197,
+    "heightOffsetHighTide": 0.4,
+    "heightOffsetLowTide": 0.4,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8533135",
+   "name": "Seaside Park",
+   "type": "S",
+   "miles": 11.2,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 220,
+    "timeOffsetLowTide": 245,
+    "heightOffsetHighTide": 0.08,
+    "heightOffsetLowTide": 0.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8534048",
+   "name": "Beach Haven Crest",
+   "type": "S",
+   "miles": 11.5,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 133,
+    "timeOffsetLowTide": 179,
+    "heightOffsetHighTide": 0.38,
+    "heightOffsetLowTide": 0.32,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

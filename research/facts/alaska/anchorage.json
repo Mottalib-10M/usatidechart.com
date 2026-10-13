@@ -1,0 +1,135 @@
+{
+ "key": "alaska/anchorage",
+ "place": "Anchorage",
+ "id": "9455920",
+ "noaaName": "ANCHORAGE, Knik Arm",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 61.2375,
+ "lng": -149.8904,
+ "tz": "America/Anchorage",
+ "offsets": null,
+ "datums": {
+  "MHHW": 29.16,
+  "MHW": 28.43,
+  "MSL": 16.47,
+  "MTL": 15.34,
+  "MLW": 2.25,
+  "MLLW": 0,
+  "GT": 29.16,
+  "MN": 26.19,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 28.1,
+  "springRange": 33.62,
+  "neapRange": 22.22,
+  "oneHighShare": 0.07,
+  "highInequality": 1.74,
+  "lowInequality": 4.98,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30330244,
+   "h": 32.92,
+   "date": "2027-09-01"
+  },
+  "minLow": {
+   "t": 30013192,
+   "h": -4.53,
+   "date": "2027-01-24"
+  },
+  "topHighs": [
+   {
+    "t": 30330244,
+    "h": 32.92,
+    "date": "2027-09-01"
+   },
+   {
+    "t": 30374199,
+    "h": 32.92,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30333949,
+    "h": 32.9,
+    "date": "2027-09-03"
+   },
+   {
+    "t": 30012761,
+    "h": 32.88,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30331729,
+    "h": 32.79,
+    "date": "2027-09-02"
+   },
+   {
+    "t": 29886022,
+    "h": 32.76,
+    "date": "2026-10-27"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30013192,
+    "h": -4.53,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30011710,
+    "h": -4.4,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30248672,
+    "h": -4.02,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30247189,
+    "h": -3.98,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30288930,
+    "h": -3.94,
+    "date": "2027-08-03"
+   },
+   {
+    "t": 30014672,
+    "h": -3.9,
+    "date": "2027-01-25"
+   }
+  ],
+  "negativeLows": 207,
+  "negativeLowDays": 195,
+  "meanHigh": 28.18,
+  "meanLow": 3.14
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "9455934",
+   "name": "Port MacKenzie",
+   "type": "R",
+   "miles": 2.3,
+   "direction": "NW"
+  },
+  {
+   "id": "9455963",
+   "name": "Goose Creek, Knik Arm, Cook Inlet",
+   "type": "R",
+   "miles": 10.9,
+   "direction": "N"
+  },
+  {
+   "id": "9455912",
+   "name": "Fire Island",
+   "type": "R",
+   "miles": 11.6,
+   "direction": "W"
+  }
+ ]
+}

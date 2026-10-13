@@ -1,0 +1,155 @@
+{
+ "key": "florida/daytona-beach",
+ "place": "Daytona Beach",
+ "id": "8721120",
+ "noaaName": "Daytona Beach Shores, Sunglow Pier",
+ "type": "S",
+ "referenceId": "8720030",
+ "referenceName": "Fernandina Beach, Amelia River",
+ "lat": 29.1467,
+ "lng": -80.9633,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8720030",
+  "heightOffsetHighTide": 0.65,
+  "heightOffsetLowTide": 0.84,
+  "timeOffsetHighTide": -56,
+  "timeOffsetLowTide": -42,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 4.03,
+  "springRange": 5.08,
+  "neapRange": 2.99,
+  "oneHighShare": 0.07,
+  "highInequality": 0.49,
+  "lowInequality": 0.26,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373289,
+   "h": 5.12,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30011461,
+   "h": -1.27,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373289,
+    "h": 5.12,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30371800,
+    "h": 5.1,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30413539,
+    "h": 5.1,
+    "date": "2027-10-29"
+   },
+   {
+    "t": 29885114,
+    "h": 5.06,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 30415026,
+    "h": 5.06,
+    "date": "2027-10-30"
+   },
+   {
+    "t": 29886607,
+    "h": 5.05,
+    "date": "2026-10-28"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011461,
+    "h": -1.27,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012953,
+    "h": -1.21,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009967,
+    "h": -1.16,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053207,
+    "h": -1.15,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054697,
+    "h": -1.1,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30051714,
+    "h": -1.05,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 242,
+  "negativeLowDays": 163,
+  "meanHigh": 4,
+  "meanLow": 0.32
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8721138",
+   "name": "Ponce Inlet, Halifax River",
+   "type": "S",
+   "miles": 4.8,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8723178",
+    "timeOffsetHighTide": 5,
+    "timeOffsetLowTide": 33,
+    "heightOffsetHighTide": 1.18,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8721147",
+   "name": "Ponce de Leon Inlet",
+   "type": "R",
+   "miles": 6.4,
+   "direction": "SE"
+  },
+  {
+   "id": "8721164",
+   "name": "New Smyrna Beach",
+   "type": "R",
+   "miles": 8.9,
+   "direction": "S"
+  },
+  {
+   "id": "8720954",
+   "name": "Ormond Beach, Halifax River",
+   "type": "S",
+   "miles": 11.0,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8720030",
+    "timeOffsetHighTide": 197,
+    "timeOffsetLowTide": 271,
+    "heightOffsetHighTide": 0.11,
+    "heightOffsetLowTide": 0.45,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

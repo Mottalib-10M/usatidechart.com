@@ -1,0 +1,329 @@
+{
+ "key": "rhode-island/newport",
+ "place": "Newport",
+ "id": "8452660",
+ "noaaName": "NEWPORT",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 41.5043,
+ "lng": -71.3261,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 3.85,
+  "MHW": 3.61,
+  "MSL": 1.74,
+  "MTL": 1.88,
+  "MLW": 0.14,
+  "MLLW": 0,
+  "GT": 3.85,
+  "MN": 3.47,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 3.65,
+  "springRange": 4.86,
+  "neapRange": 2.57,
+  "oneHighShare": 0.07,
+  "highInequality": 0.47,
+  "lowInequality": 0.16,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30371782,
+   "h": 4.99,
+   "date": "2027-09-30"
+  },
+  "minLow": {
+   "t": 30011414,
+   "h": -0.82,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30371782,
+    "h": 4.99,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30373270,
+    "h": 4.97,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30331533,
+    "h": 4.95,
+    "date": "2027-09-02"
+   },
+   {
+    "t": 30330044,
+    "h": 4.88,
+    "date": "2027-09-01"
+   },
+   {
+    "t": 30333022,
+    "h": 4.85,
+    "date": "2027-09-03"
+   },
+   {
+    "t": 30287557,
+    "h": 4.83,
+    "date": "2027-08-02"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011414,
+    "h": -0.82,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012909,
+    "h": -0.78,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009916,
+    "h": -0.77,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053168,
+    "h": -0.77,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054659,
+    "h": -0.74,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 29969659,
+    "h": -0.71,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 261,
+  "negativeLowDays": 158,
+  "meanHigh": 3.56,
+  "meanLow": 0.21
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8453742",
+   "name": "West Jamestown, Dutch Island Harbor",
+   "type": "R",
+   "miles": 3.2,
+   "direction": "W"
+  },
+  {
+   "id": "8453201",
+   "name": "Castle Hill",
+   "type": "S",
+   "miles": 3.4,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 13,
+    "heightOffsetHighTide": 0.94,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8451351",
+   "name": "Sachuest, Flint Point",
+   "type": "S",
+   "miles": 4.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 15,
+    "heightOffsetHighTide": 0.9,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8452555",
+   "name": "Prudence Island, (south end)",
+   "type": "S",
+   "miles": 5.2,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 8,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 1.08,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8453465",
+   "name": "Conanicut Point",
+   "type": "S",
+   "miles": 5.3,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 7,
+    "timeOffsetLowTide": -6,
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8453999",
+   "name": "Beavertail Point",
+   "type": "S",
+   "miles": 5.3,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.98,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8451301",
+   "name": "The Glen",
+   "type": "S",
+   "miles": 5.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -13,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8454341",
+   "name": "Watson Pier, Boston Neck",
+   "type": "S",
+   "miles": 6.1,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -3,
+    "timeOffsetLowTide": 16,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8454049",
+   "name": "Quonset Point",
+   "type": "R",
+   "miles": 7.2,
+   "direction": "NW"
+  },
+  {
+   "id": "8450768",
+   "name": "Sakonnet",
+   "type": "R",
+   "miles": 7.4,
+   "direction": "E"
+  },
+  {
+   "id": "8454538",
+   "name": "Wickford",
+   "type": "R",
+   "miles": 7.7,
+   "direction": "NW"
+  },
+  {
+   "id": "8454658",
+   "name": "Narragansett Pier",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -11,
+    "timeOffsetLowTide": 11,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8451552",
+   "name": "Bristol Ferry",
+   "type": "R",
+   "miles": 9.9,
+   "direction": "N"
+  },
+  {
+   "id": "8450954",
+   "name": "Nannaquaket Neck",
+   "type": "S",
+   "miles": 10.1,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -12,
+    "timeOffsetLowTide": -13,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.01,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8450948",
+   "name": "Anthony Point",
+   "type": "S",
+   "miles": 11.0,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 0,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 1.09,
+    "heightOffsetLowTide": 1.09,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8451929",
+   "name": "Bristol, Bristol Harbor",
+   "type": "S",
+   "miles": 11.6,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 13,
+    "timeOffsetLowTide": 0,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8450898",
+   "name": "North End, Bay Oil pier",
+   "type": "S",
+   "miles": 11.8,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 20,
+    "timeOffsetLowTide": 1,
+    "heightOffsetHighTide": 1.2,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

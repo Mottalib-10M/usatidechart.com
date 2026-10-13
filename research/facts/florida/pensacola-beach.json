@@ -1,0 +1,172 @@
+{
+ "key": "florida/pensacola-beach",
+ "place": "Pensacola Beach",
+ "id": "8729807",
+ "noaaName": "Pensacola Beach Pier",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 30.3275,
+ "lng": -87.1419,
+ "tz": "America/Chicago",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.39,
+  "MHW": 1.31,
+  "MSL": 0.66,
+  "MTL": 0.68,
+  "MLW": 0.06,
+  "MLLW": 0,
+  "GT": 1.39,
+  "MN": 1.25,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.43,
+  "springRange": 2.2,
+  "neapRange": 0.54,
+  "oneHighShare": 0.86,
+  "highInequality": 0.26,
+  "lowInequality": 0.21,
+  "tideType": "diurnal",
+  "maxHigh": {
+   "t": 29887385,
+   "h": 2.19,
+   "date": "2026-10-28"
+  },
+  "minLow": {
+   "t": 30007376,
+   "h": -1,
+   "date": "2027-01-20"
+  },
+  "topHighs": [
+   {
+    "t": 29887385,
+    "h": 2.19,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29888876,
+    "h": 2.16,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29848632,
+    "h": 2.14,
+    "date": "2026-10-02"
+   },
+   {
+    "t": 29885898,
+    "h": 2.12,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29847135,
+    "h": 2.11,
+    "date": "2026-09-30"
+   },
+   {
+    "t": 29850133,
+    "h": 2.1,
+    "date": "2026-10-03"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30007376,
+    "h": -1,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30008857,
+    "h": -0.96,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 29967095,
+    "h": -0.94,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29968590,
+    "h": -0.94,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30005897,
+    "h": -0.93,
+    "date": "2027-01-19"
+   },
+   {
+    "t": 29965606,
+    "h": -0.85,
+    "date": "2026-12-22"
+   }
+  ],
+  "negativeLows": 219,
+  "negativeLowDays": 219,
+  "meanHigh": 1.34,
+  "meanLow": 0.07
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8729806",
+   "name": "Fishing Bend, Santa Rosa Sound",
+   "type": "R",
+   "miles": 0.6,
+   "direction": "N"
+  },
+  {
+   "id": "8729840",
+   "name": "PENSACOLA",
+   "type": "R",
+   "miles": 6.7,
+   "direction": "NW"
+  },
+  {
+   "id": "8729868",
+   "name": "Warrington, 2 miles south of",
+   "type": "S",
+   "miles": 7.9,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8729840",
+    "timeOffsetHighTide": -27,
+    "timeOffsetLowTide": -30,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8729791",
+   "name": "Hernandez Point, Escambia Bay",
+   "type": "R",
+   "miles": 9.2,
+   "direction": "N"
+  },
+  {
+   "id": "8729736",
+   "name": "Woodlawn Beach, Santa Rosa Sound",
+   "type": "R",
+   "miles": 9.8,
+   "direction": "NE"
+  },
+  {
+   "id": "8729887",
+   "name": "Fort McRee Breakwater",
+   "type": "S",
+   "miles": 10.1,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8729840",
+    "timeOffsetHighTide": -83,
+    "timeOffsetLowTide": -34,
+    "heightOffsetHighTide": 0.8,
+    "heightOffsetLowTide": 0.8,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

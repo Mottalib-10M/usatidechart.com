@@ -1,0 +1,158 @@
+{
+ "key": "florida/panama-city-beach",
+ "place": "Panama City Beach",
+ "id": "8729210",
+ "noaaName": "Panama City Beach",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 30.2138,
+ "lng": -85.8786,
+ "tz": "America/Chicago",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.4,
+  "MHW": 1.32,
+  "MSL": 0.67,
+  "MTL": 0.7,
+  "MLW": 0.07,
+  "MLLW": 0,
+  "GT": 1.39,
+  "MN": 1.25,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.42,
+  "springRange": 2.19,
+  "neapRange": 0.54,
+  "oneHighShare": 0.85,
+  "highInequality": 0.26,
+  "lowInequality": 0.24,
+  "tideType": "diurnal",
+  "maxHigh": {
+   "t": 29887358,
+   "h": 2.25,
+   "date": "2026-10-28"
+  },
+  "minLow": {
+   "t": 30007371,
+   "h": -0.99,
+   "date": "2027-01-20"
+  },
+  "topHighs": [
+   {
+    "t": 29887358,
+    "h": 2.25,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29888854,
+    "h": 2.21,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29885875,
+    "h": 2.2,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29927628,
+    "h": 2.19,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 29929115,
+    "h": 2.14,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 29926145,
+    "h": 2.13,
+    "date": "2026-11-24"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30007371,
+    "h": -0.99,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30008857,
+    "h": -0.96,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30005881,
+    "h": -0.93,
+    "date": "2027-01-19"
+   },
+   {
+    "t": 30047639,
+    "h": -0.92,
+    "date": "2027-02-17"
+   },
+   {
+    "t": 30046141,
+    "h": -0.89,
+    "date": "2027-02-16"
+   },
+   {
+    "t": 30049132,
+    "h": -0.85,
+    "date": "2027-02-18"
+   }
+  ],
+  "negativeLows": 218,
+  "negativeLowDays": 217,
+  "meanHigh": 1.35,
+  "meanLow": 0.09
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8729197",
+   "name": "West Bay Creek, West Bay",
+   "type": "R",
+   "miles": 5.6,
+   "direction": "N"
+  },
+  {
+   "id": "8729152",
+   "name": "Alligator Bayou",
+   "type": "S",
+   "miles": 8.0,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8729840",
+    "timeOffsetHighTide": -47,
+    "timeOffsetLowTide": -70,
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8729142",
+   "name": "Sulphur Point, Port of Panama City",
+   "type": "R",
+   "miles": 9.0,
+   "direction": "E"
+  },
+  {
+   "id": "8729136",
+   "name": "Channel entrance",
+   "type": "S",
+   "miles": 10.8,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8729840",
+    "timeOffsetHighTide": -99,
+    "timeOffsetLowTide": -110,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.02,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

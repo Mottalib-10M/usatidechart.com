@@ -1,0 +1,234 @@
+{
+ "key": "connecticut/new-haven",
+ "place": "New Haven",
+ "id": "8465705",
+ "noaaName": "New Haven Harbor, New Haven Reach",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 41.2833,
+ "lng": -72.9083,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 6.72,
+  "MHW": 6.4,
+  "MSL": 3.33,
+  "MTL": 3.32,
+  "MLW": 0.24,
+  "MLLW": 0,
+  "GT": 6.73,
+  "MN": 6.16,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 6.4,
+  "springRange": 7.69,
+  "neapRange": 5.19,
+  "oneHighShare": 0.07,
+  "highInequality": 0.61,
+  "lowInequality": 0.35,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30371988,
+   "h": 7.82,
+   "date": "2027-09-30"
+  },
+  "minLow": {
+   "t": 30012412,
+   "h": -1.12,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30371988,
+    "h": 7.82,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30373474,
+    "h": 7.81,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30331740,
+    "h": 7.74,
+    "date": "2027-09-02"
+   },
+   {
+    "t": 30333229,
+    "h": 7.69,
+    "date": "2027-09-03"
+   },
+   {
+    "t": 30413724,
+    "h": 7.67,
+    "date": "2027-10-29"
+   },
+   {
+    "t": 30370500,
+    "h": 7.65,
+    "date": "2027-09-29"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012412,
+    "h": -1.12,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30010923,
+    "h": -1.06,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30013901,
+    "h": -1.05,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30054150,
+    "h": -1.03,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30052663,
+    "h": -0.98,
+    "date": "2027-02-20"
+   },
+   {
+    "t": 30054892,
+    "h": -0.98,
+    "date": "2027-02-22"
+   }
+  ],
+  "negativeLows": 222,
+  "negativeLowDays": 166,
+  "meanHigh": 6.31,
+  "meanLow": 0.36
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8465692",
+   "name": "Lighthouse Point, New Haven Harbor",
+   "type": "S",
+   "miles": 2.2,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": -4,
+    "timeOffsetLowTide": -7,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.96,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8465233",
+   "name": "Branford, Branford River",
+   "type": "S",
+   "miles": 4.9,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": -13,
+    "heightOffsetHighTide": 0.87,
+    "heightOffsetLowTide": 0.96,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8466573",
+   "name": "Shelton",
+   "type": "S",
+   "miles": 8.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": 46,
+    "timeOffsetLowTide": 79,
+    "heightOffsetHighTide": 1.04,
+    "heightOffsetLowTide": 0.96,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8466375",
+   "name": "Gulf Beach",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": -8,
+    "heightOffsetHighTide": 0.94,
+    "heightOffsetLowTide": 1.04,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8466442",
+   "name": "Milford Harbor",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": -2,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 0.94,
+    "heightOffsetLowTide": 1.04,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8466664",
+   "name": "Long Hill",
+   "type": "S",
+   "miles": 9.4,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": 43,
+    "timeOffsetLowTide": 73,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.04,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8464687",
+   "name": "Sachem Head",
+   "type": "S",
+   "miles": 10.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": -11,
+    "timeOffsetLowTide": -15,
+    "heightOffsetHighTide": 0.8,
+    "heightOffsetLowTide": 0.8,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8466797",
+   "name": "Stratford, I-95 bridge",
+   "type": "S",
+   "miles": 11.9,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8467150",
+    "timeOffsetHighTide": 23,
+    "timeOffsetLowTide": 23,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

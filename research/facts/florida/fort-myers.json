@@ -1,0 +1,136 @@
+{
+ "key": "florida/fort-myers",
+ "place": "Fort Myers",
+ "id": "8725520",
+ "noaaName": "Fort Myers",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 26.6478,
+ "lng": -81.8711,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.32,
+  "MHW": 1.1,
+  "MSL": 0.63,
+  "MTL": 0.63,
+  "MLW": 0.15,
+  "MLLW": 0,
+  "GT": 1.32,
+  "MN": 0.94,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.26,
+  "springRange": 1.66,
+  "neapRange": 0.86,
+  "oneHighShare": 0.09,
+  "highInequality": 0.54,
+  "lowInequality": 0.4,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 29886279,
+   "h": 1.94,
+   "date": "2026-10-28"
+  },
+  "minLow": {
+   "t": 30026277,
+   "h": -0.65,
+   "date": "2027-02-02"
+  },
+  "topHighs": [
+   {
+    "t": 29886279,
+    "h": 1.94,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29887760,
+    "h": 1.92,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29847509,
+    "h": 1.9,
+    "date": "2026-10-01"
+   },
+   {
+    "t": 30285802,
+    "h": 1.9,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30287299,
+    "h": 1.9,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 29884804,
+    "h": 1.89,
+    "date": "2026-10-27"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30026277,
+    "h": -0.65,
+    "date": "2027-02-02"
+   },
+   {
+    "t": 30027755,
+    "h": -0.63,
+    "date": "2027-02-03"
+   },
+   {
+    "t": 30007608,
+    "h": -0.62,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30024793,
+    "h": -0.62,
+    "date": "2027-02-01"
+   },
+   {
+    "t": 30009090,
+    "h": -0.6,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30006121,
+    "h": -0.59,
+    "date": "2027-01-19"
+   }
+  ],
+  "negativeLows": 235,
+  "negativeLowDays": 201,
+  "meanHigh": 1.07,
+  "meanLow": 0.23
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8725451",
+   "name": "Cape Coral Bridge",
+   "type": "R",
+   "miles": 7.0,
+   "direction": "SW"
+  },
+  {
+   "id": "8725418",
+   "name": "Iona Shores",
+   "type": "S",
+   "miles": 10.5,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 68,
+    "timeOffsetLowTide": 100,
+    "heightOffsetHighTide": 0.43,
+    "heightOffsetLowTide": 0.43,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

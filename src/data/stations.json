@@ -1,0 +1,10542 @@
+{
+ "retrieved_at": "2026-10-13",
+ "begin": "2026-10-01",
+ "end": "2027-12-31",
+ "stations": [
+  {
+   "key": "california/san-diego",
+   "slug": "san-diego",
+   "state": "california",
+   "place": "San Diego",
+   "id": "9410170",
+   "noaaName": "SAN DIEGO (Broadway)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 32.7156,
+   "lng": -117.1767,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.73,
+    "MHW": 4.98,
+    "MSL": 2.94,
+    "MTL": 2.96,
+    "MLW": 0.94,
+    "MLLW": 0,
+    "GT": 5.72,
+    "MN": 4.05,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.64,
+    "springRange": 7.74,
+    "neapRange": 3.55,
+    "oneHighShare": 0.1,
+    "highInequality": 1.68,
+    "lowInequality": 2.03,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968829,
+     "h": 7.56,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30009531,
+     "h": -1.97,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29968829,
+      "h": 7.56,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30286322,
+      "h": 7.55,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29967342,
+      "h": 7.46,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30244570,
+      "h": 7.46,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246057,
+      "h": 7.46,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30287809,
+      "h": 7.46,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009531,
+      "h": -1.97,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30011010,
+      "h": -1.96,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969270,
+      "h": -1.88,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967785,
+      "h": -1.81,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30008051,
+      "h": -1.72,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 29970756,
+      "h": -1.71,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 220,
+    "negativeLowDays": 219,
+    "meanHigh": 4.97,
+    "meanLow": 1
+   }
+  },
+  {
+   "key": "california/la-jolla",
+   "slug": "la-jolla",
+   "state": "california",
+   "place": "La Jolla",
+   "id": "9410230",
+   "noaaName": "La Jolla (Scripps Institution Wharf)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 32.8669,
+   "lng": -117.2571,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.32,
+    "MHW": 4.6,
+    "MSL": 2.73,
+    "MTL": 2.75,
+    "MLW": 0.9,
+    "MLLW": 0,
+    "GT": 5.33,
+    "MN": 3.69,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.33,
+    "springRange": 7.32,
+    "neapRange": 3.41,
+    "oneHighShare": 0.1,
+    "highInequality": 1.64,
+    "lowInequality": 2,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30286315,
+     "h": 7.16,
+     "date": "2027-08-01"
+    },
+    "minLow": {
+     "t": 30009528,
+     "h": -1.89,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 30286315,
+      "h": 7.16,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29968823,
+      "h": 7.1,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30244562,
+      "h": 7.08,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246050,
+      "h": 7.06,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30287803,
+      "h": 7.04,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 29967336,
+      "h": 7,
+      "date": "2026-12-23"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009528,
+      "h": -1.89,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29969267,
+      "h": -1.88,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30011007,
+      "h": -1.87,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967782,
+      "h": -1.8,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970753,
+      "h": -1.72,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30008048,
+      "h": -1.67,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 227,
+    "negativeLowDays": 226,
+    "meanHigh": 4.6,
+    "meanLow": 0.92
+   }
+  },
+  {
+   "key": "california/newport-beach",
+   "slug": "newport-beach",
+   "state": "california",
+   "place": "Newport Beach",
+   "id": "9410583",
+   "noaaName": "Balboa Pier, Newport Beach",
+   "type": "S",
+   "referenceId": "9410660",
+   "referenceName": "LOS ANGELES (Outer Harbor)",
+   "lat": 33.6,
+   "lng": -117.9,
+   "tz": "America/Los_Angeles",
+   "offsets": {
+    "refStationId": "9410660",
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 0.96,
+    "timeOffsetHighTide": -9,
+    "timeOffsetLowTide": 0,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.26,
+    "springRange": 7.2,
+    "neapRange": 3.36,
+    "oneHighShare": 0.1,
+    "highInequality": 1.59,
+    "lowInequality": 2.01,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968818,
+     "h": 7,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30009533,
+     "h": -1.85,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29968818,
+      "h": 7,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30286312,
+      "h": 6.93,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29967331,
+      "h": 6.92,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927065,
+      "h": 6.89,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30244559,
+      "h": 6.89,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246048,
+      "h": 6.87,
+      "date": "2027-07-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009533,
+      "h": -1.85,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30011012,
+      "h": -1.82,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969272,
+      "h": -1.8,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967787,
+      "h": -1.73,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30245011,
+      "h": -1.67,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29970758,
+      "h": -1.64,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 227,
+    "negativeLowDays": 226,
+    "meanHigh": 4.57,
+    "meanLow": 0.94
+   }
+  },
+  {
+   "key": "california/long-beach",
+   "slug": "long-beach",
+   "state": "california",
+   "place": "Long Beach",
+   "id": "9410680",
+   "noaaName": "Long Beach, Terminal Island",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 33.7517,
+   "lng": -118.227,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.51,
+    "MHW": 4.77,
+    "MSL": 2.84,
+    "MTL": 2.85,
+    "MLW": 0.94,
+    "MLLW": 0,
+    "GT": 5.51,
+    "MN": 3.84,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.59,
+    "springRange": 7.63,
+    "neapRange": 3.64,
+    "oneHighShare": 0.1,
+    "highInequality": 1.68,
+    "lowInequality": 2.13,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968826,
+     "h": 7.41,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29969272,
+     "h": -1.97,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 29968826,
+      "h": 7.41,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30286320,
+      "h": 7.34,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29967338,
+      "h": 7.33,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30244567,
+      "h": 7.29,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246056,
+      "h": 7.26,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30010584,
+      "h": 7.25,
+      "date": "2027-01-22"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969272,
+      "h": -1.97,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30009533,
+      "h": -1.96,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30011012,
+      "h": -1.94,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967785,
+      "h": -1.89,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970758,
+      "h": -1.8,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30245010,
+      "h": -1.78,
+      "date": "2027-07-04"
+     }
+    ],
+    "negativeLows": 239,
+    "negativeLowDays": 237,
+    "meanHigh": 4.8,
+    "meanLow": 0.94
+   }
+  },
+  {
+   "key": "california/santa-monica",
+   "slug": "santa-monica",
+   "state": "california",
+   "place": "Santa Monica",
+   "id": "9410840",
+   "noaaName": "Santa Monica, Municipal Pier",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 34.0083,
+   "lng": -118.5,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.43,
+    "MHW": 4.69,
+    "MSL": 2.79,
+    "MTL": 2.81,
+    "MLW": 0.93,
+    "MLLW": 0,
+    "GT": 5.43,
+    "MN": 3.76,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.43,
+    "springRange": 7.44,
+    "neapRange": 3.49,
+    "oneHighShare": 0.11,
+    "highInequality": 1.67,
+    "lowInequality": 2.08,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30286324,
+     "h": 7.26,
+     "date": "2027-08-01"
+    },
+    "minLow": {
+     "t": 30009536,
+     "h": -1.93,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 30286324,
+      "h": 7.26,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29968830,
+      "h": 7.25,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30244571,
+      "h": 7.19,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246059,
+      "h": 7.17,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29967344,
+      "h": 7.16,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30287811,
+      "h": 7.13,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009536,
+      "h": -1.93,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29969276,
+      "h": -1.91,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30011016,
+      "h": -1.9,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967791,
+      "h": -1.84,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970763,
+      "h": -1.74,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30008056,
+      "h": -1.71,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 228,
+    "meanHigh": 4.69,
+    "meanLow": 0.96
+   }
+  },
+  {
+   "key": "california/santa-barbara",
+   "slug": "santa-barbara",
+   "state": "california",
+   "place": "Santa Barbara",
+   "id": "9411340",
+   "noaaName": "Santa Barbara",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 34.4046,
+   "lng": -119.6925,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.39,
+    "MHW": 4.64,
+    "MSL": 2.78,
+    "MTL": 2.81,
+    "MLW": 0.97,
+    "MLLW": 0,
+    "GT": 5.39,
+    "MN": 3.66,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.4,
+    "springRange": 7.37,
+    "neapRange": 3.53,
+    "oneHighShare": 0.1,
+    "highInequality": 1.68,
+    "lowInequality": 2.19,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968846,
+     "h": 7.17,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30009555,
+     "h": -1.95,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29968846,
+      "h": 7.17,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30244586,
+      "h": 7.13,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30286339,
+      "h": 7.13,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29967359,
+      "h": 7.11,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30246074,
+      "h": 7.08,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29927094,
+      "h": 7.05,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009555,
+      "h": -1.95,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29969297,
+      "h": -1.91,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30011035,
+      "h": -1.91,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967811,
+      "h": -1.84,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970783,
+      "h": -1.77,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30008074,
+      "h": -1.74,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 229,
+    "meanHigh": 4.65,
+    "meanLow": 1.01
+   }
+  },
+  {
+   "key": "california/monterey",
+   "slug": "monterey",
+   "state": "california",
+   "place": "Monterey",
+   "id": "9413450",
+   "noaaName": "MONTEREY, MONTEREY BAY",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 36.6089,
+   "lng": -121.8914,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.34,
+    "MHW": 4.64,
+    "MSL": 2.83,
+    "MTL": 2.87,
+    "MLW": 1.09,
+    "MLLW": 0,
+    "GT": 5.34,
+    "MN": 3.54,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.34,
+    "springRange": 7.18,
+    "neapRange": 3.7,
+    "oneHighShare": 0.07,
+    "highInequality": 1.54,
+    "lowInequality": 2.44,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968887,
+     "h": 7.03,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29969346,
+     "h": -1.83,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 29968887,
+      "h": 7.03,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967398,
+      "h": 7,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927139,
+      "h": 6.86,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30244626,
+      "h": 6.84,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29970378,
+      "h": 6.83,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30009150,
+      "h": 6.82,
+      "date": "2027-01-21"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969346,
+      "h": -1.83,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30204827,
+      "h": -1.76,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29967859,
+      "h": -1.73,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30009602,
+      "h": -1.72,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30245083,
+      "h": -1.72,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29970833,
+      "h": -1.71,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 231,
+    "negativeLowDays": 231,
+    "meanHigh": 4.64,
+    "meanLow": 1.15
+   }
+  },
+  {
+   "key": "california/santa-cruz",
+   "slug": "santa-cruz",
+   "state": "california",
+   "place": "Santa Cruz",
+   "id": "9413745",
+   "noaaName": "Santa Cruz, Monterey Bay",
+   "type": "S",
+   "referenceId": "9413450",
+   "referenceName": "MONTEREY, MONTEREY BAY",
+   "lat": 36.9583,
+   "lng": -122.017,
+   "tz": "America/Los_Angeles",
+   "offsets": {
+    "refStationId": "9413450",
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.99,
+    "timeOffsetHighTide": -6,
+    "timeOffsetLowTide": -11,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.19,
+    "springRange": 6.98,
+    "neapRange": 3.58,
+    "oneHighShare": 0.07,
+    "highInequality": 1.49,
+    "lowInequality": 2.41,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968881,
+     "h": 6.82,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29969335,
+     "h": -1.81,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 29968881,
+      "h": 6.82,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967392,
+      "h": 6.79,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927133,
+      "h": 6.66,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29970372,
+      "h": 6.63,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30244620,
+      "h": 6.63,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30009144,
+      "h": 6.61,
+      "date": "2027-01-21"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969335,
+      "h": -1.81,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30204816,
+      "h": -1.74,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29967848,
+      "h": -1.71,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30245072,
+      "h": -1.71,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29970822,
+      "h": -1.7,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30009591,
+      "h": -1.7,
+      "date": "2027-01-21"
+     }
+    ],
+    "negativeLows": 231,
+    "negativeLowDays": 231,
+    "meanHigh": 4.5,
+    "meanLow": 1.14
+   }
+  },
+  {
+   "key": "california/half-moon-bay",
+   "slug": "half-moon-bay",
+   "state": "california",
+   "place": "Half Moon Bay",
+   "id": "9414131",
+   "noaaName": "Pillar Point Harbor, Half Moon Bay",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 37.5025,
+   "lng": -122.4822,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.6,
+    "MHW": 4.95,
+    "MSL": 2.99,
+    "MTL": 3.03,
+    "MLW": 1.11,
+    "MLLW": 0,
+    "GT": 5.6,
+    "MN": 3.85,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.58,
+    "springRange": 7.44,
+    "neapRange": 3.85,
+    "oneHighShare": 0.07,
+    "highInequality": 1.41,
+    "lowInequality": 2.43,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968899,
+     "h": 7.22,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29969350,
+     "h": -1.9,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 29968899,
+      "h": 7.22,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967410,
+      "h": 7.17,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30009163,
+      "h": 7.11,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30010656,
+      "h": 7.09,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29970390,
+      "h": 7.04,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30286391,
+      "h": 6.99,
+      "date": "2027-08-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969350,
+      "h": -1.9,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30204829,
+      "h": -1.86,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29967862,
+      "h": -1.85,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30203341,
+      "h": -1.84,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30245086,
+      "h": -1.82,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29927600,
+      "h": -1.77,
+      "date": "2026-11-25"
+     }
+    ],
+    "negativeLows": 232,
+    "negativeLowDays": 232,
+    "meanHigh": 4.93,
+    "meanLow": 1.15
+   }
+  },
+  {
+   "key": "california/san-francisco",
+   "slug": "san-francisco",
+   "state": "california",
+   "place": "San Francisco",
+   "id": "9414290",
+   "noaaName": "SAN FRANCISCO (Golden Gate)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 37.8063,
+   "lng": -122.4659,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.84,
+    "MHW": 5.23,
+    "MSL": 3.12,
+    "MTL": 3.18,
+    "MLW": 1.13,
+    "MLLW": 0,
+    "GT": 5.84,
+    "MN": 4.09,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.8,
+    "springRange": 7.47,
+    "neapRange": 4.24,
+    "oneHighShare": 0.07,
+    "highInequality": 1.24,
+    "lowInequality": 2.57,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968957,
+     "h": 7.23,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29969382,
+     "h": -1.83,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 29968957,
+      "h": 7.23,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967466,
+      "h": 7.19,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30009219,
+      "h": 7.11,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30286448,
+      "h": 7.11,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30010713,
+      "h": 7.09,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30244695,
+      "h": 7.09,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969382,
+      "h": -1.83,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30204861,
+      "h": -1.79,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29967893,
+      "h": -1.74,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30203373,
+      "h": -1.71,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30245120,
+      "h": -1.71,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29970869,
+      "h": -1.7,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 237,
+    "negativeLowDays": 237,
+    "meanHigh": 5.22,
+    "meanLow": 1.2
+   }
+  },
+  {
+   "key": "california/crescent-city",
+   "slug": "crescent-city",
+   "state": "california",
+   "place": "Crescent City",
+   "id": "9419750",
+   "noaaName": "CRESCENT CITY",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.7456,
+   "lng": -124.1844,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 6.87,
+    "MHW": 6.23,
+    "MSL": 3.7,
+    "MTL": 3.74,
+    "MLW": 1.24,
+    "MLLW": 0,
+    "GT": 6.87,
+    "MN": 4.99,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 6.85,
+    "springRange": 8.99,
+    "neapRange": 4.83,
+    "oneHighShare": 0.07,
+    "highInequality": 1.41,
+    "lowInequality": 2.77,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968965,
+     "h": 8.82,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30204881,
+     "h": -2.23,
+     "date": "2027-06-06"
+    },
+    "topHighs": [
+     {
+      "t": 29968965,
+      "h": 8.82,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967474,
+      "h": 8.73,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970457,
+      "h": 8.67,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010720,
+      "h": 8.65,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009226,
+      "h": 8.61,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29927217,
+      "h": 8.56,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30204881,
+      "h": -2.23,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30246625,
+      "h": -2.19,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30245139,
+      "h": -2.17,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30203394,
+      "h": -2.13,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30206370,
+      "h": -2.09,
+      "date": "2027-06-07"
+     },
+     {
+      "t": 29969402,
+      "h": -2.01,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 229,
+    "meanHigh": 6.23,
+    "meanLow": 1.32
+   }
+  },
+  {
+   "key": "oregon/newport",
+   "slug": "newport",
+   "state": "oregon",
+   "place": "Newport",
+   "id": "9435385",
+   "noaaName": "YAQUINA USCG STA, NEWPORT",
+   "type": "S",
+   "referenceId": "9419750",
+   "referenceName": "CRESCENT CITY",
+   "lat": 44.6267,
+   "lng": -124.055,
+   "tz": "America/Los_Angeles",
+   "offsets": {
+    "refStationId": "9419750",
+    "heightOffsetHighTide": 1.22,
+    "heightOffsetLowTide": 1.11,
+    "timeOffsetHighTide": 39,
+    "timeOffsetLowTide": 35,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.36,
+    "springRange": 10.86,
+    "neapRange": 5.99,
+    "oneHighShare": 0.07,
+    "highInequality": 1.72,
+    "lowInequality": 3.07,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29969004,
+     "h": 10.76,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30204916,
+     "h": -2.47,
+     "date": "2027-06-06"
+    },
+    "topHighs": [
+     {
+      "t": 29969004,
+      "h": 10.76,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967513,
+      "h": 10.65,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970496,
+      "h": 10.58,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010759,
+      "h": 10.56,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009265,
+      "h": 10.5,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29927256,
+      "h": 10.44,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30204916,
+      "h": -2.47,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30246660,
+      "h": -2.44,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30245174,
+      "h": -2.41,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30203429,
+      "h": -2.37,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30206405,
+      "h": -2.32,
+      "date": "2027-06-07"
+     },
+     {
+      "t": 29969437,
+      "h": -2.24,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 229,
+    "meanHigh": 7.6,
+    "meanLow": 1.47
+   }
+  },
+  {
+   "key": "oregon/tillamook-bay",
+   "slug": "tillamook-bay",
+   "state": "oregon",
+   "place": "Tillamook Bay",
+   "id": "9437540",
+   "noaaName": "Garibaldi",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 45.5545,
+   "lng": -123.9189,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 8.32,
+    "MHW": 7.61,
+    "MSL": 4.5,
+    "MTL": 4.49,
+    "MLW": 1.37,
+    "MLLW": 0,
+    "GT": 8.32,
+    "MN": 6.24,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.07,
+    "springRange": 10.57,
+    "neapRange": 5.72,
+    "oneHighShare": 0.07,
+    "highInequality": 1.5,
+    "lowInequality": 2.91,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29969051,
+     "h": 10.38,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30246685,
+     "h": -2.49,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 29969051,
+      "h": 10.38,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967558,
+      "h": 10.28,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970544,
+      "h": 10.24,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010805,
+      "h": 10.19,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29927303,
+      "h": 10.13,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30009310,
+      "h": 10.11,
+      "date": "2027-01-21"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246685,
+      "h": -2.49,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30245199,
+      "h": -2.42,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30204941,
+      "h": -2.35,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30248170,
+      "h": -2.26,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30203455,
+      "h": -2.25,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30206429,
+      "h": -2.2,
+      "date": "2027-06-07"
+     }
+    ],
+    "negativeLows": 212,
+    "negativeLowDays": 210,
+    "meanHigh": 7.54,
+    "meanLow": 1.51
+   }
+  },
+  {
+   "key": "oregon/astoria",
+   "slug": "astoria",
+   "state": "oregon",
+   "place": "Astoria",
+   "id": "9439040",
+   "noaaName": "ASTORIA (Tongue Point), Oreg.",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 46.2073,
+   "lng": -123.7683,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 8.61,
+    "MHW": 7.94,
+    "MSL": 4.51,
+    "MTL": 4.55,
+    "MLW": 1.17,
+    "MLLW": 0,
+    "GT": 8.61,
+    "MN": 6.77,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.48,
+    "springRange": 10.7,
+    "neapRange": 6.26,
+    "oneHighShare": 0.07,
+    "highInequality": 1.45,
+    "lowInequality": 2.59,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29969080,
+     "h": 10.61,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30246747,
+     "h": -2.05,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 29969080,
+      "h": 10.61,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967587,
+      "h": 10.53,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970572,
+      "h": 10.46,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29927331,
+      "h": 10.4,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30010837,
+      "h": 10.4,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009342,
+      "h": 10.33,
+      "date": "2027-01-21"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246747,
+      "h": -2.05,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30287000,
+      "h": -1.98,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30245260,
+      "h": -1.96,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30288483,
+      "h": -1.96,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30248230,
+      "h": -1.9,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30205002,
+      "h": -1.78,
+      "date": "2027-06-06"
+     }
+    ],
+    "negativeLows": 231,
+    "negativeLowDays": 226,
+    "meanHigh": 7.9,
+    "meanLow": 1.29
+   }
+  },
+  {
+   "key": "washington/seattle",
+   "slug": "seattle",
+   "state": "washington",
+   "place": "Seattle",
+   "id": "9447130",
+   "noaaName": "SEATTLE (Madison St.), Elliott Bay",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 47.6026,
+   "lng": -122.3393,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 11.36,
+    "MHW": 10.49,
+    "MSL": 6.64,
+    "MTL": 6.66,
+    "MLW": 2.83,
+    "MLLW": 0,
+    "GT": 11.36,
+    "MN": 7.66,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 11.33,
+    "springRange": 14.3,
+    "neapRange": 8.49,
+    "oneHighShare": 0.07,
+    "highInequality": 1.84,
+    "lowInequality": 6.27,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30014836,
+     "h": 13.09,
+     "date": "2027-01-25"
+    },
+    "minLow": {
+     "t": 29969698,
+     "h": -3.93,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 30014836,
+      "h": 13.09,
+      "date": "2027-01-25"
+     },
+     {
+      "t": 30013363,
+      "h": 13.04,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29971642,
+      "h": 13.01,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 29973122,
+      "h": 13,
+      "date": "2026-12-27"
+     },
+     {
+      "t": 30016308,
+      "h": 13,
+      "date": "2027-01-26"
+     },
+     {
+      "t": 29970160,
+      "h": 12.93,
+      "date": "2026-12-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29969698,
+      "h": -3.93,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30245436,
+      "h": -3.93,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30205178,
+      "h": -3.89,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29968210,
+      "h": -3.85,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927951,
+      "h": -3.84,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30203691,
+      "h": -3.83,
+      "date": "2027-06-05"
+     }
+    ],
+    "negativeLows": 241,
+    "negativeLowDays": 241,
+    "meanHigh": 10.52,
+    "meanLow": 2.97
+   }
+  },
+  {
+   "key": "washington/westport",
+   "slug": "westport",
+   "state": "washington",
+   "place": "Westport",
+   "id": "9441102",
+   "noaaName": "Westport, Point Chehalis",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 46.9043,
+   "lng": -124.1051,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 9.14,
+    "MHW": 8.4,
+    "MSL": 4.87,
+    "MTL": 4.9,
+    "MLW": 1.4,
+    "MLLW": 0,
+    "GT": 9.14,
+    "MN": 7.01,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.81,
+    "springRange": 11.42,
+    "neapRange": 6.27,
+    "oneHighShare": 0.07,
+    "highInequality": 1.54,
+    "lowInequality": 2.92,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29969052,
+     "h": 11.27,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30246681,
+     "h": -2.7,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 29969052,
+      "h": 11.27,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29970544,
+      "h": 11.16,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010806,
+      "h": 11.13,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967559,
+      "h": 11.12,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927304,
+      "h": 11.03,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30009311,
+      "h": 10.99,
+      "date": "2027-01-21"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246681,
+      "h": -2.7,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30245195,
+      "h": -2.61,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30204936,
+      "h": -2.48,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30248166,
+      "h": -2.47,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30203449,
+      "h": -2.38,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30286936,
+      "h": -2.36,
+      "date": "2027-08-02"
+     }
+    ],
+    "negativeLows": 202,
+    "negativeLowDays": 199,
+    "meanHigh": 8.32,
+    "meanLow": 1.57
+   }
+  },
+  {
+   "key": "washington/port-townsend",
+   "slug": "port-townsend",
+   "state": "washington",
+   "place": "Port Townsend",
+   "id": "9444900",
+   "noaaName": "PORT TOWNSEND",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 48.1112,
+   "lng": -122.7597,
+   "tz": "America/Los_Angeles",
+   "offsets": null,
+   "datums": {
+    "MHHW": 8.52,
+    "MHW": 7.84,
+    "MSL": 4.99,
+    "MTL": 5.17,
+    "MLW": 2.5,
+    "MLLW": 0,
+    "GT": 8.52,
+    "MN": 5.34,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.65,
+    "springRange": 11.33,
+    "neapRange": 6.26,
+    "oneHighShare": 0.11,
+    "highInequality": 1.52,
+    "lowInequality": 5.7,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29971628,
+     "h": 9.96,
+     "date": "2026-12-26"
+    },
+    "minLow": {
+     "t": 30245380,
+     "h": -3.59,
+     "date": "2027-07-04"
+    },
+    "topHighs": [
+     {
+      "t": 29971628,
+      "h": 9.96,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 29970148,
+      "h": 9.95,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29973106,
+      "h": 9.91,
+      "date": "2026-12-27"
+     },
+     {
+      "t": 29974582,
+      "h": 9.83,
+      "date": "2026-12-28"
+     },
+     {
+      "t": 29968669,
+      "h": 9.81,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30013342,
+      "h": 9.81,
+      "date": "2027-01-24"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30245380,
+      "h": -3.59,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30205121,
+      "h": -3.58,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30203634,
+      "h": -3.57,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 29969641,
+      "h": -3.53,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29968154,
+      "h": -3.52,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29927894,
+      "h": -3.51,
+      "date": "2026-11-25"
+     }
+    ],
+    "negativeLows": 249,
+    "negativeLowDays": 249,
+    "meanHigh": 7.95,
+    "meanLow": 2.6
+   }
+  },
+  {
+   "key": "alaska/anchorage",
+   "slug": "anchorage",
+   "state": "alaska",
+   "place": "Anchorage",
+   "id": "9455920",
+   "noaaName": "ANCHORAGE, Knik Arm",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 61.2375,
+   "lng": -149.8904,
+   "tz": "America/Anchorage",
+   "offsets": null,
+   "datums": {
+    "MHHW": 29.16,
+    "MHW": 28.43,
+    "MSL": 16.47,
+    "MTL": 15.34,
+    "MLW": 2.25,
+    "MLLW": 0,
+    "GT": 29.16,
+    "MN": 26.19,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 28.1,
+    "springRange": 33.62,
+    "neapRange": 22.22,
+    "oneHighShare": 0.07,
+    "highInequality": 1.74,
+    "lowInequality": 4.98,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30330244,
+     "h": 32.92,
+     "date": "2027-09-01"
+    },
+    "minLow": {
+     "t": 30013192,
+     "h": -4.53,
+     "date": "2027-01-24"
+    },
+    "topHighs": [
+     {
+      "t": 30330244,
+      "h": 32.92,
+      "date": "2027-09-01"
+     },
+     {
+      "t": 30374199,
+      "h": 32.92,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30333949,
+      "h": 32.9,
+      "date": "2027-09-03"
+     },
+     {
+      "t": 30012761,
+      "h": 32.88,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30331729,
+      "h": 32.79,
+      "date": "2027-09-02"
+     },
+     {
+      "t": 29886022,
+      "h": 32.76,
+      "date": "2026-10-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30013192,
+      "h": -4.53,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30011710,
+      "h": -4.4,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30248672,
+      "h": -4.02,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30247189,
+      "h": -3.98,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30288930,
+      "h": -3.94,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30014672,
+      "h": -3.9,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 207,
+    "negativeLowDays": 195,
+    "meanHigh": 28.18,
+    "meanLow": 3.14
+   }
+  },
+  {
+   "key": "alaska/homer",
+   "slug": "homer",
+   "state": "alaska",
+   "place": "Homer",
+   "id": "9455558",
+   "noaaName": "Homer, Coal Point, Kachemak Bay",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 59.6014,
+   "lng": -151.4106,
+   "tz": "America/Anchorage",
+   "offsets": null,
+   "datums": {
+    "MHHW": 18.43,
+    "MHW": 17.59,
+    "MSL": 9.73,
+    "MTL": 9.63,
+    "MLW": 1.66,
+    "MLLW": 0,
+    "GT": 18.43,
+    "MN": 15.94,
+    "epoch": "2012-2016"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 18.16,
+    "springRange": 24.69,
+    "neapRange": 11.77,
+    "oneHighShare": 0.07,
+    "highInequality": 1.78,
+    "lowInequality": 3.99,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30372439,
+     "h": 22.69,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30246851,
+     "h": -5.31,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 30372439,
+      "h": 22.69,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373914,
+      "h": 22.67,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29927478,
+      "h": 22.61,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30012476,
+      "h": 22.57,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30332187,
+      "h": 22.47,
+      "date": "2027-09-02"
+     },
+     {
+      "t": 29969229,
+      "h": 22.46,
+      "date": "2026-12-24"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246851,
+      "h": -5.31,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30245364,
+      "h": -5.06,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30205102,
+      "h": -5.04,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 29969626,
+      "h": -5.03,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30203616,
+      "h": -4.97,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30288594,
+      "h": -4.96,
+      "date": "2027-08-03"
+     }
+    ],
+    "negativeLows": 249,
+    "negativeLowDays": 228,
+    "meanHigh": 17.54,
+    "meanLow": 1.99
+   }
+  },
+  {
+   "key": "alaska/seward",
+   "slug": "seward",
+   "state": "alaska",
+   "place": "Seward",
+   "id": "9455090",
+   "noaaName": "Seward, Resurrection Bay",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 60.1193,
+   "lng": -149.4281,
+   "tz": "America/Anchorage",
+   "offsets": null,
+   "datums": {
+    "MHHW": 10.63,
+    "MHW": 9.71,
+    "MSL": 5.56,
+    "MTL": 5.55,
+    "MLW": 1.38,
+    "MLLW": 0,
+    "GT": 10.62,
+    "MN": 8.33,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 10.51,
+    "springRange": 14.05,
+    "neapRange": 7,
+    "oneHighShare": 0.07,
+    "highInequality": 1.99,
+    "lowInequality": 3.1,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29927394,
+     "h": 13.71,
+     "date": "2026-11-25"
+    },
+    "minLow": {
+     "t": 30246785,
+     "h": -3.31,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 29927394,
+      "h": 13.71,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29969143,
+      "h": 13.7,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29928879,
+      "h": 13.58,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29970633,
+      "h": 13.57,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29925910,
+      "h": 13.46,
+      "date": "2026-11-24"
+     },
+     {
+      "t": 29967653,
+      "h": 13.44,
+      "date": "2026-12-23"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246785,
+      "h": -3.31,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30205038,
+      "h": -3.16,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30245301,
+      "h": -3.13,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30248269,
+      "h": -3.08,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30203553,
+      "h": -3.02,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30206526,
+      "h": -2.96,
+      "date": "2027-06-07"
+     }
+    ],
+    "negativeLows": 231,
+    "negativeLowDays": 223,
+    "meanHigh": 9.72,
+    "meanLow": 1.56
+   }
+  },
+  {
+   "key": "alaska/juneau",
+   "slug": "juneau",
+   "state": "alaska",
+   "place": "Juneau",
+   "id": "9452210",
+   "noaaName": "Juneau",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 58.2988,
+   "lng": -134.4106,
+   "tz": "America/Anchorage",
+   "offsets": null,
+   "datums": {
+    "MHHW": 16.3,
+    "MHW": 15.34,
+    "MSL": 8.58,
+    "MTL": 8.47,
+    "MLW": 1.6,
+    "MLLW": 0,
+    "GT": 16.31,
+    "MN": 13.74,
+    "epoch": "2012-2016"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 15.96,
+    "springRange": 21.39,
+    "neapRange": 10.45,
+    "oneHighShare": 0.07,
+    "highInequality": 2.06,
+    "lowInequality": 3.54,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29969145,
+     "h": 19.94,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 30246767,
+     "h": -4.47,
+     "date": "2027-07-05"
+    },
+    "topHighs": [
+     {
+      "t": 29969145,
+      "h": 19.94,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29927394,
+      "h": 19.92,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29970635,
+      "h": 19.9,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30012389,
+      "h": 19.88,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30010900,
+      "h": 19.78,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29928880,
+      "h": 19.71,
+      "date": "2026-11-26"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30246767,
+      "h": -4.47,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30288509,
+      "h": -4.32,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30012773,
+      "h": -4.28,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30248252,
+      "h": -4.25,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30011290,
+      "h": -4.24,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969543,
+      "h": -4.15,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 242,
+    "negativeLowDays": 221,
+    "meanHigh": 15.24,
+    "meanLow": 1.84
+   }
+  },
+  {
+   "key": "hawaii/honolulu",
+   "slug": "honolulu",
+   "state": "hawaii",
+   "place": "Honolulu",
+   "id": "1612340",
+   "noaaName": "HONOLULU",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 21.3033,
+   "lng": -157.8645,
+   "tz": "Pacific/Honolulu",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.9,
+    "MHW": 1.44,
+    "MSL": 0.82,
+    "MTL": 0.8,
+    "MLW": 0.16,
+    "MLLW": 0,
+    "GT": 1.9,
+    "MN": 1.28,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.93,
+    "springRange": 2.5,
+    "neapRange": 1.42,
+    "oneHighShare": 0.08,
+    "highInequality": 1.08,
+    "lowInequality": 0.37,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30244449,
+     "h": 2.67,
+     "date": "2027-07-03"
+    },
+    "minLow": {
+     "t": 30008520,
+     "h": -0.41,
+     "date": "2027-01-20"
+    },
+    "topHighs": [
+     {
+      "t": 30244449,
+      "h": 2.67,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29968711,
+      "h": 2.66,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30245932,
+      "h": 2.65,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30286188,
+      "h": 2.65,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29926962,
+      "h": 2.63,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29967225,
+      "h": 2.63,
+      "date": "2026-12-23"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008520,
+      "h": -0.41,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010012,
+      "h": -0.41,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29968250,
+      "h": -0.4,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29966762,
+      "h": -0.39,
+      "date": "2026-12-22"
+     },
+     {
+      "t": 30007025,
+      "h": -0.36,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 30202240,
+      "h": -0.36,
+      "date": "2027-06-04"
+     }
+    ],
+    "negativeLows": 243,
+    "negativeLowDays": 228,
+    "meanHigh": 1.44,
+    "meanLow": 0.18
+   }
+  },
+  {
+   "key": "hawaii/kahului",
+   "slug": "kahului",
+   "state": "hawaii",
+   "place": "Kahului",
+   "id": "1615680",
+   "noaaName": "KAHULUI",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 20.8949,
+   "lng": -156.469,
+   "tz": "Pacific/Honolulu",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.25,
+    "MHW": 1.9,
+    "MSL": 1.12,
+    "MTL": 1.11,
+    "MLW": 0.33,
+    "MLLW": 0,
+    "GT": 2.25,
+    "MN": 1.57,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.29,
+    "springRange": 3.14,
+    "neapRange": 1.47,
+    "oneHighShare": 0.2,
+    "highInequality": 0.9,
+    "lowInequality": 0.86,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30286121,
+     "h": 3.08,
+     "date": "2027-08-01"
+    },
+    "minLow": {
+     "t": 29968179,
+     "h": -0.78,
+     "date": "2026-12-23"
+    },
+    "topHighs": [
+     {
+      "t": 30286121,
+      "h": 3.08,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30245860,
+      "h": 3.06,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30287594,
+      "h": 3.06,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30244381,
+      "h": 3.03,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29968639,
+      "h": 3.01,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30247338,
+      "h": 3.01,
+      "date": "2027-07-05"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29968179,
+      "h": -0.78,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30009938,
+      "h": -0.76,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29969664,
+      "h": -0.74,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29966694,
+      "h": -0.71,
+      "date": "2026-12-22"
+     },
+     {
+      "t": 30008451,
+      "h": -0.71,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30203650,
+      "h": -0.71,
+      "date": "2027-06-05"
+     }
+    ],
+    "negativeLows": 234,
+    "negativeLowDays": 233,
+    "meanHigh": 1.9,
+    "meanLow": 0.36
+   }
+  },
+  {
+   "key": "hawaii/hilo",
+   "slug": "hilo",
+   "state": "hawaii",
+   "place": "Hilo",
+   "id": "1617760",
+   "noaaName": "HILO",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 19.7303,
+   "lng": -155.0556,
+   "tz": "Pacific/Honolulu",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.4,
+    "MHW": 1.97,
+    "MSL": 1.15,
+    "MTL": 1.14,
+    "MLW": 0.3,
+    "MLLW": 0,
+    "GT": 2.4,
+    "MN": 1.67,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.41,
+    "springRange": 3.29,
+    "neapRange": 1.61,
+    "oneHighShare": 0.11,
+    "highInequality": 1.01,
+    "lowInequality": 0.71,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968667,
+     "h": 3.27,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29968220,
+     "h": -0.69,
+     "date": "2026-12-23"
+    },
+    "topHighs": [
+     {
+      "t": 29968667,
+      "h": 3.27,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30245889,
+      "h": 3.24,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30286146,
+      "h": 3.24,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29926914,
+      "h": 3.23,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29970152,
+      "h": 3.23,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30287624,
+      "h": 3.22,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29968220,
+      "h": -0.69,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30009976,
+      "h": -0.69,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30202210,
+      "h": -0.67,
+      "date": "2027-06-04"
+     },
+     {
+      "t": 30203693,
+      "h": -0.67,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30243959,
+      "h": -0.65,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29966733,
+      "h": -0.64,
+      "date": "2026-12-22"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 226,
+    "meanHigh": 1.97,
+    "meanLow": 0.33
+   }
+  },
+  {
+   "key": "hawaii/kailua-kona",
+   "slug": "kailua-kona",
+   "state": "hawaii",
+   "place": "Kailua-Kona",
+   "id": "1617846",
+   "noaaName": "Kailua Kona",
+   "type": "S",
+   "referenceId": "1617760",
+   "referenceName": "HILO",
+   "lat": 19.6433,
+   "lng": -156,
+   "tz": "Pacific/Honolulu",
+   "offsets": {
+    "refStationId": "1617760",
+    "heightOffsetHighTide": 0.8,
+    "heightOffsetLowTide": 0.67,
+    "timeOffsetHighTide": 38,
+    "timeOffsetLowTide": 37,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.93,
+    "springRange": 2.58,
+    "neapRange": 1.33,
+    "oneHighShare": 0.1,
+    "highInequality": 0.81,
+    "lowInequality": 0.47,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29968705,
+     "h": 2.62,
+     "date": "2026-12-24"
+    },
+    "minLow": {
+     "t": 29968257,
+     "h": -0.46,
+     "date": "2026-12-23"
+    },
+    "topHighs": [
+     {
+      "t": 29968705,
+      "h": 2.62,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30286184,
+      "h": 2.6,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30245927,
+      "h": 2.59,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29926952,
+      "h": 2.58,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29970190,
+      "h": 2.58,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30287662,
+      "h": 2.58,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29968257,
+      "h": -0.46,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 30010013,
+      "h": -0.46,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30202247,
+      "h": -0.45,
+      "date": "2027-06-04"
+     },
+     {
+      "t": 30203730,
+      "h": -0.45,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 29966770,
+      "h": -0.43,
+      "date": "2026-12-22"
+     },
+     {
+      "t": 29969744,
+      "h": -0.43,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 229,
+    "negativeLowDays": 226,
+    "meanHigh": 1.57,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "texas/galveston",
+   "slug": "galveston",
+   "state": "texas",
+   "place": "Galveston",
+   "id": "8771510",
+   "noaaName": "Galveston Pleasure Pier",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 29.2853,
+   "lng": -94.7894,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.04,
+    "MHW": 1.84,
+    "MSL": 1.11,
+    "MTL": 1.12,
+    "MLW": 0.39,
+    "MLLW": 0,
+    "GT": 2.04,
+    "MN": 1.46,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.12,
+    "springRange": 2.99,
+    "neapRange": 1.19,
+    "oneHighShare": 0.55,
+    "highInequality": 0.4,
+    "lowInequality": 0.9,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29887229,
+     "h": 2.89,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30008986,
+     "h": -1.44,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29887229,
+      "h": 2.89,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29885725,
+      "h": 2.87,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29888739,
+      "h": 2.85,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29850032,
+      "h": 2.77,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29884226,
+      "h": 2.77,
+      "date": "2026-10-26"
+     },
+     {
+      "t": 29890252,
+      "h": 2.77,
+      "date": "2026-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008986,
+      "h": -1.44,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29968726,
+      "h": -1.39,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30007491,
+      "h": -1.39,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010481,
+      "h": -1.36,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967233,
+      "h": -1.33,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970221,
+      "h": -1.31,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 234,
+    "negativeLowDays": 234,
+    "meanHigh": 1.9,
+    "meanLow": 0.31
+   }
+  },
+  {
+   "key": "texas/port-aransas",
+   "slug": "port-aransas",
+   "state": "texas",
+   "place": "Port Aransas",
+   "id": "8775237",
+   "noaaName": "Port Aransas",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.8397,
+   "lng": -97.0725,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.04,
+    "MHW": 1.01,
+    "MSL": 0.65,
+    "MTL": 0.57,
+    "MLW": 0.12,
+    "MLLW": 0,
+    "GT": 1.04,
+    "MN": 0.89,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.01,
+    "springRange": 1.49,
+    "neapRange": 0.48,
+    "oneHighShare": 0.65,
+    "highInequality": 0.12,
+    "lowInequality": 0.44,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29850228,
+     "h": 1.76,
+     "date": "2026-10-03"
+    },
+    "minLow": {
+     "t": 30008988,
+     "h": -0.98,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29850228,
+      "h": 1.76,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29888946,
+      "h": 1.75,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 29851722,
+      "h": 1.74,
+      "date": "2026-10-04"
+     },
+     {
+      "t": 29848710,
+      "h": 1.73,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 30401682,
+      "h": 1.73,
+      "date": "2027-10-21"
+     },
+     {
+      "t": 29887440,
+      "h": 1.72,
+      "date": "2026-10-28"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008988,
+      "h": -0.98,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007494,
+      "h": -0.97,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010482,
+      "h": -0.91,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30006000,
+      "h": -0.9,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 29968722,
+      "h": -0.85,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967234,
+      "h": -0.84,
+      "date": "2026-12-23"
+     }
+    ],
+    "negativeLows": 203,
+    "negativeLowDays": 203,
+    "meanHigh": 1.04,
+    "meanLow": 0.24
+   }
+  },
+  {
+   "key": "texas/corpus-christi",
+   "slug": "corpus-christi",
+   "state": "texas",
+   "place": "Corpus Christi",
+   "id": "8775870",
+   "noaaName": "Corpus Christi, Bob Hall Pier",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.58,
+   "lng": -97.2167,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.63,
+    "MHW": 1.54,
+    "MSL": 0.93,
+    "MTL": 0.88,
+    "MLW": 0.22,
+    "MLLW": 0,
+    "GT": 1.64,
+    "MN": 1.32,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.65,
+    "springRange": 2.42,
+    "neapRange": 0.81,
+    "oneHighShare": 0.7,
+    "highInequality": 0.23,
+    "lowInequality": 0.59,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29888828,
+     "h": 2.56,
+     "date": "2026-10-29"
+    },
+    "minLow": {
+     "t": 30008970,
+     "h": -1.22,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29888828,
+      "h": 2.56,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29887279,
+      "h": 2.54,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29890333,
+      "h": 2.52,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 29850088,
+      "h": 2.48,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29885750,
+      "h": 2.48,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30401549,
+      "h": 2.46,
+      "date": "2027-10-20"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008970,
+      "h": -1.22,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007470,
+      "h": -1.17,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010465,
+      "h": -1.15,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968703,
+      "h": -1.11,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967210,
+      "h": -1.05,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970198,
+      "h": -1.05,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 215,
+    "negativeLowDays": 215,
+    "meanHigh": 1.58,
+    "meanLow": 0.25
+   }
+  },
+  {
+   "key": "texas/south-padre-island",
+   "slug": "south-padre-island",
+   "state": "texas",
+   "place": "South Padre Island",
+   "id": "8779748",
+   "noaaName": "South Padre Island C.G. Station",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 26.0731,
+   "lng": -97.1675,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.37,
+    "MHW": 1.31,
+    "MSL": 0.81,
+    "MTL": 0.73,
+    "MLW": 0.14,
+    "MLLW": 0,
+    "GT": 1.37,
+    "MN": 1.17,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.37,
+    "springRange": 2.02,
+    "neapRange": 0.62,
+    "oneHighShare": 0.73,
+    "highInequality": 0.16,
+    "lowInequality": 0.51,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29888904,
+     "h": 2.25,
+     "date": "2026-10-29"
+    },
+    "minLow": {
+     "t": 30008985,
+     "h": -0.99,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29888904,
+      "h": 2.25,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29887386,
+      "h": 2.22,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29890408,
+      "h": 2.22,
+      "date": "2026-10-31"
+     },
+     {
+      "t": 29850176,
+      "h": 2.19,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 30401628,
+      "h": 2.18,
+      "date": "2027-10-21"
+     },
+     {
+      "t": 29851674,
+      "h": 2.16,
+      "date": "2026-10-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008985,
+      "h": -0.99,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007485,
+      "h": -0.97,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30244454,
+      "h": -0.96,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30242959,
+      "h": -0.93,
+      "date": "2027-07-02"
+     },
+     {
+      "t": 30010483,
+      "h": -0.92,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968722,
+      "h": -0.91,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 208,
+    "negativeLowDays": 208,
+    "meanHigh": 1.35,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "louisiana/grand-isle",
+   "slug": "grand-isle",
+   "state": "louisiana",
+   "place": "Grand Isle",
+   "id": "8761724",
+   "noaaName": "EAST POINT, GRAND ISLE",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 29.2633,
+   "lng": -89.9567,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.06,
+    "MHW": 1.06,
+    "MSL": 0.54,
+    "MTL": 0.53,
+    "MLW": 0.01,
+    "MLLW": 0,
+    "GT": 1.06,
+    "MN": 1.04,
+    "epoch": "2012-2016"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.19,
+    "springRange": 1.86,
+    "neapRange": 0.38,
+    "oneHighShare": 0.93,
+    "highInequality": 0.14,
+    "lowInequality": 0.17,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29888970,
+     "h": 1.85,
+     "date": "2026-10-30"
+    },
+    "minLow": {
+     "t": 30007455,
+     "h": -1.07,
+     "date": "2027-01-20"
+    },
+    "topHighs": [
+     {
+      "t": 29888970,
+      "h": 1.85,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 29848734,
+      "h": 1.84,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29850239,
+      "h": 1.84,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29887463,
+      "h": 1.84,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29890477,
+      "h": 1.79,
+      "date": "2026-10-31"
+     },
+     {
+      "t": 29851748,
+      "h": 1.78,
+      "date": "2026-10-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30007455,
+      "h": -1.07,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30008950,
+      "h": -1.06,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30005962,
+      "h": -1.01,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 30010448,
+      "h": -0.96,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968695,
+      "h": -0.95,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967195,
+      "h": -0.93,
+      "date": "2026-12-23"
+     }
+    ],
+    "negativeLows": 242,
+    "negativeLowDays": 240,
+    "meanHigh": 1.12,
+    "meanLow": -0.01
+   }
+  },
+  {
+   "key": "mississippi/biloxi",
+   "slug": "biloxi",
+   "state": "mississippi",
+   "place": "Biloxi",
+   "id": "8744117",
+   "noaaName": "Biloxi",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.4117,
+   "lng": -88.9033,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.77,
+    "MHW": 1.69,
+    "MSL": 0.9,
+    "MTL": 0.92,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 1.78,
+    "MN": 1.54,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.73,
+    "springRange": 2.62,
+    "neapRange": 0.72,
+    "oneHighShare": 0.85,
+    "highInequality": 0.3,
+    "lowInequality": 0.35,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29968081,
+     "h": 2.53,
+     "date": "2026-12-23"
+    },
+    "minLow": {
+     "t": 29967225,
+     "h": -0.81,
+     "date": "2026-12-23"
+    },
+    "topHighs": [
+     {
+      "t": 29968081,
+      "h": 2.53,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29969572,
+      "h": 2.53,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29927816,
+      "h": 2.52,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29929303,
+      "h": 2.52,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30205043,
+      "h": 2.46,
+      "date": "2027-06-06"
+     },
+     {
+      "t": 30203556,
+      "h": 2.45,
+      "date": "2027-06-05"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29967225,
+      "h": -0.81,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29968714,
+      "h": -0.81,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29926945,
+      "h": -0.74,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30244453,
+      "h": -0.73,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29928440,
+      "h": -0.72,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30242965,
+      "h": -0.71,
+      "date": "2027-07-02"
+     }
+    ],
+    "negativeLows": 209,
+    "negativeLowDays": 209,
+    "meanHigh": 1.68,
+    "meanLow": 0.15
+   }
+  },
+  {
+   "key": "alabama/dauphin-island",
+   "slug": "dauphin-island",
+   "state": "alabama",
+   "place": "Dauphin Island",
+   "id": "8735180",
+   "noaaName": "DAUPHIN ISLAND",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.25,
+   "lng": -88.075,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.22,
+    "MHW": 1.2,
+    "MSL": 0.57,
+    "MTL": 0.61,
+    "MLW": 0.02,
+    "MLLW": 0,
+    "GT": 1.22,
+    "MN": 1.18,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.28,
+    "springRange": 1.95,
+    "neapRange": 0.4,
+    "oneHighShare": 0.93,
+    "highInequality": 0.16,
+    "lowInequality": 0.14,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29889011,
+     "h": 1.98,
+     "date": "2026-10-30"
+    },
+    "minLow": {
+     "t": 30009018,
+     "h": -1.02,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29889011,
+      "h": 1.98,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 29848766,
+      "h": 1.97,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29887514,
+      "h": 1.97,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29850270,
+      "h": 1.96,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29890509,
+      "h": 1.92,
+      "date": "2026-10-31"
+     },
+     {
+      "t": 30400224,
+      "h": 1.92,
+      "date": "2027-10-20"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009018,
+      "h": -1.02,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007521,
+      "h": -1.01,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010510,
+      "h": -0.94,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968761,
+      "h": -0.93,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30006021,
+      "h": -0.93,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 29970255,
+      "h": -0.9,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 234,
+    "negativeLowDays": 234,
+    "meanHigh": 1.22,
+    "meanLow": 0.01
+   }
+  },
+  {
+   "key": "alabama/gulf-shores",
+   "slug": "gulf-shores",
+   "state": "alabama",
+   "place": "Gulf Shores",
+   "id": "8731439",
+   "noaaName": "Gulf Shores, ICWW",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.2799,
+   "lng": -87.6843,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.21,
+    "MHW": 1.16,
+    "MSL": 0.59,
+    "MTL": 0.62,
+    "MLW": 0.07,
+    "MLLW": 0,
+    "GT": 1.22,
+    "MN": 1.09,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.16,
+    "springRange": 1.71,
+    "neapRange": 0.43,
+    "oneHighShare": 0.89,
+    "highInequality": 0.18,
+    "lowInequality": 0.13,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29848826,
+     "h": 1.78,
+     "date": "2026-10-02"
+    },
+    "minLow": {
+     "t": 30009093,
+     "h": -0.78,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29848826,
+      "h": 1.78,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29850335,
+      "h": 1.78,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29887559,
+      "h": 1.77,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29889070,
+      "h": 1.77,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 29851844,
+      "h": 1.75,
+      "date": "2026-10-04"
+     },
+     {
+      "t": 29847318,
+      "h": 1.74,
+      "date": "2026-10-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30009093,
+      "h": -0.78,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007602,
+      "h": -0.77,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010580,
+      "h": -0.72,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968838,
+      "h": -0.69,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30006108,
+      "h": -0.69,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 29970330,
+      "h": -0.67,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 198,
+    "negativeLowDays": 198,
+    "meanHigh": 1.17,
+    "meanLow": 0.1
+   }
+  },
+  {
+   "key": "florida/pensacola-beach",
+   "slug": "pensacola-beach",
+   "state": "florida",
+   "place": "Pensacola Beach",
+   "id": "8729807",
+   "noaaName": "Pensacola Beach Pier",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.3275,
+   "lng": -87.1419,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.39,
+    "MHW": 1.31,
+    "MSL": 0.66,
+    "MTL": 0.68,
+    "MLW": 0.06,
+    "MLLW": 0,
+    "GT": 1.39,
+    "MN": 1.25,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.43,
+    "springRange": 2.2,
+    "neapRange": 0.54,
+    "oneHighShare": 0.86,
+    "highInequality": 0.26,
+    "lowInequality": 0.21,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29887385,
+     "h": 2.19,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30007376,
+     "h": -1,
+     "date": "2027-01-20"
+    },
+    "topHighs": [
+     {
+      "t": 29887385,
+      "h": 2.19,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29888876,
+      "h": 2.16,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29848632,
+      "h": 2.14,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29885898,
+      "h": 2.12,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29847135,
+      "h": 2.11,
+      "date": "2026-09-30"
+     },
+     {
+      "t": 29850133,
+      "h": 2.1,
+      "date": "2026-10-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30007376,
+      "h": -1,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30008857,
+      "h": -0.96,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29967095,
+      "h": -0.94,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29968590,
+      "h": -0.94,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30005897,
+      "h": -0.93,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 29965606,
+      "h": -0.85,
+      "date": "2026-12-22"
+     }
+    ],
+    "negativeLows": 219,
+    "negativeLowDays": 219,
+    "meanHigh": 1.34,
+    "meanLow": 0.07
+   }
+  },
+  {
+   "key": "florida/destin",
+   "slug": "destin",
+   "state": "florida",
+   "place": "Destin",
+   "id": "8729511",
+   "noaaName": "East Pass (Destin)",
+   "type": "S",
+   "referenceId": "8729840",
+   "referenceName": "PENSACOLA",
+   "lat": 30.395,
+   "lng": -86.5133,
+   "tz": "America/Chicago",
+   "offsets": {
+    "refStationId": "8729840",
+    "heightOffsetHighTide": 0.49,
+    "heightOffsetLowTide": 0.33,
+    "timeOffsetHighTide": -33,
+    "timeOffsetLowTide": -34,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 0.62,
+    "springRange": 0.88,
+    "neapRange": 0.29,
+    "oneHighShare": 0.93,
+    "highInequality": 0.08,
+    "lowInequality": 0.05,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29848784,
+     "h": 0.96,
+     "date": "2026-10-02"
+    },
+    "minLow": {
+     "t": 30007518,
+     "h": -0.32,
+     "date": "2027-01-20"
+    },
+    "topHighs": [
+     {
+      "t": 29848784,
+      "h": 0.96,
+      "date": "2026-10-02"
+     },
+     {
+      "t": 29850296,
+      "h": 0.96,
+      "date": "2026-10-03"
+     },
+     {
+      "t": 29887534,
+      "h": 0.95,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29889036,
+      "h": 0.95,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 30324312,
+      "h": 0.95,
+      "date": "2027-08-28"
+     },
+     {
+      "t": 29847280,
+      "h": 0.94,
+      "date": "2026-10-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30007518,
+      "h": -0.32,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30009013,
+      "h": -0.32,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30010499,
+      "h": -0.3,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968761,
+      "h": -0.29,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29970251,
+      "h": -0.29,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30006018,
+      "h": -0.29,
+      "date": "2027-01-19"
+     }
+    ],
+    "negativeLows": 209,
+    "negativeLowDays": 209,
+    "meanHigh": 0.61,
+    "meanLow": 0.02
+   }
+  },
+  {
+   "key": "florida/panama-city-beach",
+   "slug": "panama-city-beach",
+   "state": "florida",
+   "place": "Panama City Beach",
+   "id": "8729210",
+   "noaaName": "Panama City Beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.2138,
+   "lng": -85.8786,
+   "tz": "America/Chicago",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.4,
+    "MHW": 1.32,
+    "MSL": 0.67,
+    "MTL": 0.7,
+    "MLW": 0.07,
+    "MLLW": 0,
+    "GT": 1.39,
+    "MN": 1.25,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.42,
+    "springRange": 2.19,
+    "neapRange": 0.54,
+    "oneHighShare": 0.85,
+    "highInequality": 0.26,
+    "lowInequality": 0.24,
+    "tideType": "diurnal",
+    "maxHigh": {
+     "t": 29887358,
+     "h": 2.25,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30007371,
+     "h": -0.99,
+     "date": "2027-01-20"
+    },
+    "topHighs": [
+     {
+      "t": 29887358,
+      "h": 2.25,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29888854,
+      "h": 2.21,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29885875,
+      "h": 2.2,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29927628,
+      "h": 2.19,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29929115,
+      "h": 2.14,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29926145,
+      "h": 2.13,
+      "date": "2026-11-24"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30007371,
+      "h": -0.99,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30008857,
+      "h": -0.96,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30005881,
+      "h": -0.93,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 30047639,
+      "h": -0.92,
+      "date": "2027-02-17"
+     },
+     {
+      "t": 30046141,
+      "h": -0.89,
+      "date": "2027-02-16"
+     },
+     {
+      "t": 30049132,
+      "h": -0.85,
+      "date": "2027-02-18"
+     }
+    ],
+    "negativeLows": 218,
+    "negativeLowDays": 217,
+    "meanHigh": 1.35,
+    "meanLow": 0.09
+   }
+  },
+  {
+   "key": "florida/clearwater-beach",
+   "slug": "clearwater-beach",
+   "state": "florida",
+   "place": "Clearwater Beach",
+   "id": "8726724",
+   "noaaName": "Clearwater Beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.9783,
+   "lng": -82.8317,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.74,
+    "MHW": 2.4,
+    "MSL": 1.47,
+    "MTL": 1.46,
+    "MLW": 0.51,
+    "MLLW": 0,
+    "GT": 2.74,
+    "MN": 1.89,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.71,
+    "springRange": 3.65,
+    "neapRange": 1.74,
+    "oneHighShare": 0.14,
+    "highInequality": 0.79,
+    "lowInequality": 1.17,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30287030,
+     "h": 3.7,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30008765,
+     "h": -1.33,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 30287030,
+      "h": 3.7,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30327300,
+      "h": 3.65,
+      "date": "2027-08-30"
+     },
+     {
+      "t": 30285537,
+      "h": 3.64,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30328791,
+      "h": 3.63,
+      "date": "2027-08-31"
+     },
+     {
+      "t": 30288520,
+      "h": 3.61,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30245267,
+      "h": 3.6,
+      "date": "2027-07-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008765,
+      "h": -1.33,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 29968501,
+      "h": -1.32,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30010248,
+      "h": -1.3,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967013,
+      "h": -1.26,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29969987,
+      "h": -1.22,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30007278,
+      "h": -1.21,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 216,
+    "negativeLowDays": 214,
+    "meanHigh": 2.4,
+    "meanLow": 0.56
+   }
+  },
+  {
+   "key": "florida/st-petersburg",
+   "slug": "st-petersburg",
+   "state": "florida",
+   "place": "St. Petersburg",
+   "id": "8726520",
+   "noaaName": "St. Petersburg",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.7606,
+   "lng": -82.6269,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.26,
+    "MHW": 1.98,
+    "MSL": 1.2,
+    "MTL": 1.18,
+    "MLW": 0.39,
+    "MLLW": 0,
+    "GT": 2.26,
+    "MN": 1.59,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.23,
+    "springRange": 2.99,
+    "neapRange": 1.47,
+    "oneHighShare": 0.37,
+    "highInequality": 0.61,
+    "lowInequality": 0.92,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30245398,
+     "h": 3.02,
+     "date": "2027-07-04"
+    },
+    "minLow": {
+     "t": 30008929,
+     "h": -1.02,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 30245398,
+      "h": 3.02,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30285670,
+      "h": 3,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30287167,
+      "h": 3,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30243904,
+      "h": 2.99,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 29887628,
+      "h": 2.98,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 30246895,
+      "h": 2.97,
+      "date": "2027-07-05"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008929,
+      "h": -1.02,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007440,
+      "h": -0.98,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010412,
+      "h": -0.96,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968665,
+      "h": -0.94,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967174,
+      "h": -0.91,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970154,
+      "h": -0.89,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 222,
+    "negativeLowDays": 222,
+    "meanHigh": 2,
+    "meanLow": 0.41
+   }
+  },
+  {
+   "key": "florida/tampa",
+   "slug": "tampa",
+   "state": "florida",
+   "place": "Tampa",
+   "id": "8726607",
+   "noaaName": "Old Port Tampa",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.8578,
+   "lng": -82.5528,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.48,
+    "MHW": 2.16,
+    "MSL": 1.3,
+    "MTL": 1.3,
+    "MLW": 0.44,
+    "MLLW": 0,
+    "GT": 2.48,
+    "MN": 1.73,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.47,
+    "springRange": 3.25,
+    "neapRange": 1.72,
+    "oneHighShare": 0.19,
+    "highInequality": 0.75,
+    "lowInequality": 1.15,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30245437,
+     "h": 3.28,
+     "date": "2027-07-04"
+    },
+    "minLow": {
+     "t": 30008975,
+     "h": -1.12,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 30245437,
+      "h": 3.28,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30287207,
+      "h": 3.27,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 29887665,
+      "h": 3.26,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 30285709,
+      "h": 3.25,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29886186,
+      "h": 3.24,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30243941,
+      "h": 3.24,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008975,
+      "h": -1.12,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30007486,
+      "h": -1.07,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30010459,
+      "h": -1.06,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968710,
+      "h": -1.01,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29967218,
+      "h": -0.97,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970199,
+      "h": -0.94,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 225,
+    "negativeLowDays": 223,
+    "meanHigh": 2.16,
+    "meanLow": 0.53
+   }
+  },
+  {
+   "key": "florida/siesta-key",
+   "slug": "siesta-key",
+   "state": "florida",
+   "place": "Siesta Key",
+   "id": "8726034",
+   "noaaName": "Siesta Key, Big Sarasota Pass",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 27.2839,
+   "lng": -82.565,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.03,
+    "MHW": 1.75,
+    "MSL": 1.05,
+    "MTL": 1.05,
+    "MLW": 0.36,
+    "MLLW": 0,
+    "GT": 2.03,
+    "MN": 1.4,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.06,
+    "springRange": 2.8,
+    "neapRange": 1.34,
+    "oneHighShare": 0.28,
+    "highInequality": 0.68,
+    "lowInequality": 0.93,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29887484,
+     "h": 2.77,
+     "date": "2026-10-29"
+    },
+    "minLow": {
+     "t": 30008778,
+     "h": -0.95,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29887484,
+      "h": 2.77,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29927750,
+      "h": 2.76,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29929239,
+      "h": 2.74,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29886004,
+      "h": 2.73,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29888971,
+      "h": 2.73,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 30245254,
+      "h": 2.7,
+      "date": "2027-07-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008778,
+      "h": -0.95,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30010262,
+      "h": -0.94,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29968517,
+      "h": -0.92,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29970005,
+      "h": -0.9,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30007290,
+      "h": -0.86,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 29967025,
+      "h": -0.84,
+      "date": "2026-12-23"
+     }
+    ],
+    "negativeLows": 230,
+    "negativeLowDays": 229,
+    "meanHigh": 1.77,
+    "meanLow": 0.38
+   }
+  },
+  {
+   "key": "florida/fort-myers",
+   "slug": "fort-myers",
+   "state": "florida",
+   "place": "Fort Myers",
+   "id": "8725520",
+   "noaaName": "Fort Myers",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 26.6478,
+   "lng": -81.8711,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.32,
+    "MHW": 1.1,
+    "MSL": 0.63,
+    "MTL": 0.63,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 1.32,
+    "MN": 0.94,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.26,
+    "springRange": 1.66,
+    "neapRange": 0.86,
+    "oneHighShare": 0.09,
+    "highInequality": 0.54,
+    "lowInequality": 0.4,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29886279,
+     "h": 1.94,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30026277,
+     "h": -0.65,
+     "date": "2027-02-02"
+    },
+    "topHighs": [
+     {
+      "t": 29886279,
+      "h": 1.94,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29887760,
+      "h": 1.92,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 29847509,
+      "h": 1.9,
+      "date": "2026-10-01"
+     },
+     {
+      "t": 30285802,
+      "h": 1.9,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30287299,
+      "h": 1.9,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 29884804,
+      "h": 1.89,
+      "date": "2026-10-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30026277,
+      "h": -0.65,
+      "date": "2027-02-02"
+     },
+     {
+      "t": 30027755,
+      "h": -0.63,
+      "date": "2027-02-03"
+     },
+     {
+      "t": 30007608,
+      "h": -0.62,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30024793,
+      "h": -0.62,
+      "date": "2027-02-01"
+     },
+     {
+      "t": 30009090,
+      "h": -0.6,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30006121,
+      "h": -0.59,
+      "date": "2027-01-19"
+     }
+    ],
+    "negativeLows": 235,
+    "negativeLowDays": 201,
+    "meanHigh": 1.07,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "florida/naples",
+   "slug": "naples",
+   "state": "florida",
+   "place": "Naples",
+   "id": "8725110",
+   "noaaName": "Naples (outer coast)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 26.1317,
+   "lng": -81.8075,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.87,
+    "MHW": 2.62,
+    "MSL": 1.65,
+    "MTL": 1.61,
+    "MLW": 0.61,
+    "MLLW": 0,
+    "GT": 2.87,
+    "MN": 2.01,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.77,
+    "springRange": 3.71,
+    "neapRange": 1.85,
+    "oneHighShare": 0.08,
+    "highInequality": 0.53,
+    "lowInequality": 1.32,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30328833,
+     "h": 3.76,
+     "date": "2027-08-31"
+    },
+    "minLow": {
+     "t": 29968523,
+     "h": -1.34,
+     "date": "2026-12-24"
+    },
+    "topHighs": [
+     {
+      "t": 30328833,
+      "h": 3.76,
+      "date": "2027-08-31"
+     },
+     {
+      "t": 30327344,
+      "h": 3.74,
+      "date": "2027-08-30"
+     },
+     {
+      "t": 30287071,
+      "h": 3.72,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30288564,
+      "h": 3.66,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30330323,
+      "h": 3.65,
+      "date": "2027-09-01"
+     },
+     {
+      "t": 30285580,
+      "h": 3.64,
+      "date": "2027-08-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29968523,
+      "h": -1.34,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30008782,
+      "h": -1.31,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30010268,
+      "h": -1.28,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29967034,
+      "h": -1.27,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970012,
+      "h": -1.25,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30007293,
+      "h": -1.19,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 208,
+    "negativeLowDays": 207,
+    "meanHigh": 2.6,
+    "meanLow": 0.68
+   }
+  },
+  {
+   "key": "florida/key-west",
+   "slug": "key-west",
+   "state": "florida",
+   "place": "Key West",
+   "id": "8724580",
+   "noaaName": "KEY WEST",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 24.5557,
+   "lng": -81.8079,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.81,
+    "MHW": 1.52,
+    "MSL": 0.89,
+    "MTL": 0.88,
+    "MLW": 0.24,
+    "MLLW": 0,
+    "GT": 1.81,
+    "MN": 1.28,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.77,
+    "springRange": 2.37,
+    "neapRange": 1.18,
+    "oneHighShare": 0.07,
+    "highInequality": 0.62,
+    "lowInequality": 0.51,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 29887429,
+     "h": 2.54,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30008627,
+     "h": -0.69,
+     "date": "2027-01-21"
+    },
+    "topHighs": [
+     {
+      "t": 29887429,
+      "h": 2.54,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29885944,
+      "h": 2.53,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29884463,
+      "h": 2.48,
+      "date": "2026-10-26"
+     },
+     {
+      "t": 29888921,
+      "h": 2.48,
+      "date": "2026-10-30"
+     },
+     {
+      "t": 30414371,
+      "h": 2.48,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30415849,
+      "h": 2.47,
+      "date": "2027-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30008627,
+      "h": -0.69,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30010112,
+      "h": -0.68,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30007137,
+      "h": -0.64,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 29968365,
+      "h": -0.63,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30203844,
+      "h": -0.62,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30202356,
+      "h": -0.61,
+      "date": "2027-06-04"
+     }
+    ],
+    "negativeLows": 221,
+    "negativeLowDays": 201,
+    "meanHigh": 1.55,
+    "meanLow": 0.31
+   }
+  },
+  {
+   "key": "florida/miami",
+   "slug": "miami",
+   "state": "florida",
+   "place": "Miami",
+   "id": "8723178",
+   "noaaName": "GOVERNMENT CUT, MIAMI HARBOR ENTRANCE",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 25.7633,
+   "lng": -80.13,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.5,
+    "MHW": 2.46,
+    "MSL": 1.3,
+    "MTL": 1.3,
+    "MLW": 0.14,
+    "MLLW": 0,
+    "GT": 2.5,
+    "MN": 2.32,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.49,
+    "springRange": 3.21,
+    "neapRange": 1.82,
+    "oneHighShare": 0.07,
+    "highInequality": 0.13,
+    "lowInequality": 0.32,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30371841,
+     "h": 3.43,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30011482,
+     "h": -0.79,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30371841,
+      "h": 3.43,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373328,
+      "h": 3.41,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30370353,
+      "h": 3.37,
+      "date": "2027-09-29"
+     },
+     {
+      "t": 30413582,
+      "h": 3.35,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30412095,
+      "h": 3.33,
+      "date": "2027-10-28"
+     },
+     {
+      "t": 29885167,
+      "h": 3.31,
+      "date": "2026-10-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011482,
+      "h": -0.79,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30009990,
+      "h": -0.77,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012973,
+      "h": -0.72,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30008495,
+      "h": -0.69,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30055458,
+      "h": -0.69,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30053226,
+      "h": -0.68,
+      "date": "2027-02-21"
+     }
+    ],
+    "negativeLows": 272,
+    "negativeLowDays": 213,
+    "meanHigh": 2.49,
+    "meanLow": 0.21
+   }
+  },
+  {
+   "key": "florida/fort-lauderdale",
+   "slug": "fort-lauderdale",
+   "state": "florida",
+   "place": "Fort Lauderdale",
+   "id": "8722956",
+   "noaaName": "South Port Everglades, ICWW",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 26.0817,
+   "lng": -80.1167,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.78,
+    "MHW": 2.65,
+    "MSL": 1.41,
+    "MTL": 1.4,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 2.79,
+    "MN": 2.5,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.73,
+    "springRange": 3.51,
+    "neapRange": 2.04,
+    "oneHighShare": 0.07,
+    "highInequality": 0.24,
+    "lowInequality": 0.33,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30371821,
+     "h": 3.75,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30011474,
+     "h": -0.79,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30371821,
+      "h": 3.75,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373309,
+      "h": 3.74,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30413562,
+      "h": 3.74,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29885140,
+      "h": 3.73,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30412075,
+      "h": 3.71,
+      "date": "2027-10-28"
+     },
+     {
+      "t": 29886630,
+      "h": 3.7,
+      "date": "2026-10-28"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011474,
+      "h": -0.79,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30245459,
+      "h": -0.78,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30009981,
+      "h": -0.76,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30246953,
+      "h": -0.76,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30243965,
+      "h": -0.72,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30012966,
+      "h": -0.71,
+      "date": "2027-01-24"
+     }
+    ],
+    "negativeLows": 253,
+    "negativeLowDays": 190,
+    "meanHigh": 2.71,
+    "meanLow": 0.24
+   }
+  },
+  {
+   "key": "florida/cocoa-beach",
+   "slug": "cocoa-beach",
+   "state": "florida",
+   "place": "Cocoa Beach",
+   "id": "8721604",
+   "noaaName": "Port Canaveral (Trident Pier)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 28.4158,
+   "lng": -80.5931,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.93,
+    "MHW": 3.58,
+    "MSL": 1.88,
+    "MTL": 1.88,
+    "MLW": 0.17,
+    "MLLW": 0,
+    "GT": 3.92,
+    "MN": 3.4,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.82,
+    "springRange": 4.8,
+    "neapRange": 2.83,
+    "oneHighShare": 0.07,
+    "highInequality": 0.78,
+    "lowInequality": 0.35,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29886593,
+     "h": 5.21,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30011436,
+     "h": -1.07,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29886593,
+      "h": 5.21,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29885104,
+      "h": 5.19,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29926846,
+      "h": 5.15,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29928338,
+      "h": 5.13,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29888085,
+      "h": 5.12,
+      "date": "2026-10-29"
+     },
+     {
+      "t": 30413525,
+      "h": 5.1,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011436,
+      "h": -1.07,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30009940,
+      "h": -1.03,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012929,
+      "h": -0.98,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30245417,
+      "h": -0.97,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30246913,
+      "h": -0.94,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30053186,
+      "h": -0.93,
+      "date": "2027-02-21"
+     }
+    ],
+    "negativeLows": 253,
+    "negativeLowDays": 194,
+    "meanHigh": 3.59,
+    "meanLow": 0.3
+   }
+  },
+  {
+   "key": "florida/daytona-beach",
+   "slug": "daytona-beach",
+   "state": "florida",
+   "place": "Daytona Beach",
+   "id": "8721120",
+   "noaaName": "Daytona Beach Shores, Sunglow Pier",
+   "type": "S",
+   "referenceId": "8720030",
+   "referenceName": "Fernandina Beach, Amelia River",
+   "lat": 29.1467,
+   "lng": -80.9633,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8720030",
+    "heightOffsetHighTide": 0.65,
+    "heightOffsetLowTide": 0.84,
+    "timeOffsetHighTide": -56,
+    "timeOffsetLowTide": -42,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.03,
+    "springRange": 5.08,
+    "neapRange": 2.99,
+    "oneHighShare": 0.07,
+    "highInequality": 0.49,
+    "lowInequality": 0.26,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373289,
+     "h": 5.12,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011461,
+     "h": -1.27,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373289,
+      "h": 5.12,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371800,
+      "h": 5.1,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30413539,
+      "h": 5.1,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29885114,
+      "h": 5.06,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30415026,
+      "h": 5.06,
+      "date": "2027-10-30"
+     },
+     {
+      "t": 29886607,
+      "h": 5.05,
+      "date": "2026-10-28"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011461,
+      "h": -1.27,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012953,
+      "h": -1.21,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009967,
+      "h": -1.16,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053207,
+      "h": -1.15,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054697,
+      "h": -1.1,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051714,
+      "h": -1.05,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 242,
+    "negativeLowDays": 163,
+    "meanHigh": 4,
+    "meanLow": 0.32
+   }
+  },
+  {
+   "key": "florida/st-augustine",
+   "slug": "st-augustine",
+   "state": "florida",
+   "place": "St. Augustine",
+   "id": "8720587",
+   "noaaName": "St. Augustine Beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 29.8567,
+   "lng": -81.2633,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.14,
+    "MHW": 4.77,
+    "MSL": 2.43,
+    "MTL": 2.46,
+    "MLW": 0.16,
+    "MLLW": 0,
+    "GT": 5.15,
+    "MN": 4.61,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.02,
+    "springRange": 6.31,
+    "neapRange": 3.77,
+    "oneHighShare": 0.07,
+    "highInequality": 0.85,
+    "lowInequality": 0.28,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29926862,
+     "h": 6.52,
+     "date": "2026-11-25"
+    },
+    "minLow": {
+     "t": 30011456,
+     "h": -1.21,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29926862,
+      "h": 6.52,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29885121,
+      "h": 6.49,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886610,
+      "h": 6.49,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29928354,
+      "h": 6.49,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30373289,
+      "h": 6.41,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30413541,
+      "h": 6.41,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011456,
+      "h": -1.21,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30009962,
+      "h": -1.15,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012950,
+      "h": -1.12,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053205,
+      "h": -1.12,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30051712,
+      "h": -1.05,
+      "date": "2027-02-20"
+     },
+     {
+      "t": 30054696,
+      "h": -1.04,
+      "date": "2027-02-22"
+     }
+    ],
+    "negativeLows": 261,
+    "negativeLowDays": 177,
+    "meanHigh": 4.77,
+    "meanLow": 0.28
+   }
+  },
+  {
+   "key": "florida/jacksonville-beach",
+   "slug": "jacksonville-beach",
+   "state": "florida",
+   "place": "Jacksonville Beach",
+   "id": "8720291",
+   "noaaName": "Jacksonville Beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 30.2833,
+   "lng": -81.3867,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.62,
+    "MHW": 5.24,
+    "MSL": 2.55,
+    "MTL": 2.7,
+    "MLW": 0.17,
+    "MLLW": 0,
+    "GT": 5.61,
+    "MN": 5.07,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.53,
+    "springRange": 6.8,
+    "neapRange": 4.34,
+    "oneHighShare": 0.07,
+    "highInequality": 0.89,
+    "lowInequality": 0.24,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29886607,
+     "h": 6.87,
+     "date": "2026-10-28"
+    },
+    "minLow": {
+     "t": 30011463,
+     "h": -1.22,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29886607,
+      "h": 6.87,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29885117,
+      "h": 6.84,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29926859,
+      "h": 6.83,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29928352,
+      "h": 6.8,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30371798,
+      "h": 6.79,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373286,
+      "h": 6.79,
+      "date": "2027-10-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011463,
+      "h": -1.22,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013712,
+      "h": -1.19,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053212,
+      "h": -1.18,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30055446,
+      "h": -1.18,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009968,
+      "h": -1.15,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30015198,
+      "h": -1.12,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 336,
+    "negativeLowDays": 213,
+    "meanHigh": 5.13,
+    "meanLow": 0.13
+   }
+  },
+  {
+   "key": "georgia/tybee-island",
+   "slug": "tybee-island",
+   "state": "georgia",
+   "place": "Tybee Island",
+   "id": "8670892",
+   "noaaName": "Tybee Light",
+   "type": "S",
+   "referenceId": "8670870",
+   "referenceName": "Fort Pulaski, Savannah River Entrance",
+   "lat": 32.0283,
+   "lng": -80.855,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8670870",
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "timeOffsetHighTide": -10,
+    "timeOffsetLowTide": -12,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 7.14,
+    "springRange": 8.83,
+    "neapRange": 5.56,
+    "oneHighShare": 0.07,
+    "highInequality": 0.81,
+    "lowInequality": 0.32,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29885105,
+     "h": 8.81,
+     "date": "2026-10-27"
+    },
+    "minLow": {
+     "t": 30011470,
+     "h": -1.79,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29885105,
+      "h": 8.81,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30373286,
+      "h": 8.8,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371798,
+      "h": 8.78,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29886595,
+      "h": 8.77,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30413537,
+      "h": 8.76,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29926850,
+      "h": 8.73,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011470,
+      "h": -1.79,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012962,
+      "h": -1.77,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053215,
+      "h": -1.67,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054705,
+      "h": -1.62,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009976,
+      "h": -1.61,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30014453,
+      "h": -1.52,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 260,
+    "negativeLowDays": 167,
+    "meanHigh": 7,
+    "meanLow": 0.38
+   }
+  },
+  {
+   "key": "georgia/st-simons-island",
+   "slug": "st-simons-island",
+   "state": "georgia",
+   "place": "St. Simons Island",
+   "id": "8677344",
+   "noaaName": "St. Simons Light",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 31.1317,
+   "lng": -81.3967,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 7.2,
+    "MHW": 6.83,
+    "MSL": 3.57,
+    "MTL": 3.52,
+    "MLW": 0.21,
+    "MLLW": 0,
+    "GT": 7.2,
+    "MN": 6.62,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 6.95,
+    "springRange": 8.64,
+    "neapRange": 5.39,
+    "oneHighShare": 0.07,
+    "highInequality": 0.81,
+    "lowInequality": 0.31,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373306,
+     "h": 8.79,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011499,
+     "h": -1.84,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373306,
+      "h": 8.79,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29885125,
+      "h": 8.77,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30371819,
+      "h": 8.77,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29886615,
+      "h": 8.7,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30413558,
+      "h": 8.7,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29883639,
+      "h": 8.64,
+      "date": "2026-10-26"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011499,
+      "h": -1.84,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012990,
+      "h": -1.79,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30010005,
+      "h": -1.67,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053246,
+      "h": -1.63,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054735,
+      "h": -1.57,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30014481,
+      "h": -1.52,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 277,
+    "negativeLowDays": 176,
+    "meanHigh": 6.79,
+    "meanLow": 0.36
+   }
+  },
+  {
+   "key": "south-carolina/hilton-head",
+   "slug": "hilton-head",
+   "state": "south-carolina",
+   "place": "Hilton Head",
+   "id": "8669167",
+   "noaaName": "Port Royal Plantation, Hilton Head Island",
+   "type": "S",
+   "referenceId": "8670870",
+   "referenceName": "Fort Pulaski, Savannah River Entrance",
+   "lat": 32.22,
+   "lng": -80.6683,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8670870",
+    "heightOffsetHighTide": 0.88,
+    "heightOffsetLowTide": 1,
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": -11,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 6.32,
+    "springRange": 7.91,
+    "neapRange": 4.81,
+    "oneHighShare": 0.07,
+    "highInequality": 0.72,
+    "lowInequality": 0.33,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29885116,
+     "h": 7.83,
+     "date": "2026-10-27"
+    },
+    "minLow": {
+     "t": 30011471,
+     "h": -1.81,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29885116,
+      "h": 7.83,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30373297,
+      "h": 7.82,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371809,
+      "h": 7.8,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29886606,
+      "h": 7.79,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30413548,
+      "h": 7.79,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29926861,
+      "h": 7.76,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011471,
+      "h": -1.81,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012963,
+      "h": -1.78,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053216,
+      "h": -1.69,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054706,
+      "h": -1.64,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009977,
+      "h": -1.63,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30014454,
+      "h": -1.53,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 260,
+    "negativeLowDays": 167,
+    "meanHigh": 6.22,
+    "meanLow": 0.39
+   }
+  },
+  {
+   "key": "south-carolina/folly-beach",
+   "slug": "folly-beach",
+   "state": "south-carolina",
+   "place": "Folly Beach",
+   "id": "8666652",
+   "noaaName": "Folly River Bridge, Folly Island",
+   "type": "S",
+   "referenceId": "8665530",
+   "referenceName": "CHARLESTON (Customhouse Wharf)",
+   "lat": 32.6617,
+   "lng": -79.945,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8665530",
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 0.95,
+    "timeOffsetHighTide": 21,
+    "timeOffsetLowTide": -3,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.62,
+    "springRange": 6.9,
+    "neapRange": 4.37,
+    "oneHighShare": 0.07,
+    "highInequality": 0.79,
+    "lowInequality": 0.28,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373312,
+     "h": 6.98,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011458,
+     "h": -1.39,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373312,
+      "h": 6.98,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30413561,
+      "h": 6.96,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30371822,
+      "h": 6.95,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29885127,
+      "h": 6.94,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886618,
+      "h": 6.92,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30415048,
+      "h": 6.9,
+      "date": "2027-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011458,
+      "h": -1.39,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012951,
+      "h": -1.34,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009963,
+      "h": -1.28,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053204,
+      "h": -1.26,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054696,
+      "h": -1.2,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051711,
+      "h": -1.17,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 270,
+    "negativeLowDays": 180,
+    "meanHigh": 5.41,
+    "meanLow": 0.29
+   }
+  },
+  {
+   "key": "south-carolina/charleston",
+   "slug": "charleston",
+   "state": "south-carolina",
+   "place": "Charleston",
+   "id": "8665530",
+   "noaaName": "CHARLESTON (Customhouse Wharf)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 32.7808,
+   "lng": -79.9236,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.77,
+    "MHW": 5.41,
+    "MSL": 2.93,
+    "MTL": 2.8,
+    "MLW": 0.19,
+    "MLLW": 0,
+    "GT": 5.76,
+    "MN": 5.22,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.56,
+    "springRange": 6.85,
+    "neapRange": 4.29,
+    "oneHighShare": 0.07,
+    "highInequality": 0.78,
+    "lowInequality": 0.3,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373291,
+     "h": 6.91,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011461,
+     "h": -1.46,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373291,
+      "h": 6.91,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30413540,
+      "h": 6.9,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30371801,
+      "h": 6.88,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29885106,
+      "h": 6.87,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886597,
+      "h": 6.85,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30415027,
+      "h": 6.84,
+      "date": "2027-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011461,
+      "h": -1.46,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012954,
+      "h": -1.41,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009966,
+      "h": -1.35,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053207,
+      "h": -1.32,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054699,
+      "h": -1.26,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051714,
+      "h": -1.23,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 270,
+    "negativeLowDays": 180,
+    "meanHigh": 5.36,
+    "meanLow": 0.31
+   }
+  },
+  {
+   "key": "south-carolina/myrtle-beach",
+   "slug": "myrtle-beach",
+   "state": "south-carolina",
+   "place": "Myrtle Beach",
+   "id": "8661070",
+   "noaaName": "Springmaid Pier, Myrtle beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 33.655,
+   "lng": -78.9183,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.6,
+    "MHW": 5.21,
+    "MSL": 2.71,
+    "MTL": 2.7,
+    "MLW": 0.19,
+    "MLLW": 0,
+    "GT": 5.6,
+    "MN": 5.02,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.34,
+    "springRange": 6.79,
+    "neapRange": 3.99,
+    "oneHighShare": 0.07,
+    "highInequality": 0.86,
+    "lowInequality": 0.28,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373251,
+     "h": 6.91,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011431,
+     "h": -1.43,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373251,
+      "h": 6.91,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29885076,
+      "h": 6.87,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30371764,
+      "h": 6.86,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29886564,
+      "h": 6.85,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29926819,
+      "h": 6.84,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 30413503,
+      "h": 6.82,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011431,
+      "h": -1.43,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012924,
+      "h": -1.39,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053177,
+      "h": -1.31,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30009936,
+      "h": -1.3,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30054668,
+      "h": -1.25,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051684,
+      "h": -1.21,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 242,
+    "negativeLowDays": 156,
+    "meanHigh": 5.15,
+    "meanLow": 0.34
+   }
+  },
+  {
+   "key": "north-carolina/wrightsville-beach",
+   "slug": "wrightsville-beach",
+   "state": "north-carolina",
+   "place": "Wrightsville Beach",
+   "id": "8658163",
+   "noaaName": "Wrightsville Beach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 34.2133,
+   "lng": -77.7867,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.48,
+    "MHW": 4.14,
+    "MSL": 2.15,
+    "MTL": 2.14,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 4.49,
+    "MN": 3.98,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.41,
+    "springRange": 5.61,
+    "neapRange": 3.29,
+    "oneHighShare": 0.07,
+    "highInequality": 0.79,
+    "lowInequality": 0.25,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373236,
+     "h": 5.74,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011421,
+     "h": -1.25,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373236,
+      "h": 5.74,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371748,
+      "h": 5.68,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30413489,
+      "h": 5.67,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30374726,
+      "h": 5.66,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30414975,
+      "h": 5.66,
+      "date": "2027-10-30"
+     },
+     {
+      "t": 29885070,
+      "h": 5.64,
+      "date": "2026-10-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011421,
+      "h": -1.25,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012913,
+      "h": -1.23,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053167,
+      "h": -1.17,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054657,
+      "h": -1.17,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009926,
+      "h": -1.15,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30014403,
+      "h": -1.08,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 309,
+    "negativeLowDays": 205,
+    "meanHigh": 4.15,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "north-carolina/beaufort",
+   "slug": "beaufort",
+   "state": "north-carolina",
+   "place": "Beaufort",
+   "id": "8656483",
+   "noaaName": "Beaufort, Duke Marine Lab",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 34.7173,
+   "lng": -76.6707,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.54,
+    "MHW": 3.25,
+    "MSL": 1.71,
+    "MTL": 1.7,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 3.54,
+    "MN": 3.11,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.45,
+    "springRange": 4.27,
+    "neapRange": 2.64,
+    "oneHighShare": 0.07,
+    "highInequality": 0.64,
+    "lowInequality": 0.26,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373275,
+     "h": 4.46,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011446,
+     "h": -0.98,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373275,
+      "h": 4.46,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371786,
+      "h": 4.42,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29885107,
+      "h": 4.39,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30374763,
+      "h": 4.39,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30413526,
+      "h": 4.39,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 29886597,
+      "h": 4.38,
+      "date": "2026-10-28"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011446,
+      "h": -0.98,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30009950,
+      "h": -0.93,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012938,
+      "h": -0.92,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053194,
+      "h": -0.85,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30051700,
+      "h": -0.81,
+      "date": "2027-02-20"
+     },
+     {
+      "t": 30008451,
+      "h": -0.8,
+      "date": "2027-01-20"
+     }
+    ],
+    "negativeLows": 269,
+    "negativeLowDays": 196,
+    "meanHigh": 3.25,
+    "meanLow": 0.22
+   }
+  },
+  {
+   "key": "north-carolina/hatteras",
+   "slug": "hatteras",
+   "state": "north-carolina",
+   "place": "Hatteras",
+   "id": "8654400",
+   "noaaName": "CAPE HATTERAS FISHING PIER",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 35.2233,
+   "lng": -75.635,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.47,
+    "MHW": 3.11,
+    "MSL": 1.62,
+    "MTL": 1.61,
+    "MLW": 0.12,
+    "MLLW": 0,
+    "GT": 3.46,
+    "MN": 2.99,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.43,
+    "springRange": 4.4,
+    "neapRange": 2.45,
+    "oneHighShare": 0.07,
+    "highInequality": 0.8,
+    "lowInequality": 0.19,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29926815,
+     "h": 4.48,
+     "date": "2026-11-25"
+    },
+    "minLow": {
+     "t": 30011408,
+     "h": -0.93,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29926815,
+      "h": 4.48,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29886561,
+      "h": 4.45,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29928306,
+      "h": 4.45,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29885072,
+      "h": 4.43,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29925324,
+      "h": 4.38,
+      "date": "2026-11-24"
+     },
+     {
+      "t": 29888053,
+      "h": 4.36,
+      "date": "2026-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011408,
+      "h": -0.93,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012903,
+      "h": -0.89,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009911,
+      "h": -0.88,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053160,
+      "h": -0.86,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054653,
+      "h": -0.81,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051664,
+      "h": -0.8,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 299,
+    "negativeLowDays": 198,
+    "meanHigh": 3.12,
+    "meanLow": 0.15
+   }
+  },
+  {
+   "key": "north-carolina/oregon-inlet",
+   "slug": "oregon-inlet",
+   "state": "north-carolina",
+   "place": "Oregon Inlet",
+   "id": "8652587",
+   "noaaName": "OREGON INLET MARINA",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 35.7957,
+   "lng": -75.5482,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.18,
+    "MHW": 1.03,
+    "MSL": 0.58,
+    "MTL": 0.58,
+    "MLW": 0.13,
+    "MLLW": 0,
+    "GT": 1.18,
+    "MN": 0.91,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 0.93,
+    "springRange": 1.17,
+    "neapRange": 0.68,
+    "oneHighShare": 0.07,
+    "highInequality": 0.25,
+    "lowInequality": 0.07,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373279,
+     "h": 1.57,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30010769,
+     "h": -0.23,
+     "date": "2027-01-22"
+    },
+    "topHighs": [
+     {
+      "t": 30373279,
+      "h": 1.57,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371793,
+      "h": 1.56,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30374764,
+      "h": 1.55,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30413533,
+      "h": 1.53,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30370307,
+      "h": 1.52,
+      "date": "2027-09-29"
+     },
+     {
+      "t": 30415017,
+      "h": 1.52,
+      "date": "2027-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30010769,
+      "h": -0.23,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012256,
+      "h": -0.23,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013743,
+      "h": -0.22,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30008478,
+      "h": -0.21,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30052502,
+      "h": -0.21,
+      "date": "2027-02-20"
+     },
+     {
+      "t": 30051016,
+      "h": -0.2,
+      "date": "2027-02-19"
+     }
+    ],
+    "negativeLows": 149,
+    "negativeLowDays": 89,
+    "meanHigh": 1,
+    "meanLow": 0.22
+   }
+  },
+  {
+   "key": "north-carolina/nags-head",
+   "slug": "nags-head",
+   "state": "north-carolina",
+   "place": "Nags Head",
+   "id": "8652226",
+   "noaaName": "Jennettes Pier, Nags Head (ocean)",
+   "type": "S",
+   "referenceId": "8651370",
+   "referenceName": "DUCK PIER",
+   "lat": 35.91,
+   "lng": -75.5917,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8651370",
+    "heightOffsetHighTide": 1.04,
+    "heightOffsetLowTide": 1.43,
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 1,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.59,
+    "springRange": 4.76,
+    "neapRange": 2.42,
+    "oneHighShare": 0.07,
+    "highInequality": 0.72,
+    "lowInequality": 0.26,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373246,
+     "h": 4.92,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011420,
+     "h": -1.36,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373246,
+      "h": 4.92,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29885071,
+      "h": 4.91,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886560,
+      "h": 4.9,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30371760,
+      "h": 4.86,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30374732,
+      "h": 4.83,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30413500,
+      "h": 4.81,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011420,
+      "h": -1.36,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012913,
+      "h": -1.27,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009926,
+      "h": -1.26,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053172,
+      "h": -1.24,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054662,
+      "h": -1.18,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051679,
+      "h": -1.13,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 258,
+    "negativeLowDays": 164,
+    "meanHigh": 3.47,
+    "meanLow": 0.34
+   }
+  },
+  {
+   "key": "north-carolina/duck",
+   "slug": "duck",
+   "state": "north-carolina",
+   "place": "Duck",
+   "id": "8651370",
+   "noaaName": "DUCK PIER",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 36.1833,
+   "lng": -75.7467,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.69,
+    "MHW": 3.37,
+    "MSL": 1.77,
+    "MTL": 1.75,
+    "MLW": 0.14,
+    "MLLW": 0,
+    "GT": 3.69,
+    "MN": 3.22,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.51,
+    "springRange": 4.49,
+    "neapRange": 2.6,
+    "oneHighShare": 0.07,
+    "highInequality": 0.69,
+    "lowInequality": 0.18,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373251,
+     "h": 4.73,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011419,
+     "h": -0.95,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373251,
+      "h": 4.73,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29885076,
+      "h": 4.72,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886565,
+      "h": 4.71,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30371765,
+      "h": 4.67,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30374737,
+      "h": 4.65,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30413505,
+      "h": 4.62,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011419,
+      "h": -0.95,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012912,
+      "h": -0.89,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009925,
+      "h": -0.88,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053171,
+      "h": -0.87,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054661,
+      "h": -0.82,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051678,
+      "h": -0.79,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 257,
+    "negativeLowDays": 164,
+    "meanHigh": 3.34,
+    "meanLow": 0.24
+   }
+  },
+  {
+   "key": "virginia/virginia-beach",
+   "slug": "virginia-beach",
+   "state": "virginia",
+   "place": "Virginia Beach",
+   "id": "8639168",
+   "noaaName": "Virginia Beach",
+   "type": "S",
+   "referenceId": "8651370",
+   "referenceName": "DUCK PIER",
+   "lat": 36.8433,
+   "lng": -75.9717,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8651370",
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 1.07,
+    "timeOffsetHighTide": 15,
+    "timeOffsetLowTide": 16,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.75,
+    "springRange": 4.8,
+    "neapRange": 2.77,
+    "oneHighShare": 0.07,
+    "highInequality": 0.74,
+    "lowInequality": 0.19,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373266,
+     "h": 5.06,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011435,
+     "h": -1.01,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373266,
+      "h": 5.06,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29885091,
+      "h": 5.05,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886580,
+      "h": 5.04,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30371780,
+      "h": 5,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30374752,
+      "h": 4.97,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30413520,
+      "h": 4.95,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011435,
+      "h": -1.01,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012928,
+      "h": -0.95,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009941,
+      "h": -0.94,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053187,
+      "h": -0.93,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054677,
+      "h": -0.88,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30051694,
+      "h": -0.84,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 258,
+    "negativeLowDays": 164,
+    "meanHigh": 3.57,
+    "meanLow": 0.25
+   }
+  },
+  {
+   "key": "virginia/norfolk",
+   "slug": "norfolk",
+   "state": "virginia",
+   "place": "Norfolk",
+   "id": "8638610",
+   "noaaName": "HAMPTON ROADS (Sewells Point)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 36.9428,
+   "lng": -76.3286,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.76,
+    "MHW": 2.56,
+    "MSL": 1.36,
+    "MTL": 1.34,
+    "MLW": 0.13,
+    "MLLW": 0,
+    "GT": 2.76,
+    "MN": 2.43,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.55,
+    "springRange": 3.19,
+    "neapRange": 1.93,
+    "oneHighShare": 0.07,
+    "highInequality": 0.41,
+    "lowInequality": 0.12,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373356,
+     "h": 3.56,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011531,
+     "h": -0.83,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373356,
+      "h": 3.56,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30371870,
+      "h": 3.53,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30374841,
+      "h": 3.49,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 29885180,
+      "h": 3.46,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29886667,
+      "h": 3.44,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30413610,
+      "h": 3.42,
+      "date": "2027-10-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011531,
+      "h": -0.83,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013024,
+      "h": -0.8,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30010035,
+      "h": -0.76,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053281,
+      "h": -0.7,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30014517,
+      "h": -0.69,
+      "date": "2027-01-25"
+     },
+     {
+      "t": 30054771,
+      "h": -0.67,
+      "date": "2027-02-22"
+     }
+    ],
+    "negativeLows": 245,
+    "negativeLowDays": 149,
+    "meanHigh": 2.5,
+    "meanLow": 0.2
+   }
+  },
+  {
+   "key": "virginia/chincoteague",
+   "slug": "chincoteague",
+   "state": "virginia",
+   "place": "Chincoteague",
+   "id": "8630308",
+   "noaaName": "Chincoteague Channel (south end)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 37.9067,
+   "lng": -75.405,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.48,
+    "MHW": 2.26,
+    "MSL": 1.17,
+    "MTL": 1.19,
+    "MLW": 0.1,
+    "MLLW": 0,
+    "GT": 2.49,
+    "MN": 2.16,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.46,
+    "springRange": 3.06,
+    "neapRange": 1.88,
+    "oneHighShare": 0.07,
+    "highInequality": 0.48,
+    "lowInequality": 0.12,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29926868,
+     "h": 3.05,
+     "date": "2026-11-25"
+    },
+    "minLow": {
+     "t": 30011470,
+     "h": -0.41,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29926868,
+      "h": 3.05,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29968614,
+      "h": 3.04,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29928359,
+      "h": 3.02,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29925377,
+      "h": 3.01,
+      "date": "2026-11-24"
+     },
+     {
+      "t": 29967121,
+      "h": 3.01,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29970106,
+      "h": 3.01,
+      "date": "2026-12-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011470,
+      "h": -0.41,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30288698,
+      "h": -0.4,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30328951,
+      "h": -0.4,
+      "date": "2027-08-31"
+     },
+     {
+      "t": 30287204,
+      "h": -0.39,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30330443,
+      "h": -0.39,
+      "date": "2027-09-01"
+     },
+     {
+      "t": 30012964,
+      "h": -0.38,
+      "date": "2027-01-24"
+     }
+    ],
+    "negativeLows": 258,
+    "negativeLowDays": 169,
+    "meanHigh": 2.27,
+    "meanLow": 0.1
+   }
+  },
+  {
+   "key": "maryland/ocean-city",
+   "slug": "ocean-city",
+   "state": "maryland",
+   "place": "Ocean City",
+   "id": "8570283",
+   "noaaName": "Ocean City Inlet",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 38.3283,
+   "lng": -75.0917,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.46,
+    "MHW": 2.25,
+    "MSL": 1.27,
+    "MTL": 1.2,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 2.46,
+    "MN": 2.1,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.31,
+    "springRange": 2.9,
+    "neapRange": 1.73,
+    "oneHighShare": 0.07,
+    "highInequality": 0.44,
+    "lowInequality": 0.21,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373282,
+     "h": 3.1,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30011435,
+     "h": -0.81,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373282,
+      "h": 3.1,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30374770,
+      "h": 3.08,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 30371793,
+      "h": 3.05,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30413537,
+      "h": 3.05,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30287580,
+      "h": 3.04,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30415023,
+      "h": 3.04,
+      "date": "2027-10-30"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011435,
+      "h": -0.81,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30009941,
+      "h": -0.78,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30012928,
+      "h": -0.76,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053185,
+      "h": -0.7,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30008445,
+      "h": -0.68,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30051692,
+      "h": -0.67,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 212,
+    "negativeLowDays": 150,
+    "meanHigh": 2.23,
+    "meanLow": 0.22
+   }
+  },
+  {
+   "key": "maryland/annapolis",
+   "slug": "annapolis",
+   "state": "maryland",
+   "place": "Annapolis",
+   "id": "8575512",
+   "noaaName": "Annapolis (US Naval Academy)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 38.9839,
+   "lng": -76.48,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.43,
+    "MHW": 1.19,
+    "MSL": 0.72,
+    "MTL": 0.7,
+    "MLW": 0.22,
+    "MLLW": 0,
+    "GT": 1.44,
+    "MN": 0.97,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.22,
+    "springRange": 1.51,
+    "neapRange": 0.89,
+    "oneHighShare": 0.07,
+    "highInequality": 0.36,
+    "lowInequality": 0.32,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30243436,
+     "h": 1.86,
+     "date": "2027-07-03"
+    },
+    "minLow": {
+     "t": 30010530,
+     "h": -0.71,
+     "date": "2027-01-22"
+    },
+    "topHighs": [
+     {
+      "t": 30243436,
+      "h": 1.86,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30244929,
+      "h": 1.86,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30285180,
+      "h": 1.86,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30286672,
+      "h": 1.85,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30246420,
+      "h": 1.84,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30283685,
+      "h": 1.84,
+      "date": "2027-07-31"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30010530,
+      "h": -0.71,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009031,
+      "h": -0.7,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30012027,
+      "h": -0.68,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30007530,
+      "h": -0.66,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30006029,
+      "h": -0.61,
+      "date": "2027-01-19"
+     },
+     {
+      "t": 30013522,
+      "h": -0.61,
+      "date": "2027-01-24"
+     }
+    ],
+    "negativeLows": 215,
+    "negativeLowDays": 161,
+    "meanHigh": 1.15,
+    "meanLow": 0.25
+   }
+  },
+  {
+   "key": "maryland/baltimore",
+   "slug": "baltimore",
+   "state": "maryland",
+   "place": "Baltimore",
+   "id": "8574680",
+   "noaaName": "Baltimore, Fort McHenry",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 39.2667,
+   "lng": -76.5783,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 1.65,
+    "MHW": 1.36,
+    "MSL": 0.79,
+    "MTL": 0.78,
+    "MLW": 0.21,
+    "MLLW": 0,
+    "GT": 1.66,
+    "MN": 1.14,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 1.38,
+    "springRange": 1.73,
+    "neapRange": 0.99,
+    "oneHighShare": 0.07,
+    "highInequality": 0.49,
+    "lowInequality": 0.22,
+    "tideType": "mixed",
+    "maxHigh": {
+     "t": 30245003,
+     "h": 2.15,
+     "date": "2027-07-04"
+    },
+    "minLow": {
+     "t": 30010622,
+     "h": -0.66,
+     "date": "2027-01-22"
+    },
+    "topHighs": [
+     {
+      "t": 30245003,
+      "h": 2.15,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30285253,
+      "h": 2.15,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30286747,
+      "h": 2.15,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30243508,
+      "h": 2.14,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30246496,
+      "h": 2.13,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30283758,
+      "h": 2.12,
+      "date": "2027-07-31"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30010622,
+      "h": -0.66,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009118,
+      "h": -0.64,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30012127,
+      "h": -0.64,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30007617,
+      "h": -0.59,
+      "date": "2027-01-20"
+     },
+     {
+      "t": 30013628,
+      "h": -0.59,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29968854,
+      "h": -0.54,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 223,
+    "negativeLowDays": 155,
+    "meanHigh": 1.31,
+    "meanLow": 0.26
+   }
+  },
+  {
+   "key": "delaware/rehoboth-beach",
+   "slug": "rehoboth-beach",
+   "state": "delaware",
+   "place": "Rehoboth Beach",
+   "id": "8557863",
+   "noaaName": "Rehoboth Beach",
+   "type": "S",
+   "referenceId": "8570280",
+   "referenceName": "OCEAN CITY (FISHING PIER)",
+   "lat": 38.72,
+   "lng": -75.0833,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8570280",
+    "heightOffsetHighTide": 1.13,
+    "heightOffsetLowTide": 1.33,
+    "timeOffsetHighTide": 15,
+    "timeOffsetLowTide": 8,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.31,
+    "springRange": 5.64,
+    "neapRange": 3.07,
+    "oneHighShare": 0.07,
+    "highInequality": 0.93,
+    "lowInequality": 0.27,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29926844,
+     "h": 5.6,
+     "date": "2026-11-25"
+    },
+    "minLow": {
+     "t": 30011434,
+     "h": -1.48,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29926844,
+      "h": 5.6,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29886591,
+      "h": 5.59,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 29885101,
+      "h": 5.58,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 29928336,
+      "h": 5.58,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30245816,
+      "h": 5.57,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30244322,
+      "h": 5.51,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011434,
+      "h": -1.48,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012927,
+      "h": -1.45,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053182,
+      "h": -1.39,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054673,
+      "h": -1.35,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009939,
+      "h": -1.34,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30051688,
+      "h": -1.25,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 287,
+    "negativeLowDays": 185,
+    "meanHigh": 3.98,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "delaware/lewes",
+   "slug": "lewes",
+   "state": "delaware",
+   "place": "Lewes",
+   "id": "8557380",
+   "noaaName": "LEWES (BREAKWATER HARBOR)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 38.7828,
+   "lng": -75.1193,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.65,
+    "MHW": 4.23,
+    "MSL": 2.23,
+    "MTL": 2.2,
+    "MLW": 0.16,
+    "MLLW": 0,
+    "GT": 4.65,
+    "MN": 4.08,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.36,
+    "springRange": 5.42,
+    "neapRange": 3.36,
+    "oneHighShare": 0.07,
+    "highInequality": 0.88,
+    "lowInequality": 0.15,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30287612,
+     "h": 5.58,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30011483,
+     "h": -1.04,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30287612,
+      "h": 5.58,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30245867,
+      "h": 5.56,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29886638,
+      "h": 5.54,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30286118,
+      "h": 5.53,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30247360,
+      "h": 5.52,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 29885150,
+      "h": 5.51,
+      "date": "2026-10-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011483,
+      "h": -1.04,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012976,
+      "h": -1.03,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053233,
+      "h": -0.97,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054723,
+      "h": -0.96,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009989,
+      "h": -0.93,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30014469,
+      "h": -0.87,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 259,
+    "negativeLowDays": 151,
+    "meanHigh": 4.15,
+    "meanLow": 0.27
+   }
+  },
+  {
+   "key": "new-jersey/cape-may",
+   "slug": "cape-may",
+   "state": "new-jersey",
+   "place": "Cape May",
+   "id": "8536110",
+   "noaaName": "Cape May, ferry terminal",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 38.9683,
+   "lng": -74.96,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.45,
+    "MHW": 5.01,
+    "MSL": 2.57,
+    "MTL": 2.59,
+    "MLW": 0.16,
+    "MLLW": 0,
+    "GT": 5.44,
+    "MN": 4.85,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 5.11,
+    "springRange": 6.26,
+    "neapRange": 4.06,
+    "oneHighShare": 0.07,
+    "highInequality": 0.9,
+    "lowInequality": 0.15,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30287607,
+     "h": 6.49,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30011481,
+     "h": -1.01,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30287607,
+      "h": 6.49,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30245863,
+      "h": 6.45,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30289098,
+      "h": 6.42,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30247355,
+      "h": 6.41,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30286114,
+      "h": 6.39,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30329348,
+      "h": 6.36,
+      "date": "2027-08-31"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011481,
+      "h": -1.01,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012974,
+      "h": -1,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053230,
+      "h": -0.97,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054721,
+      "h": -0.97,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30009987,
+      "h": -0.89,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30014467,
+      "h": -0.86,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 234,
+    "negativeLowDays": 137,
+    "meanHigh": 4.91,
+    "meanLow": 0.29
+   }
+  },
+  {
+   "key": "new-jersey/wildwood",
+   "slug": "wildwood",
+   "state": "new-jersey",
+   "place": "Wildwood",
+   "id": "8535835",
+   "noaaName": "Wildwood Crest, ocean pier",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 38.975,
+   "lng": -74.8233,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.93,
+    "MHW": 4.49,
+    "MSL": 2.36,
+    "MTL": 2.34,
+    "MLW": 0.18,
+    "MLLW": 0,
+    "GT": 4.93,
+    "MN": 4.31,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.66,
+    "springRange": 5.97,
+    "neapRange": 3.43,
+    "oneHighShare": 0.07,
+    "highInequality": 0.96,
+    "lowInequality": 0.17,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30287547,
+     "h": 6.11,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30012199,
+     "h": -1.02,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30287547,
+      "h": 6.11,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30245802,
+      "h": 6.09,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30247294,
+      "h": 6.05,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30286054,
+      "h": 6.05,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30289037,
+      "h": 6.01,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30244308,
+      "h": 5.99,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012199,
+      "h": -1.02,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013685,
+      "h": -1,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053934,
+      "h": -0.94,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30010712,
+      "h": -0.92,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30054667,
+      "h": -0.9,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30015170,
+      "h": -0.85,
+      "date": "2027-01-25"
+     }
+    ],
+    "negativeLows": 253,
+    "negativeLowDays": 151,
+    "meanHigh": 4.4,
+    "meanLow": 0.27
+   }
+  },
+  {
+   "key": "new-jersey/ocean-city",
+   "slug": "ocean-city",
+   "state": "new-jersey",
+   "place": "Ocean City",
+   "id": "8534836",
+   "noaaName": "Longport (inside), Great Egg Harbor Inlet",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 39.3083,
+   "lng": -74.5333,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.33,
+    "MHW": 3.93,
+    "MSL": 2.03,
+    "MTL": 2.04,
+    "MLW": 0.15,
+    "MLLW": 0,
+    "GT": 4.33,
+    "MN": 3.78,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.1,
+    "springRange": 5.03,
+    "neapRange": 3.23,
+    "oneHighShare": 0.07,
+    "highInequality": 0.83,
+    "lowInequality": 0.16,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30245823,
+     "h": 5.23,
+     "date": "2027-07-04"
+    },
+    "minLow": {
+     "t": 30013707,
+     "h": -0.78,
+     "date": "2027-01-24"
+    },
+    "topHighs": [
+     {
+      "t": 30245823,
+      "h": 5.23,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30287567,
+      "h": 5.22,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30247313,
+      "h": 5.19,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30286077,
+      "h": 5.18,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 29886594,
+      "h": 5.16,
+      "date": "2026-10-28"
+     },
+     {
+      "t": 30244332,
+      "h": 5.15,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30013707,
+      "h": -0.78,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30012223,
+      "h": -0.77,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30015192,
+      "h": -0.71,
+      "date": "2027-01-25"
+     },
+     {
+      "t": 30053958,
+      "h": -0.7,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30010737,
+      "h": -0.69,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30055438,
+      "h": -0.68,
+      "date": "2027-02-22"
+     }
+    ],
+    "negativeLows": 253,
+    "negativeLowDays": 163,
+    "meanHigh": 3.86,
+    "meanLow": 0.22
+   }
+  },
+  {
+   "key": "new-jersey/atlantic-city",
+   "slug": "atlantic-city",
+   "state": "new-jersey",
+   "place": "Atlantic City",
+   "id": "8534720",
+   "noaaName": "Atlantic City (Ocean)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 39.3567,
+   "lng": -74.4181,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.6,
+    "MHW": 4.18,
+    "MSL": 2.21,
+    "MTL": 2.18,
+    "MLW": 0.17,
+    "MLLW": 0,
+    "GT": 4.6,
+    "MN": 4.02,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.33,
+    "springRange": 5.56,
+    "neapRange": 3.17,
+    "oneHighShare": 0.07,
+    "highInequality": 0.87,
+    "lowInequality": 0.19,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30287538,
+     "h": 5.68,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30012193,
+     "h": -1.14,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30287538,
+      "h": 5.68,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30245793,
+      "h": 5.67,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30247285,
+      "h": 5.62,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30286045,
+      "h": 5.61,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30289028,
+      "h": 5.59,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30244300,
+      "h": 5.57,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012193,
+      "h": -1.14,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013678,
+      "h": -1.09,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053928,
+      "h": -1.08,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30010706,
+      "h": -1.05,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30054659,
+      "h": -1.05,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30052444,
+      "h": -1,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 259,
+    "negativeLowDays": 156,
+    "meanHigh": 4.11,
+    "meanLow": 0.27
+   }
+  },
+  {
+   "key": "new-jersey/long-beach-island",
+   "slug": "long-beach-island",
+   "state": "new-jersey",
+   "place": "Long Beach Island",
+   "id": "8533615",
+   "noaaName": "Barnegat Inlet, USCG Station",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 39.7617,
+   "lng": -74.1117,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.51,
+    "MHW": 2.27,
+    "MSL": 1.16,
+    "MTL": 1.2,
+    "MLW": 0.12,
+    "MLLW": 0,
+    "GT": 2.51,
+    "MN": 2.15,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.59,
+    "springRange": 3.2,
+    "neapRange": 1.98,
+    "oneHighShare": 0.07,
+    "highInequality": 0.51,
+    "lowInequality": 0.13,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373263,
+     "h": 3.21,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30012220,
+     "h": -0.76,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30373263,
+      "h": 3.21,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30374749,
+      "h": 3.18,
+      "date": "2027-10-02"
+     },
+     {
+      "t": 29885089,
+      "h": 3.17,
+      "date": "2026-10-27"
+     },
+     {
+      "t": 30287549,
+      "h": 3.16,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30371777,
+      "h": 3.16,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 29886575,
+      "h": 3.15,
+      "date": "2026-10-28"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012220,
+      "h": -0.76,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013706,
+      "h": -0.76,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053955,
+      "h": -0.72,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30055437,
+      "h": -0.71,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30015192,
+      "h": -0.7,
+      "date": "2027-01-25"
+     },
+     {
+      "t": 30010734,
+      "h": -0.69,
+      "date": "2027-01-22"
+     }
+    ],
+    "negativeLows": 412,
+    "negativeLowDays": 251,
+    "meanHigh": 2.32,
+    "meanLow": 0.03
+   }
+  },
+  {
+   "key": "new-york/new-york-city",
+   "slug": "new-york-city",
+   "state": "new-york",
+   "place": "New York City",
+   "id": "8518750",
+   "noaaName": "NEW YORK (The Battery)",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 40.7006,
+   "lng": -74.0142,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 5.05,
+    "MHW": 4.73,
+    "MSL": 2.57,
+    "MTL": 2.47,
+    "MLW": 0.2,
+    "MLLW": 0,
+    "GT": 5.06,
+    "MN": 4.53,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.9,
+    "springRange": 6.23,
+    "neapRange": 3.62,
+    "oneHighShare": 0.07,
+    "highInequality": 0.69,
+    "lowInequality": 0.31,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30287577,
+     "h": 6.21,
+     "date": "2027-08-02"
+    },
+    "minLow": {
+     "t": 30012249,
+     "h": -1.34,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30287577,
+      "h": 6.21,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30371809,
+      "h": 6.18,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30245829,
+      "h": 6.17,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30286085,
+      "h": 6.16,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30373295,
+      "h": 6.16,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30244336,
+      "h": 6.13,
+      "date": "2027-07-03"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012249,
+      "h": -1.34,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013735,
+      "h": -1.32,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30053984,
+      "h": -1.27,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30010760,
+      "h": -1.21,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30055468,
+      "h": -1.2,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 30052498,
+      "h": -1.17,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 276,
+    "negativeLowDays": 179,
+    "meanHigh": 4.72,
+    "meanLow": 0.29
+   }
+  },
+  {
+   "key": "new-york/jones-beach",
+   "slug": "jones-beach",
+   "state": "new-york",
+   "place": "Jones Beach",
+   "id": "8516402",
+   "noaaName": "Point Lookout (marina), Jones Inlet",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 40.5939,
+   "lng": -73.584,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.66,
+    "MHW": 4.33,
+    "MSL": 2.24,
+    "MTL": 2.26,
+    "MLW": 0.19,
+    "MLLW": 0,
+    "GT": 4.66,
+    "MN": 4.14,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.45,
+    "springRange": 5.51,
+    "neapRange": 3.43,
+    "oneHighShare": 0.07,
+    "highInequality": 0.73,
+    "lowInequality": 0.29,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30245810,
+     "h": 5.59,
+     "date": "2027-07-04"
+    },
+    "minLow": {
+     "t": 30012201,
+     "h": -1,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30245810,
+      "h": 5.59,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30244318,
+      "h": 5.54,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30287552,
+      "h": 5.54,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30204067,
+      "h": 5.53,
+      "date": "2027-06-05"
+     },
+     {
+      "t": 30247302,
+      "h": 5.52,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30286061,
+      "h": 5.5,
+      "date": "2027-08-01"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012201,
+      "h": -1,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013690,
+      "h": -1,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30010712,
+      "h": -0.9,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30015177,
+      "h": -0.9,
+      "date": "2027-01-25"
+     },
+     {
+      "t": 30053936,
+      "h": -0.85,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 29970463,
+      "h": -0.84,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 257,
+    "negativeLowDays": 174,
+    "meanHigh": 4.22,
+    "meanLow": 0.24
+   }
+  },
+  {
+   "key": "new-york/montauk",
+   "slug": "montauk",
+   "state": "new-york",
+   "place": "Montauk",
+   "id": "8510560",
+   "noaaName": "Montauk, Fort Pond Bay",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.0483,
+   "lng": -71.9594,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.53,
+    "MHW": 2.24,
+    "MSL": 1.24,
+    "MTL": 1.21,
+    "MLW": 0.17,
+    "MLLW": 0,
+    "GT": 2.53,
+    "MN": 2.07,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.31,
+    "springRange": 3.07,
+    "neapRange": 1.6,
+    "oneHighShare": 0.07,
+    "highInequality": 0.54,
+    "lowInequality": 0.22,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30244389,
+     "h": 3.17,
+     "date": "2027-07-03"
+    },
+    "minLow": {
+     "t": 30012297,
+     "h": -0.62,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30244389,
+      "h": 3.17,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30245881,
+      "h": 3.17,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30286132,
+      "h": 3.16,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30287622,
+      "h": 3.14,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30373332,
+      "h": 3.12,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 29926909,
+      "h": 3.11,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012297,
+      "h": -0.62,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30010810,
+      "h": -0.6,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30052547,
+      "h": -0.57,
+      "date": "2027-02-20"
+     },
+     {
+      "t": 30054032,
+      "h": -0.57,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30013784,
+      "h": -0.56,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29969070,
+      "h": -0.51,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 203,
+    "negativeLowDays": 157,
+    "meanHigh": 2.18,
+    "meanLow": 0.23
+   }
+  },
+  {
+   "key": "connecticut/mystic",
+   "slug": "mystic",
+   "state": "connecticut",
+   "place": "Mystic",
+   "id": "8460751",
+   "noaaName": "WEST MYSTIC, MYSTIC RIVER",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.3433,
+   "lng": -71.975,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 2.98,
+    "MHW": 2.69,
+    "MSL": 1.48,
+    "MTL": 1.44,
+    "MLW": 0.19,
+    "MLLW": 0,
+    "GT": 2.99,
+    "MN": 2.5,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 2.7,
+    "springRange": 3.52,
+    "neapRange": 1.94,
+    "oneHighShare": 0.07,
+    "highInequality": 0.47,
+    "lowInequality": 0.22,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30373338,
+     "h": 3.57,
+     "date": "2027-10-01"
+    },
+    "minLow": {
+     "t": 30010809,
+     "h": -0.62,
+     "date": "2027-01-22"
+    },
+    "topHighs": [
+     {
+      "t": 30373338,
+      "h": 3.57,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30244396,
+      "h": 3.55,
+      "date": "2027-07-03"
+     },
+     {
+      "t": 30371851,
+      "h": 3.54,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30245887,
+      "h": 3.52,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 30202653,
+      "h": 3.51,
+      "date": "2027-06-04"
+     },
+     {
+      "t": 30204142,
+      "h": 3.51,
+      "date": "2027-06-05"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30010809,
+      "h": -0.62,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30009322,
+      "h": -0.6,
+      "date": "2027-01-21"
+     },
+     {
+      "t": 30012295,
+      "h": -0.59,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 29967583,
+      "h": -0.58,
+      "date": "2026-12-23"
+     },
+     {
+      "t": 29969071,
+      "h": -0.56,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30052546,
+      "h": -0.53,
+      "date": "2027-02-20"
+     }
+    ],
+    "negativeLows": 194,
+    "negativeLowDays": 154,
+    "meanHigh": 2.63,
+    "meanLow": 0.25
+   }
+  },
+  {
+   "key": "connecticut/new-haven",
+   "slug": "new-haven",
+   "state": "connecticut",
+   "place": "New Haven",
+   "id": "8465705",
+   "noaaName": "New Haven Harbor, New Haven Reach",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.2833,
+   "lng": -72.9083,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 6.72,
+    "MHW": 6.4,
+    "MSL": 3.33,
+    "MTL": 3.32,
+    "MLW": 0.24,
+    "MLLW": 0,
+    "GT": 6.73,
+    "MN": 6.16,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 6.4,
+    "springRange": 7.69,
+    "neapRange": 5.19,
+    "oneHighShare": 0.07,
+    "highInequality": 0.61,
+    "lowInequality": 0.35,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30371988,
+     "h": 7.82,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30012412,
+     "h": -1.12,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30371988,
+      "h": 7.82,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373474,
+      "h": 7.81,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30331740,
+      "h": 7.74,
+      "date": "2027-09-02"
+     },
+     {
+      "t": 30333229,
+      "h": 7.69,
+      "date": "2027-09-03"
+     },
+     {
+      "t": 30413724,
+      "h": 7.67,
+      "date": "2027-10-29"
+     },
+     {
+      "t": 30370500,
+      "h": 7.65,
+      "date": "2027-09-29"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012412,
+      "h": -1.12,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30010923,
+      "h": -1.06,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30013901,
+      "h": -1.05,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30054150,
+      "h": -1.03,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30052663,
+      "h": -0.98,
+      "date": "2027-02-20"
+     },
+     {
+      "t": 30054892,
+      "h": -0.98,
+      "date": "2027-02-22"
+     }
+    ],
+    "negativeLows": 222,
+    "negativeLowDays": 166,
+    "meanHigh": 6.31,
+    "meanLow": 0.36
+   }
+  },
+  {
+   "key": "rhode-island/narragansett",
+   "slug": "narragansett",
+   "state": "rhode-island",
+   "place": "Narragansett",
+   "id": "8454658",
+   "noaaName": "Narragansett Pier",
+   "type": "S",
+   "referenceId": "8452660",
+   "referenceName": "NEWPORT",
+   "lat": 41.4217,
+   "lng": -71.455,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8452660",
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.93,
+    "timeOffsetHighTide": -11,
+    "timeOffsetLowTide": 11,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.32,
+    "springRange": 4.43,
+    "neapRange": 2.31,
+    "oneHighShare": 0.07,
+    "highInequality": 0.43,
+    "lowInequality": 0.15,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30371771,
+     "h": 4.54,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30011425,
+     "h": -0.77,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30371771,
+      "h": 4.54,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373259,
+      "h": 4.53,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30331522,
+      "h": 4.5,
+      "date": "2027-09-02"
+     },
+     {
+      "t": 30330033,
+      "h": 4.44,
+      "date": "2027-09-01"
+     },
+     {
+      "t": 30333011,
+      "h": 4.41,
+      "date": "2027-09-03"
+     },
+     {
+      "t": 30287546,
+      "h": 4.4,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011425,
+      "h": -0.77,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012920,
+      "h": -0.73,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009927,
+      "h": -0.71,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053179,
+      "h": -0.71,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054670,
+      "h": -0.69,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 29969670,
+      "h": -0.66,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 261,
+    "negativeLowDays": 158,
+    "meanHigh": 3.24,
+    "meanLow": 0.19
+   }
+  },
+  {
+   "key": "rhode-island/newport",
+   "slug": "newport",
+   "state": "rhode-island",
+   "place": "Newport",
+   "id": "8452660",
+   "noaaName": "NEWPORT",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.5043,
+   "lng": -71.3261,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.85,
+    "MHW": 3.61,
+    "MSL": 1.74,
+    "MTL": 1.88,
+    "MLW": 0.14,
+    "MLLW": 0,
+    "GT": 3.85,
+    "MN": 3.47,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.65,
+    "springRange": 4.86,
+    "neapRange": 2.57,
+    "oneHighShare": 0.07,
+    "highInequality": 0.47,
+    "lowInequality": 0.16,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30371782,
+     "h": 4.99,
+     "date": "2027-09-30"
+    },
+    "minLow": {
+     "t": 30011414,
+     "h": -0.82,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30371782,
+      "h": 4.99,
+      "date": "2027-09-30"
+     },
+     {
+      "t": 30373270,
+      "h": 4.97,
+      "date": "2027-10-01"
+     },
+     {
+      "t": 30331533,
+      "h": 4.95,
+      "date": "2027-09-02"
+     },
+     {
+      "t": 30330044,
+      "h": 4.88,
+      "date": "2027-09-01"
+     },
+     {
+      "t": 30333022,
+      "h": 4.85,
+      "date": "2027-09-03"
+     },
+     {
+      "t": 30287557,
+      "h": 4.83,
+      "date": "2027-08-02"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30011414,
+      "h": -0.82,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30012909,
+      "h": -0.78,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30009916,
+      "h": -0.77,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 30053168,
+      "h": -0.77,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 30054659,
+      "h": -0.74,
+      "date": "2027-02-22"
+     },
+     {
+      "t": 29969659,
+      "h": -0.71,
+      "date": "2026-12-25"
+     }
+    ],
+    "negativeLows": 261,
+    "negativeLowDays": 158,
+    "meanHigh": 3.56,
+    "meanLow": 0.21
+   }
+  },
+  {
+   "key": "massachusetts/nantucket",
+   "slug": "nantucket",
+   "state": "massachusetts",
+   "place": "Nantucket",
+   "id": "8449130",
+   "noaaName": "NANTUCKET",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.285,
+   "lng": -70.0967,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.57,
+    "MHW": 3.24,
+    "MSL": 1.77,
+    "MTL": 1.72,
+    "MLW": 0.2,
+    "MLLW": 0,
+    "GT": 3.57,
+    "MN": 3.03,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.5,
+    "springRange": 4.32,
+    "neapRange": 2.71,
+    "oneHighShare": 0.07,
+    "highInequality": 0.73,
+    "lowInequality": 0.38,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29928596,
+     "h": 4.36,
+     "date": "2026-11-26"
+    },
+    "minLow": {
+     "t": 29970713,
+     "h": -0.63,
+     "date": "2026-12-25"
+    },
+    "topHighs": [
+     {
+      "t": 29928596,
+      "h": 4.36,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30246076,
+      "h": 4.35,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 29968846,
+      "h": 4.34,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29970343,
+      "h": 4.34,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30286322,
+      "h": 4.33,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30247572,
+      "h": 4.32,
+      "date": "2027-07-06"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29970713,
+      "h": -0.63,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30012452,
+      "h": -0.63,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 29969221,
+      "h": -0.62,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30010961,
+      "h": -0.62,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29972206,
+      "h": -0.57,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 30013942,
+      "h": -0.57,
+      "date": "2027-01-24"
+     }
+    ],
+    "negativeLows": 213,
+    "negativeLowDays": 182,
+    "meanHigh": 3.22,
+    "meanLow": 0.24
+   }
+  },
+  {
+   "key": "massachusetts/hyannis",
+   "slug": "hyannis",
+   "state": "massachusetts",
+   "place": "Hyannis",
+   "id": "8447605",
+   "noaaName": "Hyannis Port",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.6317,
+   "lng": -70.3,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 3.8,
+    "MHW": 3.45,
+    "MSL": 1.92,
+    "MTL": 1.85,
+    "MLW": 0.25,
+    "MLLW": 0,
+    "GT": 3.8,
+    "MN": 3.19,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 3.61,
+    "springRange": 4.51,
+    "neapRange": 2.73,
+    "oneHighShare": 0.07,
+    "highInequality": 0.74,
+    "lowInequality": 0.41,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30246066,
+     "h": 4.67,
+     "date": "2027-07-05"
+    },
+    "minLow": {
+     "t": 29970709,
+     "h": -0.66,
+     "date": "2026-12-25"
+    },
+    "topHighs": [
+     {
+      "t": 30246066,
+      "h": 4.67,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30287811,
+      "h": 4.64,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30247562,
+      "h": 4.63,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30286314,
+      "h": 4.63,
+      "date": "2027-08-01"
+     },
+     {
+      "t": 30244571,
+      "h": 4.61,
+      "date": "2027-07-04"
+     },
+     {
+      "t": 29970334,
+      "h": 4.55,
+      "date": "2026-12-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29970709,
+      "h": -0.66,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29969215,
+      "h": -0.65,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30012446,
+      "h": -0.62,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 29972202,
+      "h": -0.61,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 30010953,
+      "h": -0.61,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29928968,
+      "h": -0.6,
+      "date": "2026-11-26"
+     }
+    ],
+    "negativeLows": 174,
+    "negativeLowDays": 157,
+    "meanHigh": 3.41,
+    "meanLow": 0.34
+   }
+  },
+  {
+   "key": "massachusetts/chatham",
+   "slug": "chatham",
+   "state": "massachusetts",
+   "place": "Chatham",
+   "id": "8447505",
+   "noaaName": "Chatham, Stage Harbor",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.6667,
+   "lng": -69.9667,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 4.58,
+    "MHW": 4.21,
+    "MSL": 2.34,
+    "MTL": 2.24,
+    "MLW": 0.26,
+    "MLLW": 0,
+    "GT": 4.58,
+    "MN": 3.95,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 4.29,
+    "springRange": 5.27,
+    "neapRange": 3.33,
+    "oneHighShare": 0.07,
+    "highInequality": 0.79,
+    "lowInequality": 0.41,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29928580,
+     "h": 5.45,
+     "date": "2026-11-26"
+    },
+    "minLow": {
+     "t": 29970709,
+     "h": -0.55,
+     "date": "2026-12-25"
+    },
+    "topHighs": [
+     {
+      "t": 29928580,
+      "h": 5.45,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29970328,
+      "h": 5.44,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29930075,
+      "h": 5.42,
+      "date": "2026-11-27"
+     },
+     {
+      "t": 29968832,
+      "h": 5.41,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 30246060,
+      "h": 5.41,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30247556,
+      "h": 5.39,
+      "date": "2027-07-06"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 29970709,
+      "h": -0.55,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29928966,
+      "h": -0.54,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29969216,
+      "h": -0.53,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29927473,
+      "h": -0.52,
+      "date": "2026-11-25"
+     },
+     {
+      "t": 29972202,
+      "h": -0.51,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 30012447,
+      "h": -0.5,
+      "date": "2027-01-23"
+     }
+    ],
+    "negativeLows": 145,
+    "negativeLowDays": 131,
+    "meanHigh": 4.15,
+    "meanLow": 0.43
+   }
+  },
+  {
+   "key": "massachusetts/provincetown",
+   "slug": "provincetown",
+   "state": "massachusetts",
+   "place": "Provincetown",
+   "id": "8446121",
+   "noaaName": "Provincetown",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 42.0496,
+   "lng": -70.1822,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 10.08,
+    "MHW": 9.62,
+    "MSL": 5.03,
+    "MTL": 4.98,
+    "MLW": 0.33,
+    "MLLW": 0,
+    "GT": 10.08,
+    "MN": 9.29,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 9.92,
+    "springRange": 11.96,
+    "neapRange": 8.1,
+    "oneHighShare": 0.07,
+    "highInequality": 0.93,
+    "lowInequality": 0.7,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30247515,
+     "h": 11.63,
+     "date": "2027-07-06"
+    },
+    "minLow": {
+     "t": 30012413,
+     "h": -1.72,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30247515,
+      "h": 11.63,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30289258,
+      "h": 11.63,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 30287764,
+      "h": 11.6,
+      "date": "2027-08-03"
+     },
+     {
+      "t": 30246020,
+      "h": 11.56,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 29970284,
+      "h": 11.52,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30249010,
+      "h": 11.5,
+      "date": "2027-07-07"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012413,
+      "h": -1.72,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013903,
+      "h": -1.66,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970670,
+      "h": -1.61,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010921,
+      "h": -1.58,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969176,
+      "h": -1.56,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29972163,
+      "h": -1.5,
+      "date": "2026-12-26"
+     }
+    ],
+    "negativeLows": 253,
+    "negativeLowDays": 187,
+    "meanHigh": 9.55,
+    "meanLow": 0.39
+   }
+  },
+  {
+   "key": "massachusetts/plymouth",
+   "slug": "plymouth",
+   "state": "massachusetts",
+   "place": "Plymouth",
+   "id": "8446493",
+   "noaaName": "Plymouth",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 41.96,
+   "lng": -70.6617,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 10.53,
+    "MHW": 10.09,
+    "MSL": 5.38,
+    "MTL": 5.21,
+    "MLW": 0.34,
+    "MLLW": 0,
+    "GT": 10.53,
+    "MN": 9.76,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 10.01,
+    "springRange": 12.22,
+    "neapRange": 7.89,
+    "oneHighShare": 0.07,
+    "highInequality": 1.02,
+    "lowInequality": 0.74,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30247517,
+     "h": 12.2,
+     "date": "2027-07-06"
+    },
+    "minLow": {
+     "t": 30012428,
+     "h": -1.51,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30247517,
+      "h": 12.2,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 29970290,
+      "h": 12.16,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29928545,
+      "h": 12.14,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 30289261,
+      "h": 12.12,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 29971783,
+      "h": 12.09,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 29930037,
+      "h": 12.08,
+      "date": "2026-11-27"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012428,
+      "h": -1.51,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013916,
+      "h": -1.5,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970687,
+      "h": -1.42,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29972178,
+      "h": -1.38,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 30010938,
+      "h": -1.31,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969196,
+      "h": -1.28,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 179,
+    "negativeLowDays": 139,
+    "meanHigh": 9.88,
+    "meanLow": 0.7
+   }
+  },
+  {
+   "key": "massachusetts/boston",
+   "slug": "boston",
+   "state": "massachusetts",
+   "place": "Boston",
+   "id": "8443970",
+   "noaaName": "BOSTON",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 42.3539,
+   "lng": -71.0503,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 10.27,
+    "MHW": 9.82,
+    "MSL": 5.2,
+    "MTL": 5.08,
+    "MLW": 0.33,
+    "MLLW": 0,
+    "GT": 10.27,
+    "MN": 9.49,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 9.9,
+    "springRange": 12.12,
+    "neapRange": 7.93,
+    "oneHighShare": 0.07,
+    "highInequality": 0.96,
+    "lowInequality": 0.72,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29928529,
+     "h": 11.84,
+     "date": "2026-11-26"
+    },
+    "minLow": {
+     "t": 30012409,
+     "h": -1.77,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29928529,
+      "h": 11.84,
+      "date": "2026-11-26"
+     },
+     {
+      "t": 29970275,
+      "h": 11.84,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30247505,
+      "h": 11.84,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30246009,
+      "h": 11.81,
+      "date": "2027-07-05"
+     },
+     {
+      "t": 30287754,
+      "h": 11.81,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 29927037,
+      "h": 11.8,
+      "date": "2026-11-25"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012409,
+      "h": -1.77,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013898,
+      "h": -1.7,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970666,
+      "h": -1.64,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010918,
+      "h": -1.61,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969173,
+      "h": -1.56,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29972158,
+      "h": -1.52,
+      "date": "2026-12-26"
+     }
+    ],
+    "negativeLows": 211,
+    "negativeLowDays": 162,
+    "meanHigh": 9.68,
+    "meanLow": 0.56
+   }
+  },
+  {
+   "key": "massachusetts/gloucester",
+   "slug": "gloucester",
+   "state": "massachusetts",
+   "place": "Gloucester",
+   "id": "8441841",
+   "noaaName": "Gloucester Harbor",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 42.61,
+   "lng": -70.66,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 9.57,
+    "MHW": 9.13,
+    "MSL": 4.77,
+    "MTL": 4.73,
+    "MLW": 0.33,
+    "MLLW": 0,
+    "GT": 9.57,
+    "MN": 8.8,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 9.37,
+    "springRange": 11.48,
+    "neapRange": 7.38,
+    "oneHighShare": 0.07,
+    "highInequality": 0.99,
+    "lowInequality": 0.77,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30247505,
+     "h": 11.25,
+     "date": "2027-07-06"
+    },
+    "minLow": {
+     "t": 30012408,
+     "h": -1.75,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30247505,
+      "h": 11.25,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30289251,
+      "h": 11.21,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 29970278,
+      "h": 11.15,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30287758,
+      "h": 11.15,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30248999,
+      "h": 11.14,
+      "date": "2027-07-07"
+     },
+     {
+      "t": 29928531,
+      "h": 11.13,
+      "date": "2026-11-26"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012408,
+      "h": -1.75,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013897,
+      "h": -1.74,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970666,
+      "h": -1.67,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 29972158,
+      "h": -1.64,
+      "date": "2026-12-26"
+     },
+     {
+      "t": 30010918,
+      "h": -1.58,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969174,
+      "h": -1.53,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 248,
+    "negativeLowDays": 192,
+    "meanHigh": 9,
+    "meanLow": 0.45
+   }
+  },
+  {
+   "key": "new-hampshire/hampton-beach",
+   "slug": "hampton-beach",
+   "state": "new-hampshire",
+   "place": "Hampton Beach",
+   "id": "8429489",
+   "noaaName": "Hampton Harbor",
+   "type": "S",
+   "referenceId": "8418150",
+   "referenceName": "PORTLAND",
+   "lat": 42.895,
+   "lng": -70.8167,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8418150",
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.91,
+    "timeOffsetHighTide": 14,
+    "timeOffsetLowTide": 32,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 8.88,
+    "springRange": 10.89,
+    "neapRange": 7.12,
+    "oneHighShare": 0.07,
+    "highInequality": 0.85,
+    "lowInequality": 0.69,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29970278,
+     "h": 10.55,
+     "date": "2026-12-25"
+    },
+    "minLow": {
+     "t": 30012430,
+     "h": -1.66,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29970278,
+      "h": 10.55,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30247508,
+      "h": 10.54,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30289254,
+      "h": 10.54,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 30287759,
+      "h": 10.52,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30012028,
+      "h": 10.49,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30246013,
+      "h": 10.49,
+      "date": "2027-07-05"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012430,
+      "h": -1.66,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013919,
+      "h": -1.59,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970685,
+      "h": -1.55,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010939,
+      "h": -1.51,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969192,
+      "h": -1.48,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29972178,
+      "h": -1.45,
+      "date": "2026-12-26"
+     }
+    ],
+    "negativeLows": 246,
+    "negativeLowDays": 188,
+    "meanHigh": 8.55,
+    "meanLow": 0.38
+   }
+  },
+  {
+   "key": "maine/old-orchard-beach",
+   "slug": "old-orchard-beach",
+   "state": "maine",
+   "place": "Old Orchard Beach",
+   "id": "8418557",
+   "noaaName": "Old Orchard Beach",
+   "type": "S",
+   "referenceId": "8418150",
+   "referenceName": "PORTLAND",
+   "lat": 43.5167,
+   "lng": -70.3667,
+   "tz": "America/New_York",
+   "offsets": {
+    "refStationId": "8418150",
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.97,
+    "timeOffsetHighTide": 0,
+    "timeOffsetLowTide": -6,
+    "heightAdjustedType": "R"
+   },
+   "datums": null,
+   "curve": "shaped",
+   "stats": {
+    "days": 457,
+    "meanRange": 9.47,
+    "springRange": 11.6,
+    "neapRange": 7.6,
+    "oneHighShare": 0.07,
+    "highInequality": 0.91,
+    "lowInequality": 0.74,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29970264,
+     "h": 11.24,
+     "date": "2026-12-25"
+    },
+    "minLow": {
+     "t": 30012392,
+     "h": -1.77,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29970264,
+      "h": 11.24,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30247494,
+      "h": 11.24,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30289240,
+      "h": 11.23,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 30287745,
+      "h": 11.21,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30012014,
+      "h": 11.19,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30245999,
+      "h": 11.18,
+      "date": "2027-07-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012392,
+      "h": -1.77,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013881,
+      "h": -1.7,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970647,
+      "h": -1.65,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010901,
+      "h": -1.61,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969154,
+      "h": -1.58,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29972140,
+      "h": -1.54,
+      "date": "2026-12-26"
+     }
+    ],
+    "negativeLows": 246,
+    "negativeLowDays": 188,
+    "meanHigh": 9.11,
+    "meanLow": 0.41
+   }
+  },
+  {
+   "key": "maine/portland",
+   "slug": "portland",
+   "state": "maine",
+   "place": "Portland",
+   "id": "8418150",
+   "noaaName": "PORTLAND",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 43.6581,
+   "lng": -70.2442,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 9.91,
+    "MHW": 9.47,
+    "MSL": 4.94,
+    "MTL": 4.91,
+    "MLW": 0.35,
+    "MLLW": 0,
+    "GT": 9.9,
+    "MN": 9.12,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 9.76,
+    "springRange": 11.96,
+    "neapRange": 7.83,
+    "oneHighShare": 0.07,
+    "highInequality": 0.94,
+    "lowInequality": 0.76,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 29970264,
+     "h": 11.59,
+     "date": "2026-12-25"
+    },
+    "minLow": {
+     "t": 30012398,
+     "h": -1.83,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 29970264,
+      "h": 11.59,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30247494,
+      "h": 11.59,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30289240,
+      "h": 11.58,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 30287745,
+      "h": 11.56,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30012014,
+      "h": 11.53,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30245999,
+      "h": 11.53,
+      "date": "2027-07-04"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012398,
+      "h": -1.83,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013887,
+      "h": -1.75,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 29970653,
+      "h": -1.71,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30010907,
+      "h": -1.67,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29969160,
+      "h": -1.63,
+      "date": "2026-12-24"
+     },
+     {
+      "t": 29972146,
+      "h": -1.59,
+      "date": "2026-12-26"
+     }
+    ],
+    "negativeLows": 246,
+    "negativeLowDays": 188,
+    "meanHigh": 9.39,
+    "meanLow": 0.42
+   }
+  },
+  {
+   "key": "maine/bar-harbor",
+   "slug": "bar-harbor",
+   "state": "maine",
+   "place": "Bar Harbor",
+   "id": "8413320",
+   "noaaName": "BAR HARBOR",
+   "type": "R",
+   "referenceId": null,
+   "referenceName": null,
+   "lat": 44.3922,
+   "lng": -68.2043,
+   "tz": "America/New_York",
+   "offsets": null,
+   "datums": {
+    "MHHW": 11.37,
+    "MHW": 10.95,
+    "MSL": 5.67,
+    "MTL": 5.66,
+    "MLW": 0.38,
+    "MLLW": 0,
+    "GT": 11.37,
+    "MN": 10.56,
+    "epoch": "1983-2001"
+   },
+   "curve": "hourly",
+   "stats": {
+    "days": 457,
+    "meanRange": 11.11,
+    "springRange": 13.49,
+    "neapRange": 8.95,
+    "oneHighShare": 0.07,
+    "highInequality": 0.91,
+    "lowInequality": 0.81,
+    "tideType": "semidiurnal",
+    "maxHigh": {
+     "t": 30289218,
+     "h": 13.2,
+     "date": "2027-08-04"
+    },
+    "minLow": {
+     "t": 30012380,
+     "h": -1.89,
+     "date": "2027-01-23"
+    },
+    "topHighs": [
+     {
+      "t": 30289218,
+      "h": 13.2,
+      "date": "2027-08-04"
+     },
+     {
+      "t": 29970244,
+      "h": 13.19,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30011994,
+      "h": 13.19,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30247473,
+      "h": 13.15,
+      "date": "2027-07-06"
+     },
+     {
+      "t": 30287724,
+      "h": 13.15,
+      "date": "2027-08-02"
+     },
+     {
+      "t": 30013486,
+      "h": 13.1,
+      "date": "2027-01-24"
+     }
+    ],
+    "topLows": [
+     {
+      "t": 30012380,
+      "h": -1.89,
+      "date": "2027-01-23"
+     },
+     {
+      "t": 30013870,
+      "h": -1.79,
+      "date": "2027-01-24"
+     },
+     {
+      "t": 30010889,
+      "h": -1.72,
+      "date": "2027-01-22"
+     },
+     {
+      "t": 29970635,
+      "h": -1.71,
+      "date": "2026-12-25"
+     },
+     {
+      "t": 30054121,
+      "h": -1.67,
+      "date": "2027-02-21"
+     },
+     {
+      "t": 29969141,
+      "h": -1.65,
+      "date": "2026-12-24"
+     }
+    ],
+    "negativeLows": 237,
+    "negativeLowDays": 181,
+    "meanHigh": 10.82,
+    "meanLow": 0.52
+   }
+  }
+ ]
+}

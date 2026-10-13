@@ -1,0 +1,374 @@
+{
+ "key": "florida/tampa",
+ "place": "Tampa",
+ "id": "8726607",
+ "noaaName": "Old Port Tampa",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 27.8578,
+ "lng": -82.5528,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 2.48,
+  "MHW": 2.16,
+  "MSL": 1.3,
+  "MTL": 1.3,
+  "MLW": 0.44,
+  "MLLW": 0,
+  "GT": 2.48,
+  "MN": 1.73,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 2.47,
+  "springRange": 3.25,
+  "neapRange": 1.72,
+  "oneHighShare": 0.19,
+  "highInequality": 0.75,
+  "lowInequality": 1.15,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 30245437,
+   "h": 3.28,
+   "date": "2027-07-04"
+  },
+  "minLow": {
+   "t": 30008975,
+   "h": -1.12,
+   "date": "2027-01-21"
+  },
+  "topHighs": [
+   {
+    "t": 30245437,
+    "h": 3.28,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30287207,
+    "h": 3.27,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 29887665,
+    "h": 3.26,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 30285709,
+    "h": 3.25,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 29886186,
+    "h": 3.24,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30243941,
+    "h": 3.24,
+    "date": "2027-07-03"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30008975,
+    "h": -1.12,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30007486,
+    "h": -1.07,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30010459,
+    "h": -1.06,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29968710,
+    "h": -1.01,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29967218,
+    "h": -0.97,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29970199,
+    "h": -0.94,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 225,
+  "negativeLowDays": 223,
+  "meanHigh": 2.16,
+  "meanLow": 0.53
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8726641",
+   "name": "Gandy Bridge, Old Tampa Bay",
+   "type": "S",
+   "miles": 2.6,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 59,
+    "timeOffsetLowTide": 57,
+    "heightOffsetHighTide": 1.12,
+    "heightOffsetLowTide": 1.24,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726604",
+   "name": "Long Shoal, MacDill AFB",
+   "type": "S",
+   "miles": 4.5,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": -18,
+    "timeOffsetLowTide": 1,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 0.72,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726573",
+   "name": "Gadsden Point",
+   "type": "S",
+   "miles": 4.8,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8726607",
+    "timeOffsetHighTide": -39,
+    "timeOffsetLowTide": -24,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 0.89,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726639",
+   "name": "Ballast Point",
+   "type": "R",
+   "miles": 5.0,
+   "direction": "NE"
+  },
+  {
+   "id": "8726657",
+   "name": "Davis Island, Hillsborough Bay",
+   "type": "S",
+   "miles": 7.1,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 3,
+    "timeOffsetLowTide": 32,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.24,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726668",
+   "name": "Tampa, Hooker Point, Hillsborough Bay",
+   "type": "S",
+   "miles": 7.8,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": -4,
+    "timeOffsetLowTide": -11,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726520",
+   "name": "St. Petersburg",
+   "type": "R",
+   "miles": 8.1,
+   "direction": "SW"
+  },
+  {
+   "id": "8726651",
+   "name": "Pendola Point, Hillsborough Bay",
+   "type": "S",
+   "miles": 8.2,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 21,
+    "timeOffsetLowTide": 5,
+    "heightOffsetHighTide": 1.14,
+    "heightOffsetLowTide": 1.18,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726693",
+   "name": "Hillsborough River Entrance, Tampa",
+   "type": "S",
+   "miles": 8.3,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": 54,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.62,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726667",
+   "name": "McKay Bay Entrance",
+   "type": "R",
+   "miles": 8.7,
+   "direction": "NE"
+  },
+  {
+   "id": "8726711",
+   "name": "West Tampa, Hillsborough River",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": 17,
+    "timeOffsetLowTide": 27,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 0.66,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726537",
+   "name": "APOLLO BEACH, HILLSBOROUGH BAY",
+   "type": "S",
+   "miles": 9.1,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 53,
+    "timeOffsetLowTide": 32,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.2,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726674",
+   "name": "East Bay, Tampa Bay",
+   "type": "R",
+   "miles": 9.2,
+   "direction": "NE"
+  },
+  {
+   "id": "8726685",
+   "name": "Twenty-Second Street Causeway",
+   "type": "S",
+   "miles": 9.3,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": -3,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.77,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726492",
+   "name": "Mangrove Point (inside)",
+   "type": "S",
+   "miles": 9.6,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": -16,
+    "timeOffsetLowTide": -12,
+    "heightOffsetHighTide": 1.12,
+    "heightOffsetLowTide": 1.08,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726539",
+   "name": "NEWMAN BRANCH",
+   "type": "R",
+   "miles": 10.3,
+   "direction": "SE"
+  },
+  {
+   "id": "8726572",
+   "name": "The Kitchen",
+   "type": "S",
+   "miles": 10.5,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": -2,
+    "timeOffsetLowTide": 53,
+    "heightOffsetHighTide": 1.08,
+    "heightOffsetLowTide": 0.87,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726468",
+   "name": "Shell Point",
+   "type": "S",
+   "miles": 10.6,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 8,
+    "timeOffsetLowTide": 17,
+    "heightOffsetHighTide": 0.91,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726696",
+   "name": "Palm River Entrance",
+   "type": "S",
+   "miles": 11.1,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8726674",
+    "timeOffsetHighTide": 3,
+    "timeOffsetLowTide": 6,
+    "heightOffsetHighTide": 1.06,
+    "heightOffsetLowTide": 0.83,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8726689",
+   "name": "Bay Aristocrat Village, Old Tampa Bay",
+   "type": "S",
+   "miles": 11.7,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8726520",
+    "timeOffsetHighTide": 61,
+    "timeOffsetLowTide": 92,
+    "heightOffsetHighTide": 1.24,
+    "heightOffsetLowTide": 1.37,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

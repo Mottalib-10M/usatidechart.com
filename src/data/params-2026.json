@@ -1,0 +1,25 @@
+{
+ "_lisezmoi": "Sources et constantes du site. Les prédictions elles-mêmes viennent de scripts/build-tides.py (API NOAA CO-OPS) et vivent dans public/data ; ce fichier porte les sources citées par les pages et les constantes du calcul solunaire. retrieved_at = date de lecture des sources.",
+ "year": 2026,
+ "retrieved_at": "2026-10-12",
+ "valid_from": "2026-10-01",
+ "valid_to": "2027-12-31",
+ "solunar": { "majorHalfMinutes": 60, "minorHalfMinutes": 30 },
+ "sources": {
+  "coops_api": { "url": "https://api.tidesandcurrents.noaa.gov/api/prod/", "label": "NOAA CO-OPS Data API: tide predictions (high/low and hourly), read 2026-10-12" },
+  "coops_mdapi": { "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/", "label": "NOAA CO-OPS Metadata API: stations, datums and subordinate offsets, read 2026-10-12" },
+  "coops_disclaimer": { "url": "https://tidesandcurrents.noaa.gov/disclaimers.html", "label": "NOAA Tides & Currents: disclaimers and conditions of use" },
+  "predictions_page": { "url": "https://tidesandcurrents.noaa.gov/tide_predictions.html", "label": "NOAA Tides & Currents: tide predictions by station" },
+  "datums": { "url": "https://tidesandcurrents.noaa.gov/datum_options.html", "label": "NOAA Tides & Currents: tidal datums (MLLW, MHHW, MSL) explained" },
+  "tides_tutorial": { "url": "https://oceanservice.noaa.gov/education/tutorial_tides/", "label": "NOAA National Ocean Service: Tides and Water Levels tutorial" },
+  "tide_types": { "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides07_cycles.html", "label": "NOAA National Ocean Service: types and causes of tidal cycles" },
+  "king_tides": { "url": "https://oceanservice.noaa.gov/facts/kingtide.html", "label": "NOAA National Ocean Service: what is a king tide?" },
+  "spring_neap": { "url": "https://oceanservice.noaa.gov/facts/springtide.html", "label": "NOAA National Ocean Service: what is a spring tide?" },
+  "high_tide_flooding": { "url": "https://oceanservice.noaa.gov/facts/high-tide-flooding.html", "label": "NOAA National Ocean Service: what is high tide flooding?" },
+  "tide_vs_current": { "url": "https://oceanservice.noaa.gov/facts/tidesandcurrents.html", "label": "NOAA National Ocean Service: tides and currents, the difference" },
+  "rip_currents": { "url": "https://www.weather.gov/safety/ripcurrent", "label": "National Weather Service: rip current safety" },
+  "astronomy_engine": { "url": "https://github.com/cosinekitty/astronomy", "label": "Astronomy Engine (Don Cross), sun and moon positions, MIT licence" },
+  "noaa_solar": { "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF", "label": "NOAA Global Monitoring Laboratory: general solar position calculations" },
+  "eclipses_2026": { "url": "https://eclipse.gsfc.nasa.gov/SKYCAL/SKYCAL.html", "label": "NASA Goddard Space Flight Center: sky events calendar (eclipses and moon phases)" }
+ }
+}

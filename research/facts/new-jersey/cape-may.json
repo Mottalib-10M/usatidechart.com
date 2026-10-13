@@ -1,0 +1,315 @@
+{
+ "key": "new-jersey/cape-may",
+ "place": "Cape May",
+ "id": "8536110",
+ "noaaName": "Cape May, ferry terminal",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 38.9683,
+ "lng": -74.96,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 5.45,
+  "MHW": 5.01,
+  "MSL": 2.57,
+  "MTL": 2.59,
+  "MLW": 0.16,
+  "MLLW": 0,
+  "GT": 5.44,
+  "MN": 4.85,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 5.11,
+  "springRange": 6.26,
+  "neapRange": 4.06,
+  "oneHighShare": 0.07,
+  "highInequality": 0.9,
+  "lowInequality": 0.15,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30287607,
+   "h": 6.49,
+   "date": "2027-08-02"
+  },
+  "minLow": {
+   "t": 30011481,
+   "h": -1.01,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30287607,
+    "h": 6.49,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30245863,
+    "h": 6.45,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30289098,
+    "h": 6.42,
+    "date": "2027-08-03"
+   },
+   {
+    "t": 30247355,
+    "h": 6.41,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30286114,
+    "h": 6.39,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30329348,
+    "h": 6.36,
+    "date": "2027-08-31"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011481,
+    "h": -1.01,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012974,
+    "h": -1,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30053230,
+    "h": -0.97,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054721,
+    "h": -0.97,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30009987,
+    "h": -0.89,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30014467,
+    "h": -0.86,
+    "date": "2027-01-25"
+   }
+  ],
+  "negativeLows": 234,
+  "negativeLowDays": 137,
+  "meanHigh": 4.91,
+  "meanLow": 0.29
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8536021",
+   "name": "Cape May Point, Sunset Beach",
+   "type": "S",
+   "miles": 1.6,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8557380",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": -8,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.16,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535902",
+   "name": "Cape Island Creek, Cape May",
+   "type": "S",
+   "miles": 2.9,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 40,
+    "timeOffsetLowTide": 20,
+    "heightOffsetHighTide": 1.11,
+    "heightOffsetLowTide": 1.19,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535962",
+   "name": "Cape May, Atlantic Ocean",
+   "type": "S",
+   "miles": 3.0,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 34,
+    "timeOffsetLowTide": 21,
+    "heightOffsetHighTide": 1.12,
+    "heightOffsetLowTide": 1.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8536271",
+   "name": "North Highlands Beach",
+   "type": "S",
+   "miles": 3.5,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8557380",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": 14,
+    "heightOffsetHighTide": 1.26,
+    "heightOffsetLowTide": 1.26,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535901",
+   "name": "Cape May Harbor",
+   "type": "S",
+   "miles": 3.9,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 33,
+    "timeOffsetLowTide": 19,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535805",
+   "name": "Swain Channel, Taylor Sound",
+   "type": "S",
+   "miles": 5.3,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 55,
+    "timeOffsetLowTide": 40,
+    "heightOffsetHighTide": 1.09,
+    "heightOffsetLowTide": 1.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535838",
+   "name": "Wildwood Crest, Sunset Lake",
+   "type": "S",
+   "miles": 6.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 52,
+    "timeOffsetLowTide": 47,
+    "heightOffsetHighTide": 1.1,
+    "heightOffsetLowTide": 1.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535695",
+   "name": "Old Turtle Thorofare, RR. bridge",
+   "type": "S",
+   "miles": 7.2,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 56,
+    "timeOffsetLowTide": 70,
+    "heightOffsetHighTide": 1.06,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535835",
+   "name": "Wildwood Crest, ocean pier",
+   "type": "R",
+   "miles": 7.4,
+   "direction": "E"
+  },
+  {
+   "id": "8535726",
+   "name": "West Wildwood, Grassy Sound",
+   "type": "S",
+   "miles": 7.6,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 57,
+    "timeOffsetLowTide": 71,
+    "heightOffsetHighTide": 1.04,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8555889",
+   "name": "Brandywine Shoal Light",
+   "type": "R",
+   "miles": 8.3,
+   "direction": "W"
+  },
+  {
+   "id": "8536449",
+   "name": "Dias Creek, Route 47 bridge",
+   "type": "S",
+   "miles": 8.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8557380",
+    "timeOffsetHighTide": 69,
+    "timeOffsetLowTide": 198,
+    "heightOffsetHighTide": 0.46,
+    "heightOffsetLowTide": 0.46,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8535661",
+   "name": "Nummy Island, Grassy Sound Channel",
+   "type": "S",
+   "miles": 9.5,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8534720",
+    "timeOffsetHighTide": 32,
+    "timeOffsetLowTide": 45,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8536551",
+   "name": "Bidwell Creek, Route 47 bridge",
+   "type": "S",
+   "miles": 11.5,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8557380",
+    "timeOffsetHighTide": 36,
+    "timeOffsetLowTide": 48,
+    "heightOffsetHighTide": 1.36,
+    "heightOffsetLowTide": 1.36,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8536581",
+   "name": "Bidwell Creek entrance",
+   "type": "R",
+   "miles": 11.6,
+   "direction": "N"
+  }
+ ]
+}

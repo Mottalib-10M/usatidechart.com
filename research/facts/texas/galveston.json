@@ -1,0 +1,178 @@
+{
+ "key": "texas/galveston",
+ "place": "Galveston",
+ "id": "8771510",
+ "noaaName": "Galveston Pleasure Pier",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 29.2853,
+ "lng": -94.7894,
+ "tz": "America/Chicago",
+ "offsets": null,
+ "datums": {
+  "MHHW": 2.04,
+  "MHW": 1.84,
+  "MSL": 1.11,
+  "MTL": 1.12,
+  "MLW": 0.39,
+  "MLLW": 0,
+  "GT": 2.04,
+  "MN": 1.46,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 2.12,
+  "springRange": 2.99,
+  "neapRange": 1.19,
+  "oneHighShare": 0.55,
+  "highInequality": 0.4,
+  "lowInequality": 0.9,
+  "tideType": "diurnal",
+  "maxHigh": {
+   "t": 29887229,
+   "h": 2.89,
+   "date": "2026-10-28"
+  },
+  "minLow": {
+   "t": 30008986,
+   "h": -1.44,
+   "date": "2027-01-21"
+  },
+  "topHighs": [
+   {
+    "t": 29887229,
+    "h": 2.89,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 29885725,
+    "h": 2.87,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29888739,
+    "h": 2.85,
+    "date": "2026-10-29"
+   },
+   {
+    "t": 29850032,
+    "h": 2.77,
+    "date": "2026-10-02"
+   },
+   {
+    "t": 29884226,
+    "h": 2.77,
+    "date": "2026-10-26"
+   },
+   {
+    "t": 29890252,
+    "h": 2.77,
+    "date": "2026-10-30"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30008986,
+    "h": -1.44,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 29968726,
+    "h": -1.39,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30007491,
+    "h": -1.39,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30010481,
+    "h": -1.36,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29967233,
+    "h": -1.33,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29970221,
+    "h": -1.31,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 234,
+  "negativeLowDays": 234,
+  "meanHigh": 1.9,
+  "meanLow": 0.31
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8771450",
+   "name": "GALVESTON, Galveston Channel",
+   "type": "R",
+   "miles": 1.7,
+   "direction": "N"
+  },
+  {
+   "id": "8771328",
+   "name": "Port Bolivar",
+   "type": "R",
+   "miles": 5.5,
+   "direction": "N"
+  },
+  {
+   "id": "8771341",
+   "name": "Galveston Bay Entrance, North Jetty",
+   "type": "R",
+   "miles": 6.3,
+   "direction": "NE"
+  },
+  {
+   "id": "8771416",
+   "name": "Galveston Bay Entrance, South Jetty",
+   "type": "R",
+   "miles": 6.5,
+   "direction": "NE"
+  },
+  {
+   "id": "8771486",
+   "name": "GALVESTON RAILROAD BRIDGE",
+   "type": "R",
+   "miles": 6.6,
+   "direction": "W"
+  },
+  {
+   "id": "TEC4513",
+   "name": "Texas City, Turning Basin",
+   "type": "S",
+   "miles": 8.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8771450",
+    "timeOffsetHighTide": 33,
+    "timeOffsetLowTide": 41,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8771262",
+   "name": "Texas City, Galveston Bay",
+   "type": "R",
+   "miles": 9.3,
+   "direction": "NW"
+  },
+  {
+   "id": "8771165",
+   "name": "Sievers Cove, Goat Island",
+   "type": "R",
+   "miles": 11.1,
+   "direction": "NE"
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "key": "massachusetts/boston",
+ "place": "Boston",
+ "id": "8443970",
+ "noaaName": "BOSTON",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 42.3539,
+ "lng": -71.0503,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 10.27,
+  "MHW": 9.82,
+  "MSL": 5.2,
+  "MTL": 5.08,
+  "MLW": 0.33,
+  "MLLW": 0,
+  "GT": 10.27,
+  "MN": 9.49,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 9.9,
+  "springRange": 12.12,
+  "neapRange": 7.93,
+  "oneHighShare": 0.07,
+  "highInequality": 0.96,
+  "lowInequality": 0.72,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29928529,
+   "h": 11.84,
+   "date": "2026-11-26"
+  },
+  "minLow": {
+   "t": 30012409,
+   "h": -1.77,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 29928529,
+    "h": 11.84,
+    "date": "2026-11-26"
+   },
+   {
+    "t": 29970275,
+    "h": 11.84,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30247505,
+    "h": 11.84,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30246009,
+    "h": 11.81,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30287754,
+    "h": 11.81,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 29927037,
+    "h": 11.8,
+    "date": "2026-11-25"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012409,
+    "h": -1.77,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013898,
+    "h": -1.7,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 29970666,
+    "h": -1.64,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30010918,
+    "h": -1.61,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29969173,
+    "h": -1.56,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29972158,
+    "h": -1.52,
+    "date": "2026-12-26"
+   }
+  ],
+  "negativeLows": 211,
+  "negativeLowDays": 162,
+  "meanHigh": 9.68,
+  "meanLow": 0.56
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8443838",
+   "name": "Charlestown, Charles River entrance",
+   "type": "S",
+   "miles": 1.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 0,
+    "timeOffsetLowTide": 1,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8443725",
+   "name": "Chelsea St. Bridge, Chelsea River",
+   "type": "R",
+   "miles": 2.7,
+   "direction": "NE"
+  },
+  {
+   "id": "8443662",
+   "name": "Amelia Earhart Dam, Mystic River",
+   "type": "R",
+   "miles": 3.1,
+   "direction": "NW"
+  },
+  {
+   "id": "8444312",
+   "name": "Moon Head",
+   "type": "S",
+   "miles": 4.3,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444012",
+   "name": "Deer Island (south end)",
+   "type": "S",
+   "miles": 4.6,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": 0,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.97,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444488",
+   "name": "Neponset, Neponset River",
+   "type": "S",
+   "miles": 4.8,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": -2,
+    "timeOffsetLowTide": 3,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444525",
+   "name": "Nut Island, Quincy Bay",
+   "type": "R",
+   "miles": 7.1,
+   "direction": "SE"
+  },
+  {
+   "id": "8444351",
+   "name": "Hull",
+   "type": "S",
+   "miles": 7.5,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 5,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.97,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444162",
+   "name": "Boston Light",
+   "type": "R",
+   "miles": 8.3,
+   "direction": "E"
+  },
+  {
+   "id": "8444788",
+   "name": "Weymouth Fore River Bridge",
+   "type": "R",
+   "miles": 8.5,
+   "direction": "SE"
+  },
+  {
+   "id": "8443187",
+   "name": "Lynn, Lynn Harbor",
+   "type": "R",
+   "miles": 9.0,
+   "direction": "NE"
+  },
+  {
+   "id": "8444662",
+   "name": "Crow Point, Hingham Harbor entrance",
+   "type": "S",
+   "miles": 10.2,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": 5,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444775",
+   "name": "Hingham",
+   "type": "S",
+   "miles": 11.2,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 9,
+    "timeOffsetLowTide": 8,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8444601",
+   "name": "Nantasket Beach, Weir River",
+   "type": "S",
+   "miles": 11.3,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8443970",
+    "timeOffsetHighTide": 6,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

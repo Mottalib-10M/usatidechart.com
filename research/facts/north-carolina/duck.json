@@ -1,0 +1,129 @@
+{
+ "key": "north-carolina/duck",
+ "place": "Duck",
+ "id": "8651370",
+ "noaaName": "DUCK PIER",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 36.1833,
+ "lng": -75.7467,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 3.69,
+  "MHW": 3.37,
+  "MSL": 1.77,
+  "MTL": 1.75,
+  "MLW": 0.14,
+  "MLLW": 0,
+  "GT": 3.69,
+  "MN": 3.22,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 3.51,
+  "springRange": 4.49,
+  "neapRange": 2.6,
+  "oneHighShare": 0.07,
+  "highInequality": 0.69,
+  "lowInequality": 0.18,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373251,
+   "h": 4.73,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30011419,
+   "h": -0.95,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373251,
+    "h": 4.73,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 29885076,
+    "h": 4.72,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29886565,
+    "h": 4.71,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30371765,
+    "h": 4.67,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30374737,
+    "h": 4.65,
+    "date": "2027-10-02"
+   },
+   {
+    "t": 30413505,
+    "h": 4.62,
+    "date": "2027-10-29"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011419,
+    "h": -0.95,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012912,
+    "h": -0.89,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009925,
+    "h": -0.88,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053171,
+    "h": -0.87,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054661,
+    "h": -0.82,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30051678,
+    "h": -0.79,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 257,
+  "negativeLowDays": 164,
+  "meanHigh": 3.34,
+  "meanLow": 0.24
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8651605",
+   "name": "Kitty Hawk (ocean)",
+   "type": "S",
+   "miles": 6.0,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8651370",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.43,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

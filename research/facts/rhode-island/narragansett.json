@@ -1,0 +1,206 @@
+{
+ "key": "rhode-island/narragansett",
+ "place": "Narragansett",
+ "id": "8454658",
+ "noaaName": "Narragansett Pier",
+ "type": "S",
+ "referenceId": "8452660",
+ "referenceName": "NEWPORT",
+ "lat": 41.4217,
+ "lng": -71.455,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8452660",
+  "heightOffsetHighTide": 0.91,
+  "heightOffsetLowTide": 0.93,
+  "timeOffsetHighTide": -11,
+  "timeOffsetLowTide": 11,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 3.32,
+  "springRange": 4.43,
+  "neapRange": 2.31,
+  "oneHighShare": 0.07,
+  "highInequality": 0.43,
+  "lowInequality": 0.15,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30371771,
+   "h": 4.54,
+   "date": "2027-09-30"
+  },
+  "minLow": {
+   "t": 30011425,
+   "h": -0.77,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30371771,
+    "h": 4.54,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30373259,
+    "h": 4.53,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30331522,
+    "h": 4.5,
+    "date": "2027-09-02"
+   },
+   {
+    "t": 30330033,
+    "h": 4.44,
+    "date": "2027-09-01"
+   },
+   {
+    "t": 30333011,
+    "h": 4.41,
+    "date": "2027-09-03"
+   },
+   {
+    "t": 30287546,
+    "h": 4.4,
+    "date": "2027-08-02"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011425,
+    "h": -0.77,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012920,
+    "h": -0.73,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009927,
+    "h": -0.71,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053179,
+    "h": -0.71,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054670,
+    "h": -0.69,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 29969670,
+    "h": -0.66,
+    "date": "2026-12-25"
+   }
+  ],
+  "negativeLows": 261,
+  "negativeLowDays": 158,
+  "meanHigh": 3.24,
+  "meanLow": 0.19
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8454341",
+   "name": "Watson Pier, Boston Neck",
+   "type": "S",
+   "miles": 3.0,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -3,
+    "timeOffsetLowTide": 16,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8453999",
+   "name": "Beavertail Point",
+   "type": "S",
+   "miles": 3.5,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.98,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8455083",
+   "name": "Point Judith, Harbor of Refuge",
+   "type": "R",
+   "miles": 4.4,
+   "direction": "SW"
+  },
+  {
+   "id": "8453201",
+   "name": "Castle Hill",
+   "type": "S",
+   "miles": 5.6,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": 13,
+    "heightOffsetHighTide": 0.94,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8453742",
+   "name": "West Jamestown, Dutch Island Harbor",
+   "type": "R",
+   "miles": 6.3,
+   "direction": "NE"
+  },
+  {
+   "id": "8452660",
+   "name": "NEWPORT",
+   "type": "R",
+   "miles": 8.8,
+   "direction": "NE"
+  },
+  {
+   "id": "8454538",
+   "name": "Wickford",
+   "type": "R",
+   "miles": 10.4,
+   "direction": "N"
+  },
+  {
+   "id": "8453465",
+   "name": "Conanicut Point",
+   "type": "S",
+   "miles": 11.3,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8452660",
+    "timeOffsetHighTide": 7,
+    "timeOffsetLowTide": -6,
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 1.07,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8454049",
+   "name": "Quonset Point",
+   "type": "R",
+   "miles": 11.6,
+   "direction": "N"
+  }
+ ]
+}

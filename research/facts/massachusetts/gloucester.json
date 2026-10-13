@@ -1,0 +1,142 @@
+{
+ "key": "massachusetts/gloucester",
+ "place": "Gloucester",
+ "id": "8441841",
+ "noaaName": "Gloucester Harbor",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 42.61,
+ "lng": -70.66,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 9.57,
+  "MHW": 9.13,
+  "MSL": 4.77,
+  "MTL": 4.73,
+  "MLW": 0.33,
+  "MLLW": 0,
+  "GT": 9.57,
+  "MN": 8.8,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 9.37,
+  "springRange": 11.48,
+  "neapRange": 7.38,
+  "oneHighShare": 0.07,
+  "highInequality": 0.99,
+  "lowInequality": 0.77,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30247505,
+   "h": 11.25,
+   "date": "2027-07-06"
+  },
+  "minLow": {
+   "t": 30012408,
+   "h": -1.75,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30247505,
+    "h": 11.25,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30289251,
+    "h": 11.21,
+    "date": "2027-08-04"
+   },
+   {
+    "t": 29970278,
+    "h": 11.15,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30287758,
+    "h": 11.15,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30248999,
+    "h": 11.14,
+    "date": "2027-07-07"
+   },
+   {
+    "t": 29928531,
+    "h": 11.13,
+    "date": "2026-11-26"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012408,
+    "h": -1.75,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013897,
+    "h": -1.74,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 29970666,
+    "h": -1.67,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 29972158,
+    "h": -1.64,
+    "date": "2026-12-26"
+   },
+   {
+    "t": 30010918,
+    "h": -1.58,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29969174,
+    "h": -1.53,
+    "date": "2026-12-24"
+   }
+  ],
+  "negativeLows": 248,
+  "negativeLowDays": 192,
+  "meanHigh": 9,
+  "meanLow": 0.45
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8441571",
+   "name": "Annisquam, Lobster Cove",
+   "type": "R",
+   "miles": 3.2,
+   "direction": "N"
+  },
+  {
+   "id": "8441551",
+   "name": "Rockport",
+   "type": "R",
+   "miles": 4.0,
+   "direction": "NE"
+  },
+  {
+   "id": "8441771",
+   "name": "Essex",
+   "type": "R",
+   "miles": 6.1,
+   "direction": "W"
+  },
+  {
+   "id": "8441241",
+   "name": "Plum Island Sound (south end)",
+   "type": "R",
+   "miles": 9.5,
+   "direction": "NW"
+  }
+ ]
+}

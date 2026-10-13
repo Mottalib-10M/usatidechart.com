@@ -1,0 +1,478 @@
+{
+ "key": "south-carolina/folly-beach",
+ "place": "Folly Beach",
+ "id": "8666652",
+ "noaaName": "Folly River Bridge, Folly Island",
+ "type": "S",
+ "referenceId": "8665530",
+ "referenceName": "CHARLESTON (Customhouse Wharf)",
+ "lat": 32.6617,
+ "lng": -79.945,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8665530",
+  "heightOffsetHighTide": 1.01,
+  "heightOffsetLowTide": 0.95,
+  "timeOffsetHighTide": 21,
+  "timeOffsetLowTide": -3,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 5.62,
+  "springRange": 6.9,
+  "neapRange": 4.37,
+  "oneHighShare": 0.07,
+  "highInequality": 0.79,
+  "lowInequality": 0.28,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30373312,
+   "h": 6.98,
+   "date": "2027-10-01"
+  },
+  "minLow": {
+   "t": 30011458,
+   "h": -1.39,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30373312,
+    "h": 6.98,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30413561,
+    "h": 6.96,
+    "date": "2027-10-29"
+   },
+   {
+    "t": 30371822,
+    "h": 6.95,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 29885127,
+    "h": 6.94,
+    "date": "2026-10-27"
+   },
+   {
+    "t": 29886618,
+    "h": 6.92,
+    "date": "2026-10-28"
+   },
+   {
+    "t": 30415048,
+    "h": 6.9,
+    "date": "2027-10-30"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30011458,
+    "h": -1.39,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30012951,
+    "h": -1.34,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30009963,
+    "h": -1.28,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30053204,
+    "h": -1.26,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30054696,
+    "h": -1.2,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30051711,
+    "h": -1.17,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 270,
+  "negativeLowDays": 180,
+  "meanHigh": 5.41,
+  "meanLow": 0.29
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8665424",
+   "name": "Folly Creek, Hwy. 171 bridge",
+   "type": "S",
+   "miles": 1.0,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 25,
+    "timeOffsetLowTide": -6,
+    "heightOffsetHighTide": 1.04,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3127",
+   "name": "Folly Island (outer coast)",
+   "type": "S",
+   "miles": 1.1,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -8,
+    "timeOffsetLowTide": -14,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8666467",
+   "name": "Folly River, north, Folly Island",
+   "type": "S",
+   "miles": 1.7,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 24,
+    "timeOffsetLowTide": -5,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8666283",
+   "name": "Abbapoola Creek entrance",
+   "type": "S",
+   "miles": 3.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 17,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8666767",
+   "name": "Snake Island",
+   "type": "S",
+   "miles": 4.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 1,
+    "timeOffsetLowTide": -12,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665775",
+   "name": "James Island Creek, 1 mi. above ent.",
+   "type": "S",
+   "miles": 5.8,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 17,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665726",
+   "name": "Fort Johnson",
+   "type": "S",
+   "miles": 6.8,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": -2,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665613",
+   "name": "Wappoo Creek, highway bridge",
+   "type": "S",
+   "miles": 7.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 22,
+    "timeOffsetLowTide": 22,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665728",
+   "name": "Fort Sumter",
+   "type": "S",
+   "miles": 7.5,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665641",
+   "name": "Elliott Cut entrance",
+   "type": "S",
+   "miles": 7.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 48,
+    "timeOffsetLowTide": 52,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 1.16,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665530",
+   "name": "CHARLESTON (Customhouse Wharf)",
+   "type": "R",
+   "miles": 8.3,
+   "direction": "N"
+  },
+  {
+   "id": "8665495",
+   "name": "South Ashley Bridge",
+   "type": "S",
+   "miles": 8.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665637",
+   "name": "The Cove, Fort Moultrie",
+   "type": "S",
+   "miles": 8.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": -10,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8666282",
+   "name": "Oak Branch, Bohicket Creek",
+   "type": "S",
+   "miles": 8.9,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 99,
+    "timeOffsetLowTide": 57,
+    "heightOffsetHighTide": 1.26,
+    "heightOffsetLowTide": 1.16,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8666029",
+   "name": "Church Creek bridge",
+   "type": "S",
+   "miles": 9.3,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 118,
+    "timeOffsetLowTide": 58,
+    "heightOffsetHighTide": 1.3,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3047",
+   "name": "Sullivans Island (outer coast)",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -8,
+    "timeOffsetLowTide": -12,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665426",
+   "name": "Shem Creek",
+   "type": "S",
+   "miles": 9.8,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -2,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665567",
+   "name": "Ben Sawyer Bridge, ICWW",
+   "type": "S",
+   "miles": 9.8,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 6,
+    "timeOffsetLowTide": -12,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665589",
+   "name": "Sandblasters, Pennys Creek",
+   "type": "S",
+   "miles": 10.2,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 90,
+    "timeOffsetLowTide": 78,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.02,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665599",
+   "name": "Pennys Creek, west entrance",
+   "type": "S",
+   "miles": 10.3,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 83,
+    "timeOffsetLowTide": 80,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 1.32,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665552",
+   "name": "Breach Inlet, Isle of Palms",
+   "type": "S",
+   "miles": 11.1,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": -5,
+    "timeOffsetLowTide": -14,
+    "heightOffsetHighTide": 0.95,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665192",
+   "name": "Hobcaw Point",
+   "type": "S",
+   "miles": 11.4,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 19,
+    "timeOffsetLowTide": 13,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8667062",
+   "name": "Kiawah River Bridge",
+   "type": "S",
+   "miles": 11.6,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 14,
+    "timeOffsetLowTide": 6,
+    "heightOffsetHighTide": 1.07,
+    "heightOffsetLowTide": 0.89,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8665145",
+   "name": "Duck Island",
+   "type": "S",
+   "miles": 11.7,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 23,
+    "timeOffsetLowTide": 17,
+    "heightOffsetHighTide": 1.06,
+    "heightOffsetLowTide": 1.06,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "TEC3061",
+   "name": "Shipyard Creek, 0.8 mile above entrance.",
+   "type": "S",
+   "miles": 11.9,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8665530",
+    "timeOffsetHighTide": 34,
+    "timeOffsetLowTide": 20,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

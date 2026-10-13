@@ -1,0 +1,21 @@
+{
+ "name": "Tide Day",
+ "short_name": "Tide Day",
+ "description": "Tide charts for 92 US beaches, inlets and harbors: today's high and low tides, the next 7 days, solunar fishing times, sunrise and a beach and boat-ramp planner.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#0A3161",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

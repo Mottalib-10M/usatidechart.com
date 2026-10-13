@@ -1,0 +1,441 @@
+{
+ "key": "new-york/new-york-city",
+ "place": "New York City",
+ "id": "8518750",
+ "noaaName": "NEW YORK (The Battery)",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 40.7006,
+ "lng": -74.0142,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 5.05,
+  "MHW": 4.73,
+  "MSL": 2.57,
+  "MTL": 2.47,
+  "MLW": 0.2,
+  "MLLW": 0,
+  "GT": 5.06,
+  "MN": 4.53,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 4.9,
+  "springRange": 6.23,
+  "neapRange": 3.62,
+  "oneHighShare": 0.07,
+  "highInequality": 0.69,
+  "lowInequality": 0.31,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 30287577,
+   "h": 6.21,
+   "date": "2027-08-02"
+  },
+  "minLow": {
+   "t": 30012249,
+   "h": -1.34,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 30287577,
+    "h": 6.21,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30371809,
+    "h": 6.18,
+    "date": "2027-09-30"
+   },
+   {
+    "t": 30245829,
+    "h": 6.17,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30286085,
+    "h": 6.16,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30373295,
+    "h": 6.16,
+    "date": "2027-10-01"
+   },
+   {
+    "t": 30244336,
+    "h": 6.13,
+    "date": "2027-07-03"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012249,
+    "h": -1.34,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013735,
+    "h": -1.32,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 30053984,
+    "h": -1.27,
+    "date": "2027-02-21"
+   },
+   {
+    "t": 30010760,
+    "h": -1.21,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30055468,
+    "h": -1.2,
+    "date": "2027-02-22"
+   },
+   {
+    "t": 30052498,
+    "h": -1.17,
+    "date": "2027-02-20"
+   }
+  ],
+  "negativeLows": 276,
+  "negativeLowDays": 179,
+  "meanHigh": 4.72,
+  "meanLow": 0.29
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8517847",
+   "name": "Brooklyn Bridge",
+   "type": "R",
+   "miles": 1.0,
+   "direction": "E"
+  },
+  {
+   "id": "8517732",
+   "name": "Wallabout Bay, Brooklyn Navy Yard",
+   "type": "S",
+   "miles": 2.1,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 32,
+    "timeOffsetLowTide": 22,
+    "heightOffsetHighTide": 0.94,
+    "heightOffsetLowTide": 1.05,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8517921",
+   "name": "Gowanus Bay",
+   "type": "S",
+   "miles": 2.5,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": -18,
+    "timeOffsetLowTide": -12,
+    "heightOffsetHighTide": 1.03,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8518699",
+   "name": "Williamsburg Bridge",
+   "type": "R",
+   "miles": 2.5,
+   "direction": "E"
+  },
+  {
+   "id": "8517673",
+   "name": "Hunters Point, Newtown Creek",
+   "type": "S",
+   "miles": 3.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 82,
+    "timeOffsetLowTide": 56,
+    "heightOffsetHighTide": 0.89,
+    "heightOffsetLowTide": 0.9,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8518695",
+   "name": "East 41st Street, New York City",
+   "type": "S",
+   "miles": 4.0,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 63,
+    "timeOffsetLowTide": 46,
+    "heightOffsetHighTide": 0.95,
+    "heightOffsetLowTide": 1.09,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530645",
+   "name": "Weehawken, Union City, N.J.",
+   "type": "S",
+   "miles": 4.5,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 13,
+    "timeOffsetLowTide": 15,
+    "heightOffsetHighTide": 0.96,
+    "heightOffsetLowTide": 0.96,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8518687",
+   "name": "Queensboro Bridge",
+   "type": "R",
+   "miles": 4.9,
+   "direction": "NE"
+  },
+  {
+   "id": "8530985",
+   "name": "Constable Hook",
+   "type": "S",
+   "miles": 4.9,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": -18,
+    "timeOffsetLowTide": -8,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.02,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8519112",
+   "name": "St. George, Staten Island",
+   "type": "S",
+   "miles": 5.0,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": -17,
+    "timeOffsetLowTide": -15,
+    "heightOffsetHighTide": 0.99,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530772",
+   "name": "Kearny Point",
+   "type": "S",
+   "miles": 5.0,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 11,
+    "timeOffsetLowTide": 22,
+    "heightOffsetHighTide": 1.15,
+    "heightOffsetLowTide": 1.14,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530696",
+   "name": "Amtrak RR. swing bridge",
+   "type": "S",
+   "miles": 5.6,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 33,
+    "timeOffsetLowTide": 39,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.1,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530743",
+   "name": "Point No Point",
+   "type": "S",
+   "miles": 5.8,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 0,
+    "timeOffsetLowTide": 22,
+    "heightOffsetHighTide": 1.15,
+    "heightOffsetLowTide": 1.04,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530884",
+   "name": "Port Newark Terminal",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 3,
+    "timeOffsetLowTide": 21,
+    "heightOffsetHighTide": 1.12,
+    "heightOffsetLowTide": 1.12,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8517942",
+   "name": "Fort Hamilton, The Narrows",
+   "type": "S",
+   "miles": 6.5,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": 7,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8518668",
+   "name": "Horns Hook, East 90th Street",
+   "type": "R",
+   "miles": 6.5,
+   "direction": "NE"
+  },
+  {
+   "id": "8519050",
+   "name": "USCG Station NY",
+   "type": "R",
+   "miles": 6.6,
+   "direction": "S"
+  },
+  {
+   "id": "8530882",
+   "name": "Port Elizabeth",
+   "type": "R",
+   "miles": 6.9,
+   "direction": "W"
+  },
+  {
+   "id": "8530531",
+   "name": "North Secaucus, Garretts Reach",
+   "type": "S",
+   "miles": 7.5,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 57,
+    "timeOffsetLowTide": 57,
+    "heightOffsetHighTide": 1.23,
+    "heightOffsetLowTide": 1.23,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530586",
+   "name": "Fish Creek, Berrys Creek",
+   "type": "S",
+   "miles": 7.6,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 62,
+    "timeOffsetLowTide": 60,
+    "heightOffsetHighTide": 1.16,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8517401",
+   "name": "Hell Gate, Wards Island",
+   "type": "S",
+   "miles": 7.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 178,
+    "timeOffsetLowTide": 225,
+    "heightOffsetHighTide": 1.33,
+    "heightOffsetLowTide": 1.59,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8517811",
+   "name": "Norton Point, Gravesend Bay",
+   "type": "S",
+   "miles": 7.7,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": 3,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.15,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530528",
+   "name": "Carlstadt, Garretts Reach",
+   "type": "S",
+   "miles": 7.7,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 59,
+    "timeOffsetLowTide": 45,
+    "heightOffsetHighTide": 1.26,
+    "heightOffsetLowTide": 1.29,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8517519",
+   "name": "Mill Basin",
+   "type": "S",
+   "miles": 8.0,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8531680",
+    "timeOffsetHighTide": 28,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 1.12,
+    "heightOffsetLowTide": 1.1,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8530505",
+   "name": "Edgewater, N.J.",
+   "type": "S",
+   "miles": 8.0,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8518750",
+    "timeOffsetHighTide": 31,
+    "timeOffsetLowTide": 28,
+    "heightOffsetHighTide": 0.93,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

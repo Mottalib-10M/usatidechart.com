@@ -1,0 +1,13 @@
+{
+ "accent": "#0A3161",
+ "symbol": "≈",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "Today's tide chart\nfor US beaches and inlets",
+   "subtitle": "High and low tide · 7 days · solunar · sunrise",
+   "badge": "Government tide predictions",
+   "brand": "Tide Day"
+  }
+ ]
+}

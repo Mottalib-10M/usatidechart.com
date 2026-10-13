@@ -1,0 +1,264 @@
+{
+ "key": "washington/seattle",
+ "place": "Seattle",
+ "id": "9447130",
+ "noaaName": "SEATTLE (Madison St.), Elliott Bay",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 47.6026,
+ "lng": -122.3393,
+ "tz": "America/Los_Angeles",
+ "offsets": null,
+ "datums": {
+  "MHHW": 11.36,
+  "MHW": 10.49,
+  "MSL": 6.64,
+  "MTL": 6.66,
+  "MLW": 2.83,
+  "MLLW": 0,
+  "GT": 11.36,
+  "MN": 7.66,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 11.33,
+  "springRange": 14.3,
+  "neapRange": 8.49,
+  "oneHighShare": 0.07,
+  "highInequality": 1.84,
+  "lowInequality": 6.27,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 30014836,
+   "h": 13.09,
+   "date": "2027-01-25"
+  },
+  "minLow": {
+   "t": 29969698,
+   "h": -3.93,
+   "date": "2026-12-24"
+  },
+  "topHighs": [
+   {
+    "t": 30014836,
+    "h": 13.09,
+    "date": "2027-01-25"
+   },
+   {
+    "t": 30013363,
+    "h": 13.04,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 29971642,
+    "h": 13.01,
+    "date": "2026-12-26"
+   },
+   {
+    "t": 29973122,
+    "h": 13,
+    "date": "2026-12-27"
+   },
+   {
+    "t": 30016308,
+    "h": 13,
+    "date": "2027-01-26"
+   },
+   {
+    "t": 29970160,
+    "h": 12.93,
+    "date": "2026-12-25"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 29969698,
+    "h": -3.93,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30245436,
+    "h": -3.93,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30205178,
+    "h": -3.89,
+    "date": "2027-06-06"
+   },
+   {
+    "t": 29968210,
+    "h": -3.85,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29927951,
+    "h": -3.84,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 30203691,
+    "h": -3.83,
+    "date": "2027-06-05"
+   }
+  ],
+  "negativeLows": 241,
+  "negativeLowDays": 241,
+  "meanHigh": 10.52,
+  "meanLow": 2.97
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "9447110",
+   "name": "Lockheed Shipyard, Harbor Island",
+   "type": "S",
+   "miles": 1.6,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": -1,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9447029",
+   "name": "Duwamish Waterway, Eighth Ave. South",
+   "type": "S",
+   "miles": 4.7,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 10,
+    "timeOffsetLowTide": 11,
+    "heightOffsetHighTide": 0.97,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9447265",
+   "name": "Meadow Point, Shilshole Bay",
+   "type": "S",
+   "miles": 6.6,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 0,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 0.98,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445913",
+   "name": "Port Blakely",
+   "type": "S",
+   "miles": 8.0,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445882",
+   "name": "Eagle Harbor, Bainbridge Island",
+   "type": "S",
+   "miles": 8.3,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 4,
+    "timeOffsetLowTide": 5,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.02,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9446025",
+   "name": "Point Vashon, Vashon Island",
+   "type": "S",
+   "miles": 8.5,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": 2,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 1.01,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445938",
+   "name": "Clam Bay, Rich Passage",
+   "type": "S",
+   "miles": 9.7,
+   "direction": "W",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 3,
+    "timeOffsetLowTide": 4,
+    "heightOffsetHighTide": 1.01,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445993",
+   "name": "Harper, Yukon Harbor",
+   "type": "S",
+   "miles": 9.9,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": -6,
+    "timeOffsetLowTide": -1,
+    "heightOffsetHighTide": 1.02,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445753",
+   "name": "Port Madison",
+   "type": "S",
+   "miles": 11.2,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": 9,
+    "timeOffsetLowTide": -3,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 0.99,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "9445683",
+   "name": "Port Jefferson",
+   "type": "S",
+   "miles": 11.8,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "9447130",
+    "timeOffsetHighTide": -3,
+    "timeOffsetLowTide": -4,
+    "heightOffsetHighTide": 0.95,
+    "heightOffsetLowTide": 0.98,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

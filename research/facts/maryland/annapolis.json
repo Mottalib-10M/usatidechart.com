@@ -1,0 +1,255 @@
+{
+ "key": "maryland/annapolis",
+ "place": "Annapolis",
+ "id": "8575512",
+ "noaaName": "Annapolis (US Naval Academy)",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 38.9839,
+ "lng": -76.48,
+ "tz": "America/New_York",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.43,
+  "MHW": 1.19,
+  "MSL": 0.72,
+  "MTL": 0.7,
+  "MLW": 0.22,
+  "MLLW": 0,
+  "GT": 1.44,
+  "MN": 0.97,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.22,
+  "springRange": 1.51,
+  "neapRange": 0.89,
+  "oneHighShare": 0.07,
+  "highInequality": 0.36,
+  "lowInequality": 0.32,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 30243436,
+   "h": 1.86,
+   "date": "2027-07-03"
+  },
+  "minLow": {
+   "t": 30010530,
+   "h": -0.71,
+   "date": "2027-01-22"
+  },
+  "topHighs": [
+   {
+    "t": 30243436,
+    "h": 1.86,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 30244929,
+    "h": 1.86,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30285180,
+    "h": 1.86,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 30286672,
+    "h": 1.85,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30246420,
+    "h": 1.84,
+    "date": "2027-07-05"
+   },
+   {
+    "t": 30283685,
+    "h": 1.84,
+    "date": "2027-07-31"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30010530,
+    "h": -0.71,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 30009031,
+    "h": -0.7,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 30012027,
+    "h": -0.68,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30007530,
+    "h": -0.66,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30006029,
+    "h": -0.61,
+    "date": "2027-01-19"
+   },
+   {
+    "t": 30013522,
+    "h": -0.61,
+    "date": "2027-01-24"
+   }
+  ],
+  "negativeLows": 215,
+  "negativeLowDays": 161,
+  "meanHigh": 1.15,
+  "meanLow": 0.25
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8575331",
+   "name": "Brewer Point",
+   "type": "S",
+   "miles": 4.1,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -45,
+    "timeOffsetLowTide": -54,
+    "heightOffsetHighTide": 0.74,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8575550",
+   "name": "Gingerville Creek, South River",
+   "type": "S",
+   "miles": 4.4,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -121,
+    "timeOffsetLowTide": -126,
+    "heightOffsetHighTide": 0.92,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8575579",
+   "name": "Edgewater, South River",
+   "type": "S",
+   "miles": 4.4,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -111,
+    "timeOffsetLowTide": -127,
+    "heightOffsetHighTide": 0.81,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8575229",
+   "name": "Mountain Point, Magothy River",
+   "type": "S",
+   "miles": 5.9,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -4,
+    "timeOffsetLowTide": -4,
+    "heightOffsetHighTide": 0.74,
+    "heightOffsetLowTide": 0.77,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8575737",
+   "name": "Thomas Point Shoal Light",
+   "type": "S",
+   "miles": 6.3,
+   "direction": "SE",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -116,
+    "timeOffsetLowTide": -131,
+    "heightOffsetHighTide": 0.81,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8572770",
+   "name": "Matapeake, Kent Island",
+   "type": "R",
+   "miles": 7.0,
+   "direction": "E"
+  },
+  {
+   "id": "8575787",
+   "name": "Rhode River (County Wharf)",
+   "type": "S",
+   "miles": 7.5,
+   "direction": "SW",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -127,
+    "timeOffsetLowTide": -137,
+    "heightOffsetHighTide": 0.88,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8575109",
+   "name": "Cornfield Creek, Magothy River",
+   "type": "S",
+   "miles": 8.2,
+   "direction": "N",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -29,
+    "timeOffsetLowTide": -38,
+    "heightOffsetHighTide": 0.89,
+    "heightOffsetLowTide": 0.95,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8572955",
+   "name": "Love Point",
+   "type": "R",
+   "miles": 10.1,
+   "direction": "E"
+  },
+  {
+   "id": "8575923",
+   "name": "Galesville, West River",
+   "type": "S",
+   "miles": 10.3,
+   "direction": "S",
+   "offsets": {
+    "refStationId": "8574680",
+    "timeOffsetHighTide": -99,
+    "timeOffsetLowTide": -94,
+    "heightOffsetHighTide": 0.81,
+    "heightOffsetLowTide": 0.91,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8572467",
+   "name": "Kent Point Marina",
+   "type": "R",
+   "miles": 11.7,
+   "direction": "SE"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "key": "new-hampshire/hampton-beach",
+ "place": "Hampton Beach",
+ "id": "8429489",
+ "noaaName": "Hampton Harbor",
+ "type": "S",
+ "referenceId": "8418150",
+ "referenceName": "PORTLAND",
+ "lat": 42.895,
+ "lng": -70.8167,
+ "tz": "America/New_York",
+ "offsets": {
+  "refStationId": "8418150",
+  "heightOffsetHighTide": 0.91,
+  "heightOffsetLowTide": 0.91,
+  "timeOffsetHighTide": 14,
+  "timeOffsetLowTide": 32,
+  "heightAdjustedType": "R"
+ },
+ "datums": null,
+ "stats": {
+  "days": 457,
+  "meanRange": 8.88,
+  "springRange": 10.89,
+  "neapRange": 7.12,
+  "oneHighShare": 0.07,
+  "highInequality": 0.85,
+  "lowInequality": 0.69,
+  "tideType": "semidiurnal",
+  "maxHigh": {
+   "t": 29970278,
+   "h": 10.55,
+   "date": "2026-12-25"
+  },
+  "minLow": {
+   "t": 30012430,
+   "h": -1.66,
+   "date": "2027-01-23"
+  },
+  "topHighs": [
+   {
+    "t": 29970278,
+    "h": 10.55,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30247508,
+    "h": 10.54,
+    "date": "2027-07-06"
+   },
+   {
+    "t": 30289254,
+    "h": 10.54,
+    "date": "2027-08-04"
+   },
+   {
+    "t": 30287759,
+    "h": 10.52,
+    "date": "2027-08-02"
+   },
+   {
+    "t": 30012028,
+    "h": 10.49,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30246013,
+    "h": 10.49,
+    "date": "2027-07-05"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30012430,
+    "h": -1.66,
+    "date": "2027-01-23"
+   },
+   {
+    "t": 30013919,
+    "h": -1.59,
+    "date": "2027-01-24"
+   },
+   {
+    "t": 29970685,
+    "h": -1.55,
+    "date": "2026-12-25"
+   },
+   {
+    "t": 30010939,
+    "h": -1.51,
+    "date": "2027-01-22"
+   },
+   {
+    "t": 29969192,
+    "h": -1.48,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 29972178,
+    "h": -1.45,
+    "date": "2026-12-26"
+   }
+  ],
+  "negativeLows": 246,
+  "negativeLowDays": 188,
+  "meanHigh": 8.55,
+  "meanLow": 0.38
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "8440452",
+   "name": "Plum Island, Merrimack River Entrance",
+   "type": "R",
+   "miles": 5.4,
+   "direction": "S"
+  },
+  {
+   "id": "8440273",
+   "name": "Salisbury Point",
+   "type": "R",
+   "miles": 6.1,
+   "direction": "SW"
+  },
+  {
+   "id": "8440466",
+   "name": "Newburyport",
+   "type": "R",
+   "miles": 6.2,
+   "direction": "SW"
+  },
+  {
+   "id": "8440369",
+   "name": "Merrimacport",
+   "type": "R",
+   "miles": 9.9,
+   "direction": "SW"
+  },
+  {
+   "id": "8427031",
+   "name": "Gosport Harbor, Isles of Shoals",
+   "type": "S",
+   "miles": 11.7,
+   "direction": "NE",
+   "offsets": {
+    "refStationId": "8418150",
+    "timeOffsetHighTide": 2,
+    "timeOffsetLowTide": -2,
+    "heightOffsetHighTide": 0.93,
+    "heightOffsetLowTide": 0.93,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "8422687",
+   "name": "Squamscott River RR. Bridge",
+   "type": "S",
+   "miles": 12.0,
+   "direction": "NW",
+   "offsets": {
+    "refStationId": "8418150",
+    "timeOffsetHighTide": 139,
+    "timeOffsetLowTide": 161,
+    "heightOffsetHighTide": 0.75,
+    "heightOffsetLowTide": 0.75,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}

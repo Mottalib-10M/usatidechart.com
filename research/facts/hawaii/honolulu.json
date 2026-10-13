@@ -1,0 +1,172 @@
+{
+ "key": "hawaii/honolulu",
+ "place": "Honolulu",
+ "id": "1612340",
+ "noaaName": "HONOLULU",
+ "type": "R",
+ "referenceId": null,
+ "referenceName": null,
+ "lat": 21.3033,
+ "lng": -157.8645,
+ "tz": "Pacific/Honolulu",
+ "offsets": null,
+ "datums": {
+  "MHHW": 1.9,
+  "MHW": 1.44,
+  "MSL": 0.82,
+  "MTL": 0.8,
+  "MLW": 0.16,
+  "MLLW": 0,
+  "GT": 1.9,
+  "MN": 1.28,
+  "epoch": "1983-2001"
+ },
+ "stats": {
+  "days": 457,
+  "meanRange": 1.93,
+  "springRange": 2.5,
+  "neapRange": 1.42,
+  "oneHighShare": 0.08,
+  "highInequality": 1.08,
+  "lowInequality": 0.37,
+  "tideType": "mixed",
+  "maxHigh": {
+   "t": 30244449,
+   "h": 2.67,
+   "date": "2027-07-03"
+  },
+  "minLow": {
+   "t": 30008520,
+   "h": -0.41,
+   "date": "2027-01-20"
+  },
+  "topHighs": [
+   {
+    "t": 30244449,
+    "h": 2.67,
+    "date": "2027-07-03"
+   },
+   {
+    "t": 29968711,
+    "h": 2.66,
+    "date": "2026-12-24"
+   },
+   {
+    "t": 30245932,
+    "h": 2.65,
+    "date": "2027-07-04"
+   },
+   {
+    "t": 30286188,
+    "h": 2.65,
+    "date": "2027-08-01"
+   },
+   {
+    "t": 29926962,
+    "h": 2.63,
+    "date": "2026-11-25"
+   },
+   {
+    "t": 29967225,
+    "h": 2.63,
+    "date": "2026-12-23"
+   }
+  ],
+  "topLows": [
+   {
+    "t": 30008520,
+    "h": -0.41,
+    "date": "2027-01-20"
+   },
+   {
+    "t": 30010012,
+    "h": -0.41,
+    "date": "2027-01-21"
+   },
+   {
+    "t": 29968250,
+    "h": -0.4,
+    "date": "2026-12-23"
+   },
+   {
+    "t": 29966762,
+    "h": -0.39,
+    "date": "2026-12-22"
+   },
+   {
+    "t": 30007025,
+    "h": -0.36,
+    "date": "2027-01-19"
+   },
+   {
+    "t": 30202240,
+    "h": -0.36,
+    "date": "2027-06-04"
+   }
+  ],
+  "negativeLows": 243,
+  "negativeLowDays": 228,
+  "meanHigh": 1.44,
+  "meanLow": 0.18
+ },
+ "nearbyNoaaStations": [
+  {
+   "id": "1612404",
+   "name": "Pearl Harbor, Ford Island Ferry",
+   "type": "R",
+   "miles": 6.6,
+   "direction": "NW"
+  },
+  {
+   "id": "1612366",
+   "name": "Pearl Harbor Entrance, Bishop Point",
+   "type": "R",
+   "miles": 6.9,
+   "direction": "W"
+  },
+  {
+   "id": "1612401",
+   "name": "Ford Island, Pearl Harbor",
+   "type": "R",
+   "miles": 7.8,
+   "direction": "NW"
+  },
+  {
+   "id": "1612480",
+   "name": "MOKU O LOE",
+   "type": "R",
+   "miles": 10.2,
+   "direction": "NE"
+  },
+  {
+   "id": "1612301",
+   "name": "Hanauma Bay",
+   "type": "S",
+   "miles": 11.0,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "1612340",
+    "timeOffsetHighTide": -59,
+    "timeOffsetLowTide": -45,
+    "heightOffsetHighTide": 1.0,
+    "heightOffsetLowTide": 1.0,
+    "heightAdjustedType": "R"
+   }
+  },
+  {
+   "id": "1612376",
+   "name": "Waimanalo",
+   "type": "S",
+   "miles": 11.3,
+   "direction": "E",
+   "offsets": {
+    "refStationId": "1612480",
+    "timeOffsetHighTide": 11,
+    "timeOffsetLowTide": 5,
+    "heightOffsetHighTide": 0.88,
+    "heightOffsetLowTide": 0.75,
+    "heightAdjustedType": "R"
+   }
+  }
+ ]
+}
