@@ -103,7 +103,7 @@ export default function TideTool({ stations, initialKey, initialWin, buildMin, p
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-5">
       <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div className="min-w-0">
-          <form onSubmit={(e) => e.preventDefault()} className={`grid gap-x-4 gap-y-3 ${picker ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
+          <form onSubmit={(e) => e.preventDefault()} className={`grid content-start gap-x-4 gap-y-3 ${picker ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
             {picker && <SelectField id={`${idPrefix}-station`} label="Station" value={S.pending} onChange={(k) => { setDay(null); S.choose(k); }} options={stationOptions} help={`${list.length} beaches, inlets and harbors`} />}
             <SelectField id={`${idPrefix}-day`} label="Day" value={sel} onChange={setDay} options={dayOptions} help={`Times in ${zoneLabel(st.tz)}`} />
           </form>
@@ -163,7 +163,7 @@ export default function TideTool({ stations, initialKey, initialWin, buildMin, p
       {planner && (
         <div className="mt-6 border-t border-navy-200 pt-5">
           <h2 className="font-serif text-xl font-bold text-navy-900">Plan around the tide at {st.place}</h2>
-          <form onSubmit={(e) => e.preventDefault()} className="mt-3 grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2 lg:grid-cols-4">
+          <form onSubmit={(e) => e.preventDefault()} className="mt-3 grid content-start grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-2 lg:grid-cols-4">
             <SelectField id={`${idPrefix}-act`} label="I want to" value={act} onChange={(v) => setAct(v as 'walk' | 'boat')} options={[{ value: 'walk', label: 'Walk the beach at low water' }, { value: 'boat', label: 'Launch or retrieve a boat' }]} />
             <NumberField id={`${idPrefix}-level`} label={act === 'walk' ? 'Water below' : 'Water above'} value={level} onChange={setLevel} unit="ft" decimals={1} min={-5} max={40} help="Height above MLLW" />
             <SelectField id={`${idPrefix}-span`} label="Over the next" value={span} onChange={setSpan} options={[{ value: '3', label: '3 days' }, { value: '7', label: '7 days' }, { value: '14', label: '14 days' }, { value: '30', label: '30 days' }]} />

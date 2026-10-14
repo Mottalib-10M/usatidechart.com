@@ -35,7 +35,7 @@ export default function NearTool({ stations, next, buildMin, states, initialStat
   };
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-5">
-      <form onSubmit={(e) => e.preventDefault()} className="grid grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-[minmax(0,1fr)_auto]">
+      <form onSubmit={(e) => e.preventDefault()} className="grid content-start grid-cols-1 gap-x-4 gap-y-3 sm:grid-cols-[minmax(0,1fr)_auto]">
         <SelectField id={`${idPrefix}-state`} label="State" value={state} onChange={(v) => { setHere(null); setMsg(''); setState(v); }} options={states} />
         <div className="grid grid-rows-subgrid row-span-3 content-start"><span className="mb-1 block text-sm font-medium text-navy-700">Or</span><button type="button" onClick={locate} className="h-12 rounded-lg bg-accent-500 px-5 font-semibold text-white hover:bg-accent-700">Use my location</button></div>
       </form>
