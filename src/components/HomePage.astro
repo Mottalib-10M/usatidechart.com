@@ -33,7 +33,7 @@ const POPULAR = ['california/san-diego', 'south-carolina/myrtle-beach', 'texas/g
   <header class="mb-4">
     <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
     <p class="mt-2 text-lg text-navy-700">{x.intro}</p>
-    <p class="mt-1 text-sm text-navy-600">NOAA predictions updated <time datetime={DATA_META.retrieved}>{fullDate(DATA_META.retrieved)}</time>, valid to {fullDate(DATA_META.end)} · <a href={route('method', lang)} class="underline">How the tides are computed</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    <p class="mt-1 text-sm text-navy-600">NOAA predictions valid to {fullDate(DATA_META.end)} · <a href={route('method', lang)} class="underline">How the tides are computed</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
   <div data-outil data-chrome><TideTool client:load stations={ALL_LITE()} picker initialKey={featured} initialWin={windowOf(featured)} buildMin={BUILD_MIN} methodHref={route('method', lang)} idPrefix="home" planner={false} /></div>
   <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
