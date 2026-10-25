@@ -8,16 +8,16 @@ import { fullDate } from '../../lib/engine/time';
 import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
 const lang = 'en';
 const path = route('about', lang);
-const title = 'Tide Day 2026: who publishes these tide charts and why';
-const description = 'Tide Day is published by Radif Partners: free 2026 tide charts for 92 US stations from NOAA predictions, with solunar times and a beach planner, no account.';
+const title = 'Tide charts 2026: who publishes USA Tide Chart and why';
+const description = 'USA Tide Chart is published by Radif Partners: free 2026 tide charts for 92 US stations from NOAA predictions, with solunar times and a beach planner.';
 const R = STATIONS.filter((s) => s.type === 'R').length;
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
   <article class="prose prose-slate max-w-none prose-headings:font-serif">
-    <h1>About Tide Day</h1>
+    <h1>About USA Tide Chart</h1>
     <p>{AUTHOR_DESC.en}</p>
     <h2>Why this site exists</h2>
-    <p>Search "tide chart" with the name of a beach and the results are often a page of times with no curve, built in the 1990s, or a forecast site that covers the whole world and nothing about fishing or planning a walk. Tide Day does better than the first Google result because it puts NOAA's own predictions for {STATIONS.length} named US stations on one screen you can read on a phone: the curve for today and seven days, the next high or low with a countdown, the tide coefficient, sunrise and sunset, the moon and the solunar periods, and a planner that answers "when can I walk the beach or launch the boat" for the next weeks.</p>
+    <p>Search "tide chart" with the name of a beach and the results are often a page of times with no curve, built in the 1990s, or a forecast site that covers the whole world and nothing about fishing or planning a walk. USA Tide Chart does better than the first Google result because it puts NOAA's own predictions for {STATIONS.length} named US stations on one screen you can read on a phone: the curve for today and seven days, the next high or low with a countdown, the tide coefficient, sunrise and sunset, the moon and the solunar periods, and a planner that answers "when can I walk the beach or launch the boat" for the next weeks.</p>
     <h2>Who publishes it</h2>
     <p>The site is published by {AUTHOR_NAME}, a company that builds free calculators and reference pages on public data. It is not affiliated with NOAA or any government agency, does not sell charters, gear or rentals, and carries no advertising today.</p>
     <LegalIdentity lang={lang} />

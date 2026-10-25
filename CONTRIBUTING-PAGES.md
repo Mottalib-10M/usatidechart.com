@@ -1,4 +1,4 @@
-# Écrire ou étoffer une page de Tide Day (us-tides)
+# Écrire ou étoffer une page de USA Tide Chart (us-tides)
 
 Notice pour les agents qui écrivent ou prolongent le site. À lire en entier, avec
 `~/Documents/GitHub/RECETTE-SITE.md` (§0, §6, §6.5, §7, §9.3, §11, §17.4, §21, §26).

@@ -17,7 +17,7 @@
   "en"
  ],
  "names": {
-  "en": "Tide Day"
+  "en": "USA Tide Chart"
  },
  "langTags": {
   "en": "en-US"
@@ -38,7 +38,7 @@
  },
  "email": "contact@usatidechart.com",
  "indexnow": "225af30aaae66e349aa6972ec570914b",
- "shortName": "Tide Day",
+ "shortName": "USA Tide Chart",
  "description": "Tide charts for 92 US beaches, inlets and harbors: today's high and low tides, the next 7 days, solunar fishing times, sunrise and a beach and boat-ramp planner.",
  "port": 4444,
  "og": [
@@ -47,7 +47,7 @@
    "title": "Today's tide chart\nfor US beaches and inlets",
    "subtitle": "High and low tide · 7 days · solunar · sunrise",
    "badge": "Government tide predictions",
-   "brand": "Tide Day"
+   "brand": "USA Tide Chart"
   }
  ],
  "lastUpdated": "2026-10-12",

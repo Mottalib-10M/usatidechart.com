@@ -1,6 +1,8 @@
 /** Configuration centrale du site (générée par new-site.py). */
 export const SITE_URL = "https://usatidechart.com";
-export const SITE_NAMES: Record<string, string> = {"en": "Tide Day"};
+// Partie du nom en couleur dans l'en-tete ('' = aucune).
+export const BRAND_ACCENT = 'Tide';
+export const SITE_NAMES: Record<string, string> = {"en": "USA Tide Chart"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
 export const LOCALE_TAG = 'en-US';
@@ -11,7 +13,7 @@ export const SITE_FOUNDED = '2026';
 export const LAST_UPDATED = '2026-10-13';
 export const AUTHOR_NAME = 'Radif Partners';
 export const AUTHOR_ROLE: Record<string, string> = {"en": "Publisher of tide charts, solunar fishing times and beach and boat-ramp planners for US coastal stations"};
-export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners publishes Tide Day from the tide predictions of the National Ocean Service, the federal office that runs the US network of tide stations: every high and low on these pages is the official prediction for a named station, redrawn as a curve you can read on a phone, next to the sun, the moon and the solunar periods that anglers plan around. The site sells no charter, no bait and no gear, and asks for nothing before it shows the tide."};
+export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners publishes USA Tide Chart from the tide predictions of the National Ocean Service, the federal office that runs the US network of tide stations: every high and low on these pages is the official prediction for a named station, redrawn as a curve you can read on a phone, next to the sun, the moon and the solunar periods that anglers plan around. The site sells no charter, no bait and no gear, and asks for nothing before it shows the tide."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
