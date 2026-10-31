@@ -131,7 +131,7 @@ export default function TideTool({ stations, initialKey, initialWin, buildMin, p
           <table className="mt-3 w-full text-sm tabular-nums"><tbody className="divide-y divide-accent-100">
             {evs.map((e) => <tr key={e[0]}><td className="py-1 pr-2 font-medium">{e[2] ? 'High' : 'Low'}</td><td className="py-1 pr-2">{clock(e[0], st.tz)}</td><td className="py-1 text-right">{ft(e[1])}</td></tr>)}
           </tbody></table>
-          {coef !== null && <p className="mt-3 text-sm">Tide coefficient <strong>{coef}</strong> ({coefficientLabel(coef)}), range {ft(range!)}</p>}
+          {coef !== null && <p className="mt-3 text-sm">Tide coefficient <strong>{coef}</strong> ({coefficientLabel(coef)}; 100 = this station's average range), range {ft(range!)}</p>}
           {sky && <p className="mt-1 text-sm">Sunrise {sky.sr ? clock(sky.sr, st.tz) : 'none'} · sunset {sky.ss ? clock(sky.ss, st.tz) : 'none'}</p>}
           {sky && <p className="mt-1 text-sm">{phaseName(sky.phase)}, {sky.illum}% lit · fishing day <span aria-label={`${rating!.score} out of 4`}>{stars(rating!.score)}</span></p>}
           {per.length > 0 && <p className="mt-1 text-sm">Solunar: {per.map((p) => `${p.kind === 'major' ? 'major' : 'minor'} ${clock(p.start, st.tz)}–${clock(p.end, st.tz)}`).join(', ')}</p>}

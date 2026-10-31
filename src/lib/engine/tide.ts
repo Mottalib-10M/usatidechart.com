@@ -149,8 +149,8 @@ export function dayRange(ev: Ev[], start: number, end: number): number | null {
 export const coefficient = (range: number, meanRange: number) => Math.round((range / meanRange) * 100);
 export function coefficientLabel(c: number): string {
   if (c >= 130) return 'very large';
-  if (c >= 115) return 'large (spring tides)';
+  if (c >= 115) return 'large, spring tides';
   if (c >= 85) return 'average';
-  if (c >= 70) return 'small (neap tides)';
+  if (c >= 70) return 'small, neap tides';
   return 'very small';
 }
