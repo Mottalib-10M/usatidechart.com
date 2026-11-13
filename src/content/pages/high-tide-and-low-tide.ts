@@ -23,7 +23,7 @@ export default definePage({
   title: 'High Tide and Low Tide 2026: Times, Causes, Heights',
   description: 'High tide and low tide in 2026: what causes them, why tide times run about 50 minutes later each day, how high and low the water gets, and the next tide times.',
   h1: 'High tide and low tide',
-  intro: 'Two bulges of ocean, a turning Earth and a moon that moves along its orbit explain nearly everything about the high and low tide times printed on a tide page.',
+  intro: 'Two bulges of ocean, a turning Earth and a moon that moves along its orbit explain nearly everything about high and low tide times.',
   resume: `High tide is the moment the water stops rising and low tide the moment it stops falling; on most US coasts each happens twice in a lunar day of about 24 hours and 50 minutes, so consecutive highs come roughly 12 hours and 25 minutes apart and today's tide times run close to 50 minutes later than yesterday's. The moon's pull, with help from the sun, raises two bulges of water that the Earth rotates through, while the shape of each coast decides how late and how big the tide arrives. For today's high tide and low tide at a particular beach, use the tool below or open that station page: the times come from NOAA predictions for that very gauge. Heights are in feet above the average lower low, so a low can read below zero, and wind can lift or drop the real water by a foot or more.`,
   mini: { kind: 'next' },
   body: (h) => {

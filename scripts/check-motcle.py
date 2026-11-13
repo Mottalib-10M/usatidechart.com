@@ -42,7 +42,7 @@ het een van voor op hoe wat
 SERVICE = re.compile(
     r"/(about|about-us|a-propos|qui-sommes-nous|sobre|sobre-nosotros|quienes-somos|chi-siamo|ueber-uns|uber-uns"
     r"|over-ons|quem-somos|tietoa|om-oss|o-nas|hakkimizda|tentang|mission|notre-mission|our-mission"
-    r"|method|methode|methodology|methodologie|metodologia|methodik|methodiek|metodiikka|laskentatapa|metod|metode|metodologi|yontem"
+    r"|method|methode|methodology|methodologie|metodologia|methodik|methodiek|metodiikka|laskentatapa|metodo|metod|metode|metodologi|yontem"
     r"|legal|legal-notice|mentions|mentions-legales|impressum|aviso-legal|note-legali|disclaimer|haftungsausschluss"
     r"|privacy|privacy-policy|privacidade|protection-donnees|protection-des-donnees|colofon|colophon|privacybeleid|confidentialite|datenschutz|privacidad|tietosuoja|integritetspolicy|polityka-prywatnosci|gizlilik|kebijakan-privasi"
     r"|cookies?|cookie-policy|cookiebeleid|evasteet|cerezler"
