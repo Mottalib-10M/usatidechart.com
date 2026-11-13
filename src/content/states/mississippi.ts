@@ -7,7 +7,7 @@ export default defineState({
   state: 'mississippi',
   title: 'Mississippi Tides 2026: Biloxi and the Mississippi Sound',
   description: 'Mississippi tides today: the Biloxi tide chart for Mississippi Sound, with 7-day high and low tide times, coefficient, sunrise, moon and solunar periods. 2026.',
-  intro: 'One reference gauge at Biloxi for a coast that faces a sheltered sound rather than the open Gulf.',
+  intro: 'One reference tide gauge at Biloxi for a coast that faces a sheltered sound rather than the open Gulf.',
   resume: `${K.ft(bi.stats.meanRange)} is the average daily tide at Biloxi, the Mississippi station on this site, and that is slightly more than its neighbors get: ${K.ft(di.stats.meanRange)} at Dauphin Island in Alabama and ${K.ft(gi.stats.meanRange)} at Grand Isle in Louisiana. The tide is diurnal for most of the month, ${K.typeWords('mississippi/biloxi')}, with spring days near ${K.ft(bi.stats.springRange)} when the moon stands far from the equator and nearly flat days when it crosses it. The whole mainland shore looks onto Mississippi Sound, a shallow basin closed off by a line of barrier islands several miles out. The tide comes in through the passes between those islands, crosses the sound, then runs late into Biloxi Bay, the Bay of St. Louis, Pascagoula and the bayous. Wind from the south or north can shift the level as much as the moon. Pick the station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'mississippi/biloxi',
   body: (h) => `

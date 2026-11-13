@@ -2,7 +2,7 @@ import { defineStation } from '../../../lib/page-types';
 
 export default defineStation({
   key: 'south-carolina/folly-beach',
-  intro: 'NOAA predicts the Folly River bridge, on the marsh side of Folly Island, from Charleston Harbor with high water 21 minutes later.',
+  intro: 'NOAA predicts the Folly Beach tides at the Folly River bridge, on the marsh side of Folly Island, from Charleston Harbor with high water 21 minutes later.',
   body: (h) => {
     const s = h.st('south-carolina/folly-beach');
     return `

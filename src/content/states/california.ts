@@ -11,7 +11,7 @@ export default defineState({
   state: 'california',
   title: 'California Tides 2026: San Diego to Crescent City Charts',
   description: 'California tides today: tide charts for San Diego, Long Beach, Santa Barbara, San Francisco and Crescent City, with 7-day high and low tide times. 2026.',
-  intro: 'Eleven gauges spread over some 800 miles of Pacific shore, from San Diego Bay to the Oregon line.',
+  intro: 'Eleven tide gauges spread over some 800 miles of Pacific shore, from San Diego Bay to the Oregon line.',
   resume: `${K.ft(e.min.stats.meanRange)} at ${e.min.place} and ${K.ft(e.max.stats.meanRange)} at ${e.max.place} bracket the average daily tide across the ${all.length} California stations on this site. Most of the coast sits in a narrow band: ${K.ft(sd.stats.meanRange)} at San Diego, ${K.ft(sf.stats.meanRange)} at the Golden Gate, with the range climbing only on the far north coast. The tide is mixed everywhere, ${K.typeWords('california/san-diego')}: a higher high and a lower low come once a day, and the other pair is weaker. That inequality is what produces California's minus tides, lows below the chart datum that bare reefs and rock benches, in winter afternoons and again in late spring and early summer mornings. Inside the bays the picture shifts. San Diego Bay and the Los Angeles harbors follow the open coast closely, while San Francisco Bay delays the tide and changes its size from one shore to the next. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'california/san-diego',
   body: (h) => `

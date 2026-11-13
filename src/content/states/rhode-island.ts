@@ -7,7 +7,7 @@ export default defineState({
   state: 'rhode-island',
   title: 'Rhode Island Tides 2026: Newport and Narragansett Bay',
   description: 'Rhode Island tides today: tide charts for Newport and Narragansett with 7-day high and low tide times, coefficient, sunrise and solunar periods. 2026.',
-  intro: 'Two stations at the mouth of Narragansett Bay, where a moderate tide drives strong currents through the passages.',
+  intro: 'Two Rhode Island tide stations at the mouth of Narragansett Bay, where a moderate tide drives strong currents through the passages.',
   resume: `Rhode Island's tide is moderate and regular: two highs and two lows a day, ${K.ft(np.stats.meanRange)} on an average day at Newport and ${K.ft(na.stats.meanRange)} at Narragansett Pier. The coast lies between the large tides of the Gulf of Maine and the small ones near Nantucket, and Narragansett Bay, which cuts deep into the state, slightly amplifies the tide as it travels north toward Providence. NOAA uses the Newport gauge as the reference for most of the bay, with corrections of a few minutes. Pick a station in the tool above for today's curve and times, or open its page for the seven-day table, the year's highest and lowest tides and a planner. On the south coast, the salt ponds behind the beaches connect to the sea through narrow breachways, where the tide comes late and the current runs fast.`,
   featured: 'rhode-island/newport',
   body: (h) => `

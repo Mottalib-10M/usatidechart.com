@@ -11,7 +11,7 @@ export const HOME = {
   title: 'Tide Chart 2026: Tide Times and Tides for 92 US Beaches',
   description: `Tide chart and tide times for 92 US beaches and harbors: today's high and low tides, 7 days, tide coefficient, solunar fishing times and a beach planner. 2026.`,
   h1: 'Tide chart and tide times for US beaches and harbors',
-  intro: 'Pick a station or use your location: today’s curve, the next high and low, sunrise, the moon and the solunar periods, then the week ahead.',
+  intro: 'Pick a station or use your location: today’s tide curve, the next high and low, sunrise, the moon and the solunar periods, then the week ahead.',
   resume: `A tide chart shows how high the water stands, hour by hour, at one precise station: this site draws it from the official predictions of the National Ocean Service (NOAA) for ${K.stations.length} beaches, inlets and harbors, from ${bh.place} to Honolulu. USA Tide Chart does better than the first Google result because it puts those predictions on one screen you can read on a phone, with the curve for today and the next seven days, the next high or low with a countdown, sunrise and sunset, the moon phase and the solunar periods anglers plan around, and a planner that answers the real question, "when can I walk the beach or launch the boat?", where older tide sites still serve a list of times without a chart. The tide is not the same everywhere: ${big.place} swings ${K.ft(big.stats.meanRange)} on an average day, ${small.place} ${K.ft(small.stats.meanRange)}, so always read the station nearest to where you will be.`,
   sources: ['predictions_page', 'coops_api', 'datums', 'tides_tutorial', 'king_tides', 'coops_disclaimer'],
   tableTitle: 'Where the tide is biggest and smallest on these pages',

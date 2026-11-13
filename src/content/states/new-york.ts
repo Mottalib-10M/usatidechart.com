@@ -7,7 +7,7 @@ export default defineState({
   state: 'new-york',
   title: 'New York Tides 2026: NYC, Jones Beach and Montauk Charts',
   description: 'New York tides today: tide charts for New York City, Jones Beach and Montauk, with 7-day high and low tide times, tide coefficient and solunar periods. 2026.',
-  intro: 'Three stations from the Battery to the tip of Long Island, on three different waters.',
+  intro: 'Three New York tide stations from the Battery to the tip of Long Island, on three different waters.',
   resume: `New York's coast meets three tidal systems: New York Harbor, the Atlantic beaches of Long Island's south shore, and Long Island Sound to the north. The tide is semidiurnal everywhere, two highs and two lows a day, but its size changes: ${K.ft(ny.stats.meanRange)} on an average day at the Battery in Manhattan, ${K.ft(jb.stats.meanRange)} at Jones Inlet on the south shore, and only ${K.ft(mt.stats.meanRange)} at Montauk, at the eastern tip, near where the tide wave divides between the ocean and the sounds. Pick a station in the tool above for today's curve and times, or open its page for seven days, the extreme tides and a planner. Behind the barrier beaches of the south shore, in the bays of Hempstead, Great South Bay and Shinnecock, the tide is smaller and later than on the ocean, because it enters through a handful of inlets.`,
   featured: 'new-york/new-york-city',
   body: (h) => `

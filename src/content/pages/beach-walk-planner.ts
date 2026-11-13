@@ -9,11 +9,11 @@ export default definePage({
   title: 'Low Tide Today 2026: Beach Walk Planner for 92 US Stations',
   description: 'Low tide today and the next 60 days: list every daylight window with the water below your level at 92 US stations, for beach walks, tide pools and bars. 2026.',
   h1: 'Low tide planner: when can I walk the beach?',
-  intro: 'Set the water level that opens your walk, a bar, a cove or a stretch of sand, and see every window below it.',
+  intro: 'Set the water level that opens your walk, a bar, a cove or a stretch of sand, and see every low tide window below it.',
   resume: `Low tide is a moment, but a walk needs a window: the hours when the water stays below the level that uncovers your sand bar, your tide pools or the passage around a headland. This planner finds those windows for any of the ${K.stations.length} stations on the site. Choose the station, enter the level in feet above Mean Lower Low Water (the default is a quarter of the station's average range), the period (3 to 60 days), whether you want daylight only, and the shortest window worth the trip. The list shows each window's start, end, length and lowest water, and the chart below draws the day's curve with your level across it. The times are solved exactly on the curve built from NOAA predictions, not read from a table.`,
   tool: 'planner-beach',
   body: (h) => `
-<h2>Choosing the level</h2>
+<h2>Choosing the low tide level</h2>
 <p>The right level depends on the place, not on the tide table. A sand bar at ${h.a('st:maine/bar-harbor', 'Bar Harbor')} or a cove that only opens at low water has a height above which it is covered; on a flat beach the "level" is how much sand you want. If you do not know it, try the walk once at a known low, note the predicted height at the time you could just pass, and use that figure next time. On a coast with a range of ${h.ft(bh.stats.meanRange)} like Bar Harbor, a level one foot higher can add an hour to the window; on the Gulf, where the range is one or two feet, the window is long but the level matters more than the time.</p>
 <h2>Daylight, and the lowest days</h2>
 <p>With daylight only, windows are cut to sunrise and sunset at the station. The deepest lows come around the new and full moon; in Washington and Oregon the lowest of them fall around midday in late spring and summer and at night in winter, while in Southern California it is the reverse: winter afternoons, summer before dawn. The ${h.a('negative-low-tides', 'negative low tides guide')} explains it.</p>

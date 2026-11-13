@@ -7,7 +7,7 @@ export default defineState({
   state: 'north-carolina',
   title: 'North Carolina Tides 2026: Outer Banks to Wrightsville Beach',
   description: 'North Carolina tides today: tide charts for Duck, Nags Head, Oregon Inlet, Hatteras, Beaufort and Wrightsville Beach, with 7-day high and low times. 2026.',
-  intro: 'Six stations along the Outer Banks and the southern coast, where a modest ocean tide meets sounds that barely have one.',
+  intro: 'Six tide stations along the Outer Banks and the southern coast of North Carolina, where a modest ocean tide meets sounds that barely have one.',
   resume: `North Carolina's ocean beaches have a semidiurnal tide, two highs and two lows a day, of three to four and a half feet on an average day: ${K.ft(du.stats.meanRange)} at the Duck pier on the northern Outer Banks, ${K.ft(wb.stats.meanRange)} at Wrightsville Beach in the south, where the coast curves into Onslow and Long bays. Behind the barrier islands, the great sounds, Currituck, Albemarle, Pamlico and Core, receive the ocean tide only through a few inlets and keep almost none of it: the Oregon Inlet marina, inside the inlet, averages ${K.ft(oi.stats.meanRange)}, and deep in Pamlico Sound the lunar tide fades to inches while the wind takes over. Pick a station in the tool above for today's curve and times, or open its page for seven days, extremes and a planner.`,
   featured: 'north-carolina/nags-head',
   body: (h) => `

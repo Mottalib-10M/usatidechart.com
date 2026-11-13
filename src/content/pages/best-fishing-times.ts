@@ -20,7 +20,7 @@ export default definePage({
   title: 'Best Fishing Times 2026: Dawn, Dusk, Tides and Moon',
   description: 'Best fishing times 2026: why dawn and dusk work, how tide changes and moving water matter, what solunar periods and moon phase add, how mixed the evidence is.',
   h1: 'Best times to go fishing',
-  intro: 'No clock guarantees a bite, but three things anglers can look up in advance line up with good days more often than chance would suggest.',
+  intro: 'No clock guarantees a bite, but three things anglers can look up in advance line up with the best fishing days more often than chance would suggest.',
   resume: `The best fishing times on salt water usually come when three things overlap: low light at dawn or dusk, moving water in the hours after a tide change, and, if you follow the tradition, a solunar period around the moon's passage overhead or underfoot. Light and current have the strongest support from anglers and fisheries biology alike, since many fish feed more boldly in dim light and bait moves when water moves. Solunar tables, first published by John Alden Knight in 1926, add four daily windows tied to the moon; studies of them give mixed results, so treat them as a tiebreaker rather than a forecast. Days around new and full moon bring the largest tides and the strongest currents, which helps in creeks and on flats and can be too much in deep passes. Weather, water temperature and season still decide whether fish are there at all.`,
   mini: { kind: 'solunar' },
   body: (h) => {
@@ -28,7 +28,7 @@ export default definePage({
     const rt = ratings(tp.key);
     const major = (h.P.solunar.majorHalfMinutes * 2) / 60, minor = h.P.solunar.minorHalfMinutes * 2;
     return `
-<h2>Start with the light</h2>
+<h2>Best fishing times start with the light</h2>
 <p>If you could pick only one factor, most experienced anglers would pick the edges of the day. In the hour around sunrise and the hour around sunset, predators that hunt by sight gain an advantage over bait that relies on spotting them, surface water is often cooler in summer, and boat traffic is lighter. Fisheries researchers have documented twilight peaks in feeding for many marine species, which gives this old habit a sounder footing than most fishing lore.</p>
 <p>That does not make noon useless. Deep water, overcast skies and dirty water all soften the midday slump, and on cold winter flats the warmest afternoon hours can be the most active. Still, a plan that puts you on the water at first light rarely goes wrong. Each station page lists sunrise and sunset for its exact position, and the tide chart shades the night so you can see how the light lines up with the tide.</p>
 

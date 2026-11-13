@@ -7,7 +7,7 @@ export default defineState({
   state: 'delaware',
   title: 'Delaware Tides 2026: Rehoboth Beach and Lewes Tide Charts',
   description: 'Delaware tides today: tide charts for Rehoboth Beach and Lewes, with 7-day high and low tide times, tide coefficient, sunrise and solunar fishing periods. 2026.',
-  intro: 'Two stations around Cape Henlopen: the bay at Lewes, the ocean at Rehoboth Beach.',
+  intro: 'Two tide stations around Cape Henlopen: the bay at Lewes, the ocean at Rehoboth Beach.',
   resume: `Delaware's beaches sit on two waters that meet at Cape Henlopen: Delaware Bay to the north and west, the Atlantic to the east. Both have a semidiurnal tide, two highs and two lows a day of similar size, ${K.ft(le.stats.meanRange)} on an average day at Lewes and ${K.ft(re.stats.meanRange)} at Rehoboth Beach, but the ocean turns first: Rehoboth's highs and lows come roughly 45 minutes to an hour before Lewes's. NOAA predicts Rehoboth from the Ocean City, Maryland, fishing pier, while Lewes is a reference station in its own right at the mouth of the bay. Pick a station in the tool above for today's curve and times, or open its page for seven days, extremes and a planner. Behind the beaches, Rehoboth Bay and Indian River Bay connect to the ocean through Indian River Inlet, where the current is notoriously strong.`,
   featured: 'delaware/rehoboth-beach',
   body: (h) => `

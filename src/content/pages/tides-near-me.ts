@@ -7,7 +7,7 @@ export default definePage({
   title: 'Tides Near Me 2026: Next High and Low Tide Nearby, Free',
   description: 'Tides near me: find the nearest of 92 US tide stations from your location or state and see the next high and low tide with a countdown. Free, 2026 data.',
   h1: 'Tides near me',
-  intro: 'Share your location (it stays on your device) or choose a state: the closest stations and their next high and low appear at once.',
+  intro: 'Share your location (it stays on your device) or choose a state: the closest tide stations and their next high and low appear at once.',
   resume: `The nearest tide station is the one to trust, because the tide can change by an hour and several feet between a beach and the bay behind it. This tool sorts the ${K.stations.length} stations of the site by distance from you, using the position your browser gives it, and shows each one's next high and next low tide with the time left. Nothing is sent anywhere: the comparison happens in the page. Without location, pick a state to list its stations. The times are NOAA's predictions for each named station, in that station's own time zone, so a visitor from Denver reading a Florida page sees Florida clock times. For a full day's curve, seven days of times and the planner, open the station page from the list.`,
   tool: 'near',
   body: (h) => `

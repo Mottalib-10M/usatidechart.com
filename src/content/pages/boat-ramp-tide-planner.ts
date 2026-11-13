@@ -11,7 +11,7 @@ export default definePage({
   resume: `At a tidal ramp the question is not when high tide is, but how long the water stays deep enough to float the boat off the trailer, and whether it will still be there when you come back. This planner lists, for any of the ${K.stations.length} stations on the site, every window when the predicted water stays above the height you set, over 3 to 60 days, in daylight or not, and draws the day's curve with that level across it. The calculator in the text below helps you find the height: your boat's draft on the trailer, plus a safety margin, minus the depth already at the end of the ramp at 0 ft. Heights are in feet above Mean Lower Low Water, the zero of NOAA charts and tide tables.`,
   tool: 'planner-boat',
   body: (h) => `
-<h2>Finding the height your ramp needs</h2>
+<h2>Finding the tide height your boat ramp needs</h2>
 <p>Most ramps have a usable depth that depends on their slope and on how much sand or mud has built up at the end. The simplest way to learn it is once, at a known tide: note the predicted height when you launched comfortably, or when the trailer wheels went off the end of the concrete. The calculator below turns a draft and a depth into a minimum tide height.</p>
 ${h.mini('ramp')}
 <h2>Plan the return, not just the launch</h2>

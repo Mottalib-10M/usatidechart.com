@@ -9,7 +9,7 @@ export default defineState({
   state: 'washington',
   title: 'Washington Tides 2026: Seattle, Port Townsend and Westport',
   description: 'Washington tides today: tide charts for Seattle, Port Townsend and Westport, with 7-day high and low tide times, minus tides and solunar periods. 2026.',
-  intro: 'Three gauges for two very different waters: the inland sea of Puget Sound and the open Pacific at Grays Harbor.',
+  intro: 'Three tide gauges for two very different waters: the inland sea of Puget Sound and the open Pacific at Grays Harbor.',
   resume: `${K.ft(e.max.stats.meanRange)} on an average day at ${e.max.place}, against ${K.ft(wp.stats.meanRange)} at Westport on the ocean and ${K.ft(e.min.stats.meanRange)} at ${e.min.place}: in Washington the tide grows as it moves inland, away from the ocean. The Pacific tide enters the Strait of Juan de Fuca, turns south through Admiralty Inlet past Port Townsend, and swells inside Puget Sound, where spring tides at Seattle reach ${K.ft(se.stats.springRange)}. It is a mixed tide, ${K.typeWords('washington/seattle')}, and on days with two lows, Seattle's differ by ${K.ft(se.stats.lowInequality)} on average. That gap produces the deep minus tides of the Sound, which fall near midday in late spring and summer and close to midnight in winter. On the outer coast, Grays Harbor and Willapa Bay drain to wide flats on every lower low. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'washington/seattle',
   body: (h) => `

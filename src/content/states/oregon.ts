@@ -12,7 +12,7 @@ export default defineState({
   state: 'oregon',
   title: 'Oregon Tides 2026: Newport, Tillamook Bay and Astoria',
   description: 'Oregon tides today: tide charts for Newport, Tillamook Bay and Astoria on the Columbia, with 7-day tide times, summer minus tides and solunar periods. 2026.',
-  intro: 'Three gauges on a rugged coast of headlands and river mouths, from Yaquina Bay north to the Columbia.',
+  intro: 'Three tide gauges on a rugged coast of headlands and river mouths, from Yaquina Bay north to the Columbia.',
   resume: `${K.ft(e.max.stats.meanRange)} at ${e.max.place}, ${K.ft(nw.stats.meanRange)} at Newport and ${K.ft(tb.stats.meanRange)} at Garibaldi on Tillamook Bay: the three Oregon stations on this site sit close together, with ${e.min.place} the lowest. That is well above most of California and close to what the outer Washington coast sees. The tide is mixed, ${K.typeWords('oregon/newport')}, and spring days reach ${K.ft(nw.stats.springRange)} at Newport. Oregon's coast is broken by estuaries rather than wide bays. Each river mouth, from the Columbia to Tillamook, Yaquina and Coos Bay, has a bar at the entrance and a tidal reach that runs inland for miles, where high water arrives later and the low may not drain as far. The Columbia carries the tide far upriver and changes it with every swing in its flow. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'oregon/newport',
   body: (h) => `

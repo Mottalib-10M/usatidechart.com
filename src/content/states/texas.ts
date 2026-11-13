@@ -12,7 +12,7 @@ export default defineState({
   state: 'texas',
   title: 'Texas Tides 2026: Galveston, Corpus Christi and Padre',
   description: 'Texas tides today: tide charts for Galveston, Port Aransas, Corpus Christi and South Padre Island, with 7-day high and low tide times and solunar periods. 2026.',
-  intro: 'Four gauges along some 350 miles of barrier islands, from the Galveston seawall to the Rio Grande end of Padre Island.',
+  intro: 'Four tide gauges along some 350 miles of barrier islands, from the Galveston seawall to the Rio Grande end of Padre Island.',
   resume: `${K.ft(e.max.stats.meanRange)} at ${e.max.place} down to ${K.ft(e.min.stats.meanRange)} at ${e.min.place}: across the ${['', 'one', 'two', 'three', 'four', 'five', 'six'][all.length]} Texas stations on this site, the average daily tide stays modest by any ocean standard. Bob Hall Pier at Corpus Christi sits between, at ${K.ft(cc.stats.meanRange)}, with South Padre Island a little lower. The tide is diurnal on most days, ${K.typeWords('texas/galveston')}, a rhythm that peaks when the moon stands far from the equator, so the strong days arrive in runs twice a month rather than with each new and full moon. Almost the whole coast is a chain of barrier islands, and behind them lie Galveston, Matagorda, San Antonio, Aransas and Corpus Christi bays and the long Laguna Madre. The tide gets into those waters only through a handful of passes and loses much of its height on the way. Wind and passing fronts move Texas water as much as the moon, and often more. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'texas/galveston',
   body: (h) => `

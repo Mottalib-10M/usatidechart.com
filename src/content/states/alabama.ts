@@ -10,7 +10,7 @@ export default defineState({
   state: 'alabama',
   title: 'Alabama Tides 2026: Gulf Shores and Dauphin Island Charts',
   description: 'Alabama tides today: tide charts for Gulf Shores and Dauphin Island, with 7-day high and low tide times, coefficient, sunrise and solunar periods. 2026.',
-  intro: 'Two gauges on a short Gulf coast, one at the mouth of Mobile Bay and one on the canal behind the Gulf Shores beaches.',
+  intro: 'Two tide gauges on Alabama’s short Gulf coast, one at the mouth of Mobile Bay and one on the canal behind the Gulf Shores beaches.',
   resume: `${K.ft(e.max.stats.meanRange)} at ${e.max.place} and ${K.ft(e.min.stats.meanRange)} at ${e.min.place}: that is the whole spread of the average daily tide on the Alabama coast, among the smallest anywhere in the lower 48. The tide here is diurnal, ${K.typeWords('alabama/dauphin-island')}, and its size follows the moon's swing north and south of the equator more than its phase, so the biggest days come in runs of a week or so twice a month, with near-flat days in between. Dauphin Island sits at the mouth of Mobile Bay, where the tide pushes into a broad, shallow estuary; the Gulf Shores station is on the Intracoastal Waterway behind the beach. Up the bay and in the rivers, high water comes later and the height changes. Wind and cold fronts often move Alabama water more than the moon does. Pick a station in the tool above for today's curve, or open its page for seven days, extremes and a planner.`,
   featured: 'alabama/gulf-shores',
   body: (h) => `

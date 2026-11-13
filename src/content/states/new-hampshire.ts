@@ -7,7 +7,7 @@ export default defineState({
   state: 'new-hampshire',
   title: 'New Hampshire Tides 2026: Hampton Beach and the Seacoast',
   description: 'New Hampshire tides today: Hampton Beach tide chart with 7-day high and low tide times, tide coefficient, sunrise and solunar periods for the Seacoast. 2026.',
-  intro: 'One station for a short coastline: Hampton Harbor, predicted from Portland, Maine.',
+  intro: 'One tide station for New Hampshire’s short coastline: Hampton Harbor, predicted from Portland, Maine.',
   resume: `New Hampshire has only about eighteen miles of ocean coast, from Seabrook to Portsmouth, and its tide is the big semidiurnal tide of the Gulf of Maine: two highs and two lows a day, with an average range of ${K.ft(hb.stats.meanRange)} at Hampton Harbor, the station on this site. NOAA predicts Hampton Harbor from the Portland gauge in Maine, with high water a quarter of an hour later and low water half an hour later, because the harbor drains through a narrow inlet. The tool above gives today's curve and times, and the Hampton Beach page adds the seven-day table, the king tides and a planner. Up the Piscataqua River and into Great Bay, the tide turns later and the currents in the river are among the strongest on the East Coast.`,
   featured: 'new-hampshire/hampton-beach',
   body: (h) => `
