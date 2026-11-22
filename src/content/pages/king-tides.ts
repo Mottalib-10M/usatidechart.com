@@ -1,4 +1,17 @@
 import { definePage } from '../../lib/page-types';
+import { full, station } from '../../lib/stations';
+import { localDate } from '../../lib/engine/time';
+
+/** King tides 2027 : les trois plus hautes pleines mers prévues de l'année civile 2027 (dates locales distinctes), prédictions NOAA du fichier de la station. */
+function top2027(key: string) {
+  const s = station(key), byDay = new Map<string, number>();
+  for (const [t, h, hi] of full(key).events) {
+    if (!hi) continue;
+    const d = localDate(t, s.tz);
+    if (d.startsWith('2027-') && h > (byDay.get(d) ?? -Infinity)) byDay.set(d, h);
+  }
+  return [...byDay].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([date, h]) => ({ date, h }));
+}
 
 const KEYS = ['washington/seattle', 'california/san-francisco', 'california/san-diego', 'hawaii/honolulu', 'maine/bar-harbor', 'massachusetts/boston', 'virginia/norfolk', 'south-carolina/charleston', 'florida/miami', 'texas/galveston'];
 
@@ -9,8 +22,8 @@ export default definePage({
   order: 15,
   nav: 'King tides',
   card: 'The highest predicted tides of the year, why they come when they do, and how they turn into high tide flooding on low streets.',
-  title: 'King Tides 2026: Dates, Causes and High Tide Flooding',
-  description: 'King tides 2026: the highest predicted tides at US stations, why perigee, new and full moon and the season stack up, and how they cause high tide flooding.',
+  title: 'King Tides 2026 and 2027: Dates and High Tide Flooding',
+  description: 'King tides 2026 and 2027: the highest predicted tides at US stations, why perigee, new and full moon and the season stack up, and how they cause flooding.',
   h1: 'King tides',
   intro: 'King tide is a popular name, not a scientific one, for the handful of days each year when the predicted high water peaks.',
   resume: `King tides are the highest predicted high tides of the year at a given place, usually perigean spring tides: a new or full moon that falls close to perigee, the moon's nearest point to Earth, so the two strongest boosts to the tide arrive together. Around early January the Earth is also at its closest to the sun, which helps explain why many West Coast stations peak in winter, while on the Atlantic and Gulf the seasonal swell of sea level in early fall pushes the year's top tides into September through November. A king tide by itself is predictable to the minute, years ahead. What makes it dangerous is what rides on top: onshore wind, low pressure, river flow and decades of sea level rise, which together turn king tides into high tide flooding of streets, parking lots and marsh roads in many coastal US towns.`,
@@ -31,6 +44,14 @@ export default definePage({
 ${h.table(['Station', 'Average higher high', 'Highest predicted', 'Above average', 'Date'], rows, 'Heights in feet above MLLW, NOAA predictions; wind and surge not included', ['l', 'r', 'r', 'r', 'l'])}
 <p>Two patterns stand out. On the Pacific, ${h.a('st:washington/seattle', 'Seattle')} peaks at ${h.ft(se.stats.maxHigh.h)} on ${h.date(se.stats.maxHigh.date)} and ${h.a('st:california/san-diego', 'San Diego')} at ${h.ft(sd.stats.maxHigh.h)} on ${h.date(sd.stats.maxHigh.date)}: winter, when perigee, a full or new moon and a sun far south of the equator combine on a mixed tide. On the southern Atlantic, ${h.a('st:florida/miami', 'Miami')} tops out on ${h.date(mi.stats.maxHigh.date)} and ${h.a('st:virginia/norfolk', 'Norfolk')} on ${h.date(nf.stats.maxHigh.date)}, in the fall season that South Florida residents know well. The Gulf of Maine follows its own calendar: ${h.a('st:maine/bar-harbor', 'Bar Harbor')} reaches ${h.ft(bh.stats.maxHigh.h)} on ${h.date(bh.stats.maxHigh.date)}.</p>
 <p>The "above average" column matters more than the raw height. A king tide that exceeds the ordinary higher high by a foot is a big event on a coast where a foot is a large share of the range, and a modest one in a harbor that moves ten feet a day.</p>
+
+<h2>King tides 2027: the highest predicted dates</h2>
+<p>NOAA tide predictions already run to ${h.date(h.DATA.end)}, so the peaks of calendar year 2027 can be read now. For each station, the highest predicted high tide of 2027 and the next two highest days, in local time. As every year, they cluster around new and full moons near perigee; which season wins changes from one gauge to the next, and in 2027 several Pacific stations peak in summer rather than in winter.</p>
+${h.table(['Station', 'Highest 2027', 'Date', 'Next highest days'], KEYS.map((k) => {
+  const s = h.st(k), t = top2027(k);
+  return [h.a(`st:${k}`, s.place), h.ft(t[0].h), h.date(t[0].date), t.slice(1).map((x) => `${h.date(x.date)} (${h.ft(x.h)})`).join(', ')];
+}), 'King tides 2027: heights in feet above MLLW, NOAA predictions; wind, surge and sea level anomalies not included', ['l', 'r', 'l', 'l'])}
+<p>These are astronomical predictions. Whether a 2027 king tide floods a street depends on the weather that day, which no table can know in advance.</p>
 
 <h2>From king tide to high tide flooding</h2>
 <p>High tide flooding, sometimes called nuisance or sunny-day flooding, happens when the water reaches levels at which local streets, storm drains and low yards start to take on water, without any storm offshore. NOAA's ${h.src('high_tide_flooding', 'high tide flooding page')} explains that it now happens much more often than a few decades ago in many US coastal communities, because relative sea level has risen and in places the land is sinking. The astronomical peak alone may be harmless; add a foot from a stalled northeaster or an onshore breeze and storm drains begin to run backward.</p>
