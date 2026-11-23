@@ -1,4 +1,5 @@
 import { definePage } from '../../lib/page-types';
+import { KIT as K } from '../../lib/kit';
 
 export default definePage({
   id: 'tide-table',
@@ -49,6 +50,8 @@ ${h.table(['Datum', 'Meaning', 'Height above MLLW'], [
 <h2>Times between the rows</h2>
 <p>A table gives only the turning points. For the height at 2:30 PM between a 10 AM low and a 4 PM high, you can read the curve on the station page, or estimate with the rule of twelfths explained in the ${h.a('fishing-tides', 'fishing tides guide')}. At ${h.a('st:new-jersey/cape-may', 'Cape May')}, with an average range of ${h.ft(cm.stats.meanRange)}, three hours after low the water has typically recovered half of it, about ${h.ft(cm.stats.meanLow + cm.stats.meanRange / 2)} above the zero.</p>
 
+<h2>Tide table 2027</h2>
+<p>A 2027 tide table reads exactly like a 2026 one. The predictions for 2027 are already published by NOAA, and every station page on this site covers them through ${K.date(K.DATA.end)}: pick a date in 2027 and the table shows that day's highs and lows, in local time and feet above MLLW. The highest predicted tides of the year are on the ${h.a('king-tides', 'king tides page')}.</p>
 <h2>Common table errors</h2>
 <p>Most mistakes come from reading the right numbers for the wrong place or the wrong hour. Readers pick a gauge on the far side of an inlet, forget that a printed table may be in standard time all year, or copy yesterday's rows after the tides have slipped by close to an hour. Others read a height as a depth at the shoreline. A 5 ft high on a steep pocket beach and the same 5 ft on a broad tidal flat put the water's edge in very different places. When a decision depends on the water, cross-check the table with NOAA's live water level readings for the station, listed with its ${h.src('predictions_page', 'predictions')}.</p>`;
   },
@@ -57,6 +60,7 @@ ${h.table(['Datum', 'Meaning', 'Height above MLLW'], [
     { q: 'Why are some tide table heights negative?', a: 'Because the zero is an average low, not the lowest possible water. Lows that drop under that average print with a minus sign. They gather around the new and full moon, and they go deepest when one of those phases falls near the moon’s closest approach. A negative row means more exposed beach and less water over shoals, by the amount shown.' },
     { q: 'How do I work out water depth from a tide table and a chart?', a: 'Add them. Take the depth printed on the chart, which is measured from MLLW, and add the tide height predicted for the time you will be there. A negative tide subtracts. Then leave a generous margin for shifting sand, wind, pressure and the motion of the boat, because the result is a prediction from astronomy alone and not a sounding.' },
     { q: 'Are tide tables in standard time or daylight time?', a: 'It depends on who prints them. NOAA lets users choose local standard time, local time with daylight saving, or GMT, and some printed booklets stay in standard time all year with a note to add an hour in summer. On this site every time is already in the station’s local clock, with daylight saving applied where the state uses it.' },
+    { q: 'Can I get a tide table for 2027?', a: `Yes. NOAA already publishes the 2027 predictions, and each station page here covers every day through ${K.date(K.DATA.end)}. Choose a 2027 date to read its highs and lows. Like every tide table, it gives the astronomical tide, not the effect of wind or storms.` },
     { q: 'What is the difference between a reference station and a subordinate station?', a: 'A reference station has a long enough record for NOAA to compute its tides from harmonic constants, giving highs, lows and heights at any minute. A subordinate station borrows from a nearby reference: its highs and lows are the reference values shifted by a set number of minutes and scaled by a factor. Its curve between the turns is therefore an estimate.' },
   ],
   related: ['how-to-read-a-tide-chart', 'negative-low-tides', 'high-tide-and-low-tide', 'boat-ramp-tide-planner', 'tide-range'],
